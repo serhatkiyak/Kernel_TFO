@@ -7,7 +7,7 @@
 
 #define COMMON_SOCK_PERMS COMMON_FILE_SOCK_PERMS, "bind", "connect", \
     "listen", "accept", "getopt", "setopt", "shutdown", "recvfrom",  \
-    "sendto", "recv_msg", "send_msg", "name_bind"
+    "sendto", "recv_msg", "send_msg", "name_bind", "connectx"
 
 #define COMMON_IPC_PERMS "create", "destroy", "getattr", "setattr", "read", \
 	    "write", "associate", "unix_read", "unix_write"
@@ -97,7 +97,7 @@ struct security_class_mapping secclass_map[] = {
 	  } },
 	{ "sem",
 	  { COMMON_IPC_PERMS, NULL } },
-	{ "msg", { "send", "receive", NULL } },
+	{ "msg", { "send", "sendx", "receive", NULL } },
 	{ "msgq",
 	  { COMMON_IPC_PERMS, "enqueue", NULL } },
 	{ "shm",
@@ -136,7 +136,7 @@ struct security_class_mapping secclass_map[] = {
 	{ "appletalk_socket",
 	  { COMMON_SOCK_PERMS, NULL } },
 	{ "packet",
-	  { "send", "recv", "relabelto", "forward_in", "forward_out", NULL } },
+	  { "send", "sendx", "recv", "relabelto", "forward_in", "forward_out", NULL } },
 	{ "key",
 	  { "view", "read", "write", "search", "link", "setattr", "create",
 	    NULL } },
