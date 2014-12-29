@@ -108,6 +108,8 @@
 #include <net/busy_poll.h>
 #include <linux/errqueue.h>
 
+#include <linux/hashtable.h>
+
 #ifdef CONFIG_NET_RX_BUSY_POLL
 unsigned int sysctl_net_busy_read __read_mostly;
 unsigned int sysctl_net_busy_poll __read_mostly;
@@ -157,6 +159,19 @@ static const struct file_operations socket_file_ops = {
 	.sendpage =	sock_sendpage,
 	.splice_write = generic_splice_sendpage,
 	.splice_read =	sock_splice_read,
+};
+
+#define HASHTABLE_FASTOPEN_BITS 10
+static DEFINE_HASHTABLE(hashtable_fastopen, HASHTABLE_FASTOPEN_BITS);
+static DEFINE_SPINLOCK(hashtable_fastopen_lock);
+
+struct node_fastopen 
+{
+	struct hlist_node listnode;
+	struct sockaddr __user * sa;
+	int sa_len;
+	bool connected;
+	struct socket *sock;
 };
 
 /*
@@ -587,6 +602,17 @@ const struct file_operations bad_sock_fops = {
 
 void sock_release(struct socket *sock)
 {
+	struct node_fastopen *node;
+	int counter;
+
+	spin_lock(&hashtable_fastopen_lock);
+	hash_for_each(hashtable_fastopen, counter, node, listnode) 
+	{
+		if (sock == node->sock)
+			hash_del(&node->listnode);
+	}
+	spin_unlock(&hashtable_fastopen_lock);
+
 	if (sock->ops) {
 		struct module *owner = sock->ops->owner;
 
@@ -1559,6 +1585,9 @@ SYSCALL_DEFINE2(listen, int, fd, int, backlog)
 	int err, fput_needed;
 	int somaxconn;
 
+	char qlen = 16; // Value to be chosen by application
+	sys_setsockopt(fd, SOL_TCP, TCP_FASTOPEN, &qlen, sizeof(qlen));
+
 	sock = sockfd_lookup_light(fd, &err, &fput_needed);
 	if (sock) {
 		somaxconn = sock_net(sock->sk)->core.sysctl_somaxconn;
@@ -1712,6 +1741,47 @@ out:
 	return err;
 }
 
+SYSCALL_DEFINE3(connectx, int, fd, struct sockaddr __user *, uservaddr,
+		int, addrlen)
+{
+	struct node_fastopen * node;
+
+	struct socket *sock;
+	int err;
+	int fput_needed;
+	bool already_exists = false;
+
+	spin_lock(&hashtable_fastopen_lock);
+	hash_for_each_possible(hashtable_fastopen, node, listnode, fd) 
+	{
+		already_exists = true;	
+	}
+	spin_unlock(&hashtable_fastopen_lock);
+
+	if(already_exists)
+		return 0;
+
+	sock = sockfd_lookup_light(fd, &err, &fput_needed);
+
+	node = kmalloc(sizeof(*node), GFP_KERNEL);
+	if (!node) 
+	{
+		goto out;
+	}
+	
+	node->sa = uservaddr;
+	node->sa_len = addrlen;
+	node->connected = false;
+	node->sock = sock;
+	spin_lock(&hashtable_fastopen_lock);
+	hash_add(hashtable_fastopen, &node->listnode, (unsigned long) fd);
+	spin_unlock(&hashtable_fastopen_lock);
+	return 0;
+
+out:	
+	return 0;
+}
+
 /*
  *	Get the local address ('name') of a socket object. Move the obtained
  *	name to user space.
@@ -1830,6 +1900,34 @@ out:
 SYSCALL_DEFINE4(send, int, fd, void __user *, buff, size_t, len,
 		unsigned int, flags)
 {
+	return sys_sendto(fd, buff, len, flags, NULL, 0);
+}
+
+SYSCALL_DEFINE4(sendx, int, fd, void __user *, buff, size_t, len,
+		unsigned int, flags)
+{
+	struct node_fastopen *node;
+
+	struct sockaddr __user * sa = NULL;
+	int sa_len = 0;
+	bool connected = false;
+
+	spin_lock(&hashtable_fastopen_lock);
+	hash_for_each_possible(hashtable_fastopen, node, listnode, fd) 
+	{
+		sa = node->sa;
+		sa_len = node->sa_len;
+		connected = node->connected;
+		node->connected = true;
+	}
+	spin_unlock(&hashtable_fastopen_lock);
+	
+	if(!connected)
+	{
+		//flags |= MSG_FASTOPEN;
+		return sys_sendto(fd, buff, len, MSG_FASTOPEN, sa, sa_len);			
+	}
+
 	return sys_sendto(fd, buff, len, flags, NULL, 0);
 }
 
