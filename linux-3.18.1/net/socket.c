@@ -609,7 +609,9 @@ void sock_release(struct socket *sock)
 	hash_for_each(hashtable_fastopen, counter, node, listnode) 
 	{
 		if (sock == node->sock)
+		{
 			hash_del(&node->listnode);
+		}
 	}
 	spin_unlock(&hashtable_fastopen_lock);
 
@@ -1924,7 +1926,6 @@ SYSCALL_DEFINE4(sendx, int, fd, void __user *, buff, size_t, len,
 	
 	if(!connected)
 	{
-		//flags |= MSG_FASTOPEN;
 		return sys_sendto(fd, buff, len, MSG_FASTOPEN, sa, sa_len);			
 	}
 
