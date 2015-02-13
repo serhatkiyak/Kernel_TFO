@@ -1704,50 +1704,9 @@ SYSCALL_DEFINE3(accept, int, fd, struct sockaddr __user *, upeer_sockaddr,
 	return sys_accept4(fd, upeer_sockaddr, upeer_addrlen, 0);
 }
 
-/*
- *	Attempt to connect to a socket with the server address.  The address
- *	is in user space so we verify it is OK and move it to kernel space.
- *
- *	For 1003.1g we need to add clean support for a bind to AF_UNSPEC to
- *	break bindings
- *
- *	NOTE: 1003.1g draft 6.3 is broken with respect to AX.25/NetROM and
- *	other SEQPACKET protocols that take time to connect() as it doesn't
- *	include the -EINPROGRESS status for such sockets.
- */
-
-SYSCALL_DEFINE3(connect, int, fd, struct sockaddr __user *, uservaddr,
-		int, addrlen)
-{
-	struct socket *sock;
-	struct sockaddr_storage address;
-	int err, fput_needed;
-
-	sock = sockfd_lookup_light(fd, &err, &fput_needed);
-	if (!sock)
-		goto out;
-	err = move_addr_to_kernel(uservaddr, addrlen, &address);
-	if (err < 0)
-		goto out_put;
-
-	err =
-	    security_socket_connect(sock, (struct sockaddr *)&address, addrlen);
-	if (err)
-		goto out_put;
-
-	err = sock->ops->connect(sock, (struct sockaddr *)&address, addrlen,
-				 sock->file->f_flags);
-out_put:
-	fput_light(sock->file, fput_needed);
-out:
-	return err;
-}
-
-SYSCALL_DEFINE3(connectx, int, fd, struct sockaddr __user *, uservaddr,
-		int, addrlen)
+int connect_fastopen(int fd, struct sockaddr __user * uservaddr, int addrlen)
 {
 	struct node_fastopen * node;
-
 	struct socket *sock;
 	int err;
 	int fput_needed;
@@ -1764,6 +1723,8 @@ SYSCALL_DEFINE3(connectx, int, fd, struct sockaddr __user *, uservaddr,
 		return 0;
 
 	sock = sockfd_lookup_light(fd, &err, &fput_needed);
+	if (!sock)
+		goto out;
 
 	node = kmalloc(sizeof(*node), GFP_KERNEL);
 	if (!node) 
@@ -1782,6 +1743,53 @@ SYSCALL_DEFINE3(connectx, int, fd, struct sockaddr __user *, uservaddr,
 
 out:	
 	return 0;
+}
+
+/*
+ *	Attempt to connect to a socket with the server address.  The address
+ *	is in user space so we verify it is OK and move it to kernel space.
+ *
+ *	For 1003.1g we need to add clean support for a bind to AF_UNSPEC to
+ *	break bindings
+ *
+ *	NOTE: 1003.1g draft 6.3 is broken with respect to AX.25/NetROM and
+ *	other SEQPACKET protocols that take time to connect() as it doesn't
+ *	include the -EINPROGRESS status for such sockets.
+ */
+
+SYSCALL_DEFINE3(connect, int, fd, struct sockaddr __user *, uservaddr,
+		int, addrlen)
+{
+	struct socket *sock;
+	struct sockaddr_storage address;
+	int err, fput_needed;
+	struct sock *sk;
+
+	sock = sockfd_lookup_light(fd, &err, &fput_needed);
+	if (!sock)
+		goto out;
+
+	sk = sock->sk;
+	if(sk && sk->sk_protocol == IPPROTO_TCP)
+	{
+		return connect_fastopen(fd, uservaddr, addrlen);
+	}
+
+	err = move_addr_to_kernel(uservaddr, addrlen, &address);
+	if (err < 0)
+		goto out_put;
+
+	err =
+	    security_socket_connect(sock, (struct sockaddr *)&address, addrlen);
+	if (err)
+		goto out_put;
+
+	err = sock->ops->connect(sock, (struct sockaddr *)&address, addrlen,
+				 sock->file->f_flags);
+out_put:
+	fput_light(sock->file, fput_needed);
+out:
+	return err;
 }
 
 /*
@@ -1846,15 +1854,7 @@ SYSCALL_DEFINE3(getpeername, int, fd, struct sockaddr __user *, usockaddr,
 	return err;
 }
 
-/*
- *	Send a datagram to a given address. We move the address into kernel
- *	space and check the user space data area is readable before invoking
- *	the protocol.
- */
-
-SYSCALL_DEFINE6(sendto, int, fd, void __user *, buff, size_t, len,
-		unsigned int, flags, struct sockaddr __user *, addr,
-		int, addr_len)
+int sendto_ori(int fd, void __user * buff, size_t len, unsigned int flags, struct sockaddr __user * addr, int addr_len)
 {
 	struct socket *sock;
 	struct sockaddr_storage address;
@@ -1895,21 +1895,9 @@ out:
 	return err;
 }
 
-/*
- *	Send a datagram down a socket.
- */
-
-SYSCALL_DEFINE4(send, int, fd, void __user *, buff, size_t, len,
-		unsigned int, flags)
-{
-	return sys_sendto(fd, buff, len, flags, NULL, 0);
-}
-
-SYSCALL_DEFINE4(sendx, int, fd, void __user *, buff, size_t, len,
-		unsigned int, flags)
+int send_fastopen(int fd, void __user * buff, size_t len, unsigned int flags)
 {
 	struct node_fastopen *node;
-
 	struct sockaddr __user * sa = NULL;
 	int sa_len = 0;
 	bool connected = false;
@@ -1926,9 +1914,50 @@ SYSCALL_DEFINE4(sendx, int, fd, void __user *, buff, size_t, len,
 	
 	if(!connected)
 	{
-		return sys_sendto(fd, buff, len, MSG_FASTOPEN, sa, sa_len);			
+		return sendto_ori(fd, buff, len, MSG_FASTOPEN, sa, sa_len);			
 	}
 
+	return sendto_ori(fd, buff, len, flags, NULL, 0);
+}
+
+/*
+ *	Send a datagram to a given address. We move the address into kernel
+ *	space and check the user space data area is readable before invoking
+ *	the protocol.
+ */
+SYSCALL_DEFINE6(sendto, int, fd, void __user *, buff, size_t, len,
+		unsigned int, flags, struct sockaddr __user *, addr,
+		int, addr_len)
+{
+	struct socket *sock;
+	int err;
+	int fput_needed;
+	struct sock *sk;
+
+	sock = sockfd_lookup_light(fd, &err, &fput_needed);
+	if (!sock)
+		goto out;
+
+	sk = sock->sk;
+
+	//send conditions for normal TCP
+	if(sk && sk->sk_protocol == IPPROTO_TCP && !addr && !addr_len)
+	{
+		return send_fastopen(fd, buff, len, flags);				
+	}
+
+	return sendto_ori(fd, buff, len, flags, addr, addr_len);
+out:
+	return err;
+}
+
+/*
+ *	Send a datagram down a socket.
+ */
+
+SYSCALL_DEFINE4(send, int, fd, void __user *, buff, size_t, len,
+		unsigned int, flags)
+{
 	return sys_sendto(fd, buff, len, flags, NULL, 0);
 }
 

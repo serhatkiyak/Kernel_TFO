@@ -17,6 +17,11 @@
 #include <linux/pagemap.h>
 #include <linux/splice.h>
 #include <linux/compat.h>
+
+#include <linux/socket.h>
+#include <linux/net.h>
+#include <net/sock.h>
+
 #include "internal.h"
 
 #include <asm/uaccess.h>
@@ -574,11 +579,45 @@ SYSCALL_DEFINE3(read, unsigned int, fd, char __user *, buf, size_t, count)
 	return ret;
 }
 
+static struct socket *sockfd_lookup_light(int fd, int *err, int *fput_needed)
+{
+	struct fd f = fdget(fd);
+	struct socket *sock;
+
+	*err = -EBADF;
+	if (f.file) {
+		sock = sock_from_file(f.file, err);
+		if (likely(sock)) {
+			*fput_needed = f.flags;
+			return sock;
+		}
+		fdput(f);
+	}
+	return NULL;
+}
+
 SYSCALL_DEFINE3(write, unsigned int, fd, const char __user *, buf,
 		size_t, count)
 {
-	struct fd f = fdget_pos(fd);
-	ssize_t ret = -EBADF;
+	struct socket *sock;
+	int err;
+	int fput_needed;
+	struct sock *sk;
+	struct fd f;
+	ssize_t ret;
+
+	sock = sockfd_lookup_light(fd, &err, &fput_needed);
+	if(sock)
+	{
+		sk = sock->sk;
+		if(sk && sk->sk_protocol == IPPROTO_TCP)
+		{
+			return sys_sendto(fd, (void *) buf, count, 0, NULL, 0); 		
+		}		
+	}
+
+	f = fdget_pos(fd);
+	ret = -EBADF;
 
 	if (f.file) {
 		loff_t pos = file_pos_read(f.file);
