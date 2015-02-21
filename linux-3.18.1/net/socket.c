@@ -1707,20 +1707,17 @@ SYSCALL_DEFINE3(accept, int, fd, struct sockaddr __user *, upeer_sockaddr,
 int connect_fastopen(int fd, struct sockaddr __user * uservaddr, int addrlen)
 {
 	struct node_fastopen * node;
+	struct node_fastopen * node_traverse;
 	struct socket *sock;
 	int err;
 	int fput_needed;
-	bool already_exists = false;
 
 	spin_lock(&hashtable_fastopen_lock);
-	hash_for_each_possible(hashtable_fastopen, node, listnode, fd) 
+	hash_for_each_possible(hashtable_fastopen, node_traverse, listnode, fd) 
 	{
-		already_exists = true;	
+		hash_del(&node_traverse->listnode);
 	}
 	spin_unlock(&hashtable_fastopen_lock);
-
-	if(already_exists)
-		return 0;
 
 	sock = sockfd_lookup_light(fd, &err, &fput_needed);
 	if (!sock)
@@ -1929,26 +1926,22 @@ SYSCALL_DEFINE6(sendto, int, fd, void __user *, buff, size_t, len,
 		unsigned int, flags, struct sockaddr __user *, addr,
 		int, addr_len)
 {
-	struct socket *sock;
-	int err;
-	int fput_needed;
-	struct sock *sk;
+	struct node_fastopen * node;
+	bool exists = false;
 
-	sock = sockfd_lookup_light(fd, &err, &fput_needed);
-	if (!sock)
-		goto out;
-
-	sk = sock->sk;
-
-	//send conditions for normal TCP
-	if(sk && sk->sk_protocol == IPPROTO_TCP && !addr && !addr_len)
+	spin_lock(&hashtable_fastopen_lock);
+	hash_for_each_possible(hashtable_fastopen, node, listnode, fd) 
 	{
-		return send_fastopen(fd, buff, len, flags);				
+		exists = true;	
+	}
+	spin_unlock(&hashtable_fastopen_lock);
+
+	if(exists)
+	{
+		return send_fastopen(fd, buff, len, flags);
 	}
 
 	return sendto_ori(fd, buff, len, flags, addr, addr_len);
-out:
-	return err;
 }
 
 /*
