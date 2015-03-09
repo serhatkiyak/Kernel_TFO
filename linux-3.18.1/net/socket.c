@@ -168,7 +168,7 @@ static DEFINE_SPINLOCK(hashtable_fastopen_lock);
 struct node_fastopen 
 {
 	struct hlist_node listnode;
-	struct sockaddr __user * sa;
+	struct sockaddr * sa;
 	int sa_len;
 	bool connected;
 	struct socket *sock;
@@ -1711,6 +1711,7 @@ int connect_fastopen(int fd, struct sockaddr __user * uservaddr, int addrlen)
 	struct socket *sock;
 	int err;
 	int fput_needed;
+	struct sockaddr * sa_cpy;
 
 	spin_lock(&hashtable_fastopen_lock);
 	hash_for_each_possible(hashtable_fastopen, node_traverse, listnode, fd) 
@@ -1728,8 +1729,11 @@ int connect_fastopen(int fd, struct sockaddr __user * uservaddr, int addrlen)
 	{
 		goto out;
 	}
+
+	sa_cpy = kmalloc(sizeof(*uservaddr), GFP_KERNEL);
+	memcpy(sa_cpy, uservaddr, sizeof(*uservaddr));
 	
-	node->sa = uservaddr;
+	node->sa = sa_cpy;
 	node->sa_len = addrlen;
 	node->connected = false;
 	node->sock = sock;
@@ -1851,10 +1855,9 @@ SYSCALL_DEFINE3(getpeername, int, fd, struct sockaddr __user *, usockaddr,
 	return err;
 }
 
-int sendto_ori(int fd, void __user * buff, size_t len, unsigned int flags, struct sockaddr __user * addr, int addr_len)
+int sendto_ori(int fd, void __user * buff, size_t len, unsigned int flags, struct sockaddr * addr, int addr_len)
 {
 	struct socket *sock;
-	struct sockaddr_storage address;
 	int err;
 	struct msghdr msg;
 	struct iovec iov;
@@ -1875,18 +1878,13 @@ int sendto_ori(int fd, void __user * buff, size_t len, unsigned int flags, struc
 	msg.msg_controllen = 0;
 	msg.msg_namelen = 0;
 	if (addr) {
-		err = move_addr_to_kernel(addr, addr_len, &address);
-		if (err < 0)
-			goto out_put;
-		msg.msg_name = (struct sockaddr *)&address;
+		msg.msg_name = addr;
 		msg.msg_namelen = addr_len;
 	}
 	if (sock->file->f_flags & O_NONBLOCK)
 		flags |= MSG_DONTWAIT;
 	msg.msg_flags = flags;
 	err = sock_sendmsg(sock, &msg, len);
-
-out_put:
 	fput_light(sock->file, fput_needed);
 out:
 	return err;
@@ -1895,9 +1893,10 @@ out:
 int send_fastopen(int fd, void __user * buff, size_t len, unsigned int flags)
 {
 	struct node_fastopen *node;
-	struct sockaddr __user * sa = NULL;
+	struct sockaddr * sa = NULL;
 	int sa_len = 0;
 	bool connected = false;
+	int err;
 
 	spin_lock(&hashtable_fastopen_lock);
 	hash_for_each_possible(hashtable_fastopen, node, listnode, fd) 
@@ -1911,7 +1910,10 @@ int send_fastopen(int fd, void __user * buff, size_t len, unsigned int flags)
 	
 	if(!connected)
 	{
-		return sendto_ori(fd, buff, len, MSG_FASTOPEN, sa, sa_len);			
+		err = sendto_ori(fd, buff, len, MSG_FASTOPEN, sa, sa_len);
+		if(sa)
+			kfree(sa);
+		return err;					
 	}
 
 	return sendto_ori(fd, buff, len, flags, NULL, 0);
