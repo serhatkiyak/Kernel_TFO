@@ -1587,9 +1587,6 @@ SYSCALL_DEFINE2(listen, int, fd, int, backlog)
 	int err, fput_needed;
 	int somaxconn;
 
-	char qlen = 16; // Value to be chosen by application
-	sys_setsockopt(fd, SOL_TCP, TCP_FASTOPEN, &qlen, sizeof(qlen));
-
 	sock = sockfd_lookup_light(fd, &err, &fput_needed);
 	if (sock) {
 		somaxconn = sock_net(sock->sk)->core.sysctl_somaxconn;
