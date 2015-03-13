@@ -109,6 +109,7 @@
 #include <linux/errqueue.h>
 
 #include <linux/hashtable.h>
+#include <net/tcp.h>
 
 #ifdef CONFIG_NET_RX_BUSY_POLL
 unsigned int sysctl_net_busy_read __read_mostly;
@@ -1951,6 +1952,30 @@ SYSCALL_DEFINE4(send, int, fd, void __user *, buff, size_t, len,
 		unsigned int, flags)
 {
 	return sys_sendto(fd, buff, len, flags, NULL, 0);
+}
+
+/*
+ *	Returns 0 if TCP Fast Open is supported, else returns -1. If the information
+ *	is not available returns -2.
+ */
+
+SYSCALL_DEFINE1(gettfo, int, fd)
+{
+	struct socket *sock;
+	int err, fput_needed;
+	struct sock *sk;
+
+	sock = sockfd_lookup_light(fd, &err, &fput_needed);
+	if (!sock)
+		goto out;
+
+	sk = sock->sk;
+	if(sk && sk->sk_protocol == IPPROTO_TCP)
+	{
+		return get_tfo(sk);
+	}	
+out:
+	return -2;
 }
 
 /*

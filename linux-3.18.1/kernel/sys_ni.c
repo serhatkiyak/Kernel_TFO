@@ -41,6 +41,7 @@ cond_syscall(sys_getpeername);
 cond_syscall(sys_sendto);
 cond_syscall(sys_send);
 cond_syscall(sys_sendx);
+cond_syscall(sys_gettfo);
 cond_syscall(sys_recvfrom);
 cond_syscall(sys_recv);
 cond_syscall(sys_socket);

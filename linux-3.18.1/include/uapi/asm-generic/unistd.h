@@ -666,6 +666,8 @@ __SC_COMP(__NR_recvmmsg, sys_recvmmsg, compat_sys_recvmmsg)
 __SYSCALL(__NR_connectx, sys_connectx)
 #define __NR_sendx 246
 __SYSCALL(__NR_sendx, sys_sendx)
+#define __NR_gettfo 247
+__SYSCALL(__NR_gettfo, sys_gettfo)
 
 #define __NR_wait4 260
 __SC_COMP(__NR_wait4, sys_wait4, compat_sys_wait4)

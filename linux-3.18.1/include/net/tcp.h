@@ -438,6 +438,7 @@ int tcp_recvmsg(struct kiocb *iocb, struct sock *sk, struct msghdr *msg,
 void tcp_parse_options(const struct sk_buff *skb,
 		       struct tcp_options_received *opt_rx,
 		       int estab, struct tcp_fastopen_cookie *foc);
+int get_tfo(struct sock *sk);
 const u8 *tcp_parse_md5sig_option(const struct tcphdr *th);
 
 /*

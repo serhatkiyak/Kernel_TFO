@@ -330,6 +330,7 @@
 321	common	bpf			sys_bpf
 322	common	connectx		sys_connectx
 323	common	sendx			sys_sendx
+324	common	gettfo			sys_gettfo
 
 #
 # x32-specific system call numbers start at 512 to avoid cache impact

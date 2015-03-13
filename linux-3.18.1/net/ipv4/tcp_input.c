@@ -75,6 +75,8 @@
 #include <linux/ipsec.h>
 #include <asm/unaligned.h>
 #include <linux/errqueue.h>
+//SERHAT
+#include <linux/hashtable.h>
 
 int sysctl_tcp_timestamps __read_mostly = 1;
 int sysctl_tcp_window_scaling __read_mostly = 1;
@@ -121,6 +123,35 @@ int sysctl_tcp_early_retrans __read_mostly = 3;
 
 #define TCP_REMNANT (TCP_FLAG_FIN|TCP_FLAG_URG|TCP_FLAG_SYN|TCP_FLAG_PSH)
 #define TCP_HP_BITS (~(TCP_RESERVED_BITS|TCP_FLAG_PSH))
+
+//SERHAT
+#define HASHTABLE_FALLBACK_BITS 10
+static DEFINE_HASHTABLE(hashtable_fallback, HASHTABLE_FALLBACK_BITS);
+static DEFINE_SPINLOCK(hashtable_fallback_lock);
+
+struct node_fallback 
+{
+	struct hlist_node listnode;
+	struct sock *sk;
+	int fallback;
+};
+
+int get_tfo(struct sock *sk)
+{
+	//SERHAT
+	int ret = -2;
+	struct node_fallback *node;
+	spin_lock(&hashtable_fallback_lock);
+	hash_for_each_possible(hashtable_fallback, node, listnode, sk->sk_num) 
+	{
+		if (sk == node->sk)
+		{
+			ret = node->fallback;
+		}
+	}
+	spin_unlock(&hashtable_fallback_lock);	
+	return ret;
+}
 
 /* Adapt the MSS value used to make delayed ack decision to the
  * real world.
@@ -3559,6 +3590,136 @@ old_ack:
 	return 0;
 }
 
+void tcp_parse_optionsV2(const struct sk_buff *skb,
+		       struct tcp_options_received *opt_rx, int estab,
+		       struct tcp_fastopen_cookie *foc, struct sock *sk)
+{
+	const unsigned char *ptr;
+	const struct tcphdr *th = tcp_hdr(skb);
+	int length = (th->doff * 4) - sizeof(struct tcphdr);
+
+	ptr = (const unsigned char *)(th + 1);
+	opt_rx->saw_tstamp = 0;
+
+	while (length > 0) {
+		int opcode = *ptr++;
+		int opsize;
+
+		switch (opcode) {
+		case TCPOPT_EOL:
+			return;
+		case TCPOPT_NOP:	/* Ref: RFC 793 section 3.1 */
+			length--;
+			continue;
+		default:
+			opsize = *ptr++;
+			if (opsize < 2) /* "silly options" */
+				return;
+			if (opsize > length)
+				return;	/* don't parse partial options */
+			switch (opcode) {
+			case TCPOPT_MSS:
+				if (opsize == TCPOLEN_MSS && th->syn && !estab) {
+					u16 in_mss = get_unaligned_be16(ptr);
+					if (in_mss) {
+						if (opt_rx->user_mss &&
+						    opt_rx->user_mss < in_mss)
+							in_mss = opt_rx->user_mss;
+						opt_rx->mss_clamp = in_mss;
+					}
+				}
+				break;
+			case TCPOPT_WINDOW:
+				if (opsize == TCPOLEN_WINDOW && th->syn &&
+				    !estab && sysctl_tcp_window_scaling) {
+					__u8 snd_wscale = *(__u8 *)ptr;
+					opt_rx->wscale_ok = 1;
+					if (snd_wscale > 14) {
+						net_info_ratelimited("%s: Illegal window scaling value %d >14 received\n",
+								     __func__,
+								     snd_wscale);
+						snd_wscale = 14;
+					}
+					opt_rx->snd_wscale = snd_wscale;
+				}
+				break;
+			case TCPOPT_TIMESTAMP:
+				if ((opsize == TCPOLEN_TIMESTAMP) &&
+				    ((estab && opt_rx->tstamp_ok) ||
+				     (!estab && sysctl_tcp_timestamps))) {
+					opt_rx->saw_tstamp = 1;
+					opt_rx->rcv_tsval = get_unaligned_be32(ptr);
+					opt_rx->rcv_tsecr = get_unaligned_be32(ptr + 4);
+				}
+				break;
+			case TCPOPT_SACK_PERM:
+				if (opsize == TCPOLEN_SACK_PERM && th->syn &&
+				    !estab && sysctl_tcp_sack) {
+					opt_rx->sack_ok = TCP_SACK_SEEN;
+					tcp_sack_reset(opt_rx);
+				}
+				break;
+
+			case TCPOPT_SACK:
+				if ((opsize >= (TCPOLEN_SACK_BASE + TCPOLEN_SACK_PERBLOCK)) &&
+				   !((opsize - TCPOLEN_SACK_BASE) % TCPOLEN_SACK_PERBLOCK) &&
+				   opt_rx->sack_ok) {
+					TCP_SKB_CB(skb)->sacked = (ptr - 2) - (unsigned char *)th;
+				}
+				break;
+#ifdef CONFIG_TCP_MD5SIG
+			case TCPOPT_MD5SIG:
+				/*
+				 * The MD5 Hash has already been
+				 * checked (see tcp_v{4,6}_do_rcv()).
+				 */
+				break;
+#endif
+			case TCPOPT_EXP:
+				/* Fast Open option shares code 254 using a
+				 * 16 bits magic number. It's valid only in
+				 * SYN or SYN-ACK with an even size.
+				 */
+
+				if(sysctl_tcp_fastopen == 0x403)
+				{
+//					printk("SERHAT: SYN-ACK TCP Experimental Fast Open exists\n");
+					//SERHAT
+					struct node_fallback *node;
+					spin_lock(&hashtable_fallback_lock);
+					hash_for_each_possible(hashtable_fallback, node, listnode, sk->sk_num) 
+					{
+						if (sk == node->sk)
+						{
+//							printk("SERHAT: no fallback TFO supported\n");
+							node->fallback = 0;
+						}
+					}
+					spin_unlock(&hashtable_fallback_lock);
+				}
+
+				if (opsize < TCPOLEN_EXP_FASTOPEN_BASE ||
+				    get_unaligned_be16(ptr) != TCPOPT_FASTOPEN_MAGIC ||
+				    foc == NULL || !th->syn || (opsize & 1))
+					break;
+				foc->len = opsize - TCPOLEN_EXP_FASTOPEN_BASE;
+				if (foc->len >= TCP_FASTOPEN_COOKIE_MIN &&
+				    foc->len <= TCP_FASTOPEN_COOKIE_MAX)
+					memcpy(foc->val, ptr + 2, foc->len);
+				else if (foc->len != 0)
+				{
+					foc->len = -1;
+				}
+				break;
+
+			}
+			ptr += opsize-2;
+			length -= opsize;
+		}
+	}
+}
+EXPORT_SYMBOL(tcp_parse_optionsV2);
+
 /* Look for tcp options. Normally only called on SYN and SYNACK packets.
  * But, this can also be called on packets in the established flow when
  * the fast version below fails.
@@ -3662,7 +3823,9 @@ void tcp_parse_options(const struct sk_buff *skb,
 				    foc->len <= TCP_FASTOPEN_COOKIE_MAX)
 					memcpy(foc->val, ptr + 2, foc->len);
 				else if (foc->len != 0)
+				{
 					foc->len = -1;
+				}
 				break;
 
 			}
@@ -5325,17 +5488,35 @@ static bool tcp_rcv_fastopen_synack(struct sock *sk, struct sk_buff *synack,
 	}
 
 	if (!tp->syn_fastopen)  /* Ignore an unsolicited cookie */
+	{
 		cookie->len = -1;
+	}
 
 	/* The SYN-ACK neither has cookie nor acknowledges the data. Presumably
 	 * the remote receives only the retransmitted (regular) SYNs: either
 	 * the original SYN-data or the corresponding SYN-ACK is lost.
 	 */
 	syn_drop = (cookie->len <= 0 && data && tp->total_retrans);
-
 	tcp_fastopen_cache_set(sk, mss, cookie, syn_drop);
 
 	if (data) { /* Retransmit unacked data in SYN */
+//		printk("SERHAT: SYN data retransmission\n");
+		//SERHAT
+		if(sysctl_tcp_fastopen == 0x607)
+		{
+			struct node_fallback *node;
+			spin_lock(&hashtable_fallback_lock);
+			hash_for_each_possible(hashtable_fallback, node, listnode, sk->sk_num) 
+			{
+				if (sk == node->sk)
+				{
+//					printk("SERHAT: fallback to normal TCP\n");
+					node->fallback = -1;
+				}
+			}
+			spin_unlock(&hashtable_fallback_lock);
+		}
+
 		tcp_for_write_queue_from(data, sk) {
 			if (data == tcp_send_head(sk) ||
 			    __tcp_retransmit_skb(sk, data))
@@ -5359,7 +5540,43 @@ static int tcp_rcv_synsent_state_process(struct sock *sk, struct sk_buff *skb,
 	struct tcp_fastopen_cookie foc = { .len = -1 };
 	int saved_clamp = tp->rx_opt.mss_clamp;
 
-	tcp_parse_options(skb, &tp->rx_opt, 0, &foc);
+	//SERHAT
+	struct node_fallback *node;
+	spin_lock(&hashtable_fallback_lock);
+	hash_for_each_possible(hashtable_fallback, node, listnode, sk->sk_num) 
+	{
+		if (sk == node->sk)
+		{
+			hash_del(&node->listnode);
+		}
+	}
+	spin_unlock(&hashtable_fallback_lock);
+
+	node = kmalloc(sizeof(*node), GFP_KERNEL);
+	node->sk = sk;
+
+	if(foc)
+	{
+		printk("SERHAT: foc is not null\n");
+	}	
+	else
+	{
+		printk("SERHAT: foc is null\n");
+	}
+
+	if(sysctl_tcp_fastopen == 0x403)
+	{
+		node->fallback = -1;
+	}
+	if(sysctl_tcp_fastopen == 0x607)
+	{
+		node->fallback = 0;
+	}
+	spin_lock(&hashtable_fallback_lock);
+	hash_add(hashtable_fallback, &node->listnode, sk->sk_num);
+	spin_unlock(&hashtable_fallback_lock);
+	tcp_parse_optionsV2(skb, &tp->rx_opt, 0, &foc, sk);
+
 	if (tp->rx_opt.saw_tstamp && tp->rx_opt.rcv_tsecr)
 		tp->rx_opt.rcv_tsecr -= tp->tsoffset;
 
