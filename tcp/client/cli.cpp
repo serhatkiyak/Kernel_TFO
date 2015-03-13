@@ -56,8 +56,8 @@ int main ()
  
   memset (&sa, '\0', sizeof(sa));
   sa.sin_family      = AF_INET;
-  sa.sin_addr.s_addr = inet_addr ("10.0.0.29");   /* Server IP */
-  sa.sin_port        = htons     (1563);          /* Server Port number */
+  sa.sin_addr.s_addr = inet_addr ("10.0.0.33");   /* Server IP */
+  sa.sin_port        = htons     (1581);          /* Server Port number */
 
 //  sendto(sd, "client-to-server-1", 1024, MSG_FASTOPEN, (struct sockaddr *) &sa, sizeof(sa));
   err = connect(sd, (struct sockaddr*) &sa, sizeof(sa)); 
@@ -73,6 +73,19 @@ int main ()
 
     err = send(sd, "client-to-server-1", 1024, 0);
     printf("send err code: %d\n", err);
+
+//******************************************************************
+
+ 	int tfo_support = syscall(324, sd);
+	if(!tfo_support)
+	{
+		cout<<"TCP Fast Open supported!"<<endl;
+	}
+	else
+	{
+		cout<<"TCP Fast Open not supported!"<<endl;
+	}
+		
 
     int size = read(sd, buf, 1024);
     if(size == -1)
