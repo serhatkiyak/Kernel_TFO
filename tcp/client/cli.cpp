@@ -64,6 +64,7 @@ int main ()
 
 	//PROFILING
 	int tfo_support = syscall(324, sd);
+
 	if(!tfo_support)
 	{
 		cout<<"TCP Fast Open supported!"<<endl;
