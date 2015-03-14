@@ -75,7 +75,6 @@
 #include <linux/ipsec.h>
 #include <asm/unaligned.h>
 #include <linux/errqueue.h>
-//SERHAT
 #include <linux/hashtable.h>
 
 int sysctl_tcp_timestamps __read_mostly = 1;
@@ -124,7 +123,6 @@ int sysctl_tcp_early_retrans __read_mostly = 3;
 #define TCP_REMNANT (TCP_FLAG_FIN|TCP_FLAG_URG|TCP_FLAG_SYN|TCP_FLAG_PSH)
 #define TCP_HP_BITS (~(TCP_RESERVED_BITS|TCP_FLAG_PSH))
 
-//SERHAT
 #define HASHTABLE_FALLBACK_BITS 10
 static DEFINE_HASHTABLE(hashtable_fallback, HASHTABLE_FALLBACK_BITS);
 static DEFINE_SPINLOCK(hashtable_fallback_lock);
@@ -138,7 +136,6 @@ struct node_fallback
 
 int get_tfo(struct sock *sk)
 {
-	//SERHAT
 	int ret = -2;
 	struct node_fallback *node;
 	spin_lock(&hashtable_fallback_lock);
@@ -3683,15 +3680,12 @@ void tcp_parse_optionsV2(const struct sk_buff *skb,
 
 				if(sysctl_tcp_fastopen == 0x403)
 				{
-//					printk("SERHAT: SYN-ACK TCP Experimental Fast Open exists\n");
-					//SERHAT
 					struct node_fallback *node;
 					spin_lock(&hashtable_fallback_lock);
 					hash_for_each_possible(hashtable_fallback, node, listnode, sk->sk_num) 
 					{
 						if (sk == node->sk)
 						{
-//							printk("SERHAT: no fallback TFO supported\n");
 							node->fallback = 0;
 						}
 					}
@@ -5500,8 +5494,6 @@ static bool tcp_rcv_fastopen_synack(struct sock *sk, struct sk_buff *synack,
 	tcp_fastopen_cache_set(sk, mss, cookie, syn_drop);
 
 	if (data) { /* Retransmit unacked data in SYN */
-//		printk("SERHAT: SYN data retransmission\n");
-		//SERHAT
 		if(sysctl_tcp_fastopen == 0x607)
 		{
 			struct node_fallback *node;
@@ -5510,7 +5502,6 @@ static bool tcp_rcv_fastopen_synack(struct sock *sk, struct sk_buff *synack,
 			{
 				if (sk == node->sk)
 				{
-//					printk("SERHAT: fallback to normal TCP\n");
 					node->fallback = -1;
 				}
 			}
@@ -5528,7 +5519,22 @@ static bool tcp_rcv_fastopen_synack(struct sock *sk, struct sk_buff *synack,
 	}
 	tp->syn_data_acked = tp->syn_data;
 	if (tp->syn_data_acked)
+	{
+		if(sysctl_tcp_fastopen == 0x403)
+		{
+			struct node_fallback *node;
+			spin_lock(&hashtable_fallback_lock);
+			hash_for_each_possible(hashtable_fallback, node, listnode, sk->sk_num) 
+			{
+				if (sk == node->sk)
+				{
+					node->fallback = 0;
+				}
+			}
+			spin_unlock(&hashtable_fallback_lock);
+		}
 		NET_INC_STATS_BH(sock_net(sk), LINUX_MIB_TCPFASTOPENACTIVE);
+	}
 	return false;
 }
 
@@ -5540,7 +5546,6 @@ static int tcp_rcv_synsent_state_process(struct sock *sk, struct sk_buff *skb,
 	struct tcp_fastopen_cookie foc = { .len = -1 };
 	int saved_clamp = tp->rx_opt.mss_clamp;
 
-	//SERHAT
 	struct node_fallback *node;
 	spin_lock(&hashtable_fallback_lock);
 	hash_for_each_possible(hashtable_fallback, node, listnode, sk->sk_num) 
@@ -5554,15 +5559,6 @@ static int tcp_rcv_synsent_state_process(struct sock *sk, struct sk_buff *skb,
 
 	node = kmalloc(sizeof(*node), GFP_KERNEL);
 	node->sk = sk;
-
-	if(foc)
-	{
-		printk("SERHAT: foc is not null\n");
-	}	
-	else
-	{
-		printk("SERHAT: foc is null\n");
-	}
 
 	if(sysctl_tcp_fastopen == 0x403)
 	{
