@@ -5,13 +5,33 @@ import sys
 import logging
 import argparse
 import pickle
+import subprocess
 
 sys.path.append(os.path.join(os.path.dirname(__file__), 'web-profiler'))
 from webloader.tcp_loader import TCPLoader
 
+SET_COOKIE = './set_cookie'
+SET_NOCOOKIE = './set_nocookie'
+
 
 def main():
     logging.info('========== CRAWLER LAUNCHED ==========')
+
+    # set kernel TFO mode
+    cookie_cmd = ''
+    if args.cookies:
+        cookie_cmd = 'sudo %s' % SET_COOKIE
+    else:
+        cookie_cmd = 'sudo %s' % SET_NOCOOKIE
+    logging.debug('Setting TFO mode: %s' % cookie_cmd)
+    try:
+        subprocess.check_call(cookie_cmd.split())
+    except:
+        logging.exception('Error setting TFO mode')
+
+    logging.info('Kernel TFO mode: %s' % hex(int(subprocess.check_output(\
+        'cat /proc/sys/net/ipv4/tcp_fastopen'.split()).strip())))
+
 
     # make url list
     urls = []
@@ -28,11 +48,14 @@ def main():
         logging.getLogger(__name__).error('No URLs were specified.')
         sys.exit(-1)
 
+
     # load pages and save stats
     if len(urls) > 0:
         loader = TCPLoader(outdir=args.outdir, user_agent=args.useragent,\
-            num_trials=args.numtrials, restart_on_fail=True, retries_per_trial=1)
+            num_trials=args.numtrials, restart_on_fail=True, retries_per_trial=1,\
+            check_protocol_availability=False)
         loader.load_pages(urls)
+        print loader
 
         # pickle load results
         try:
@@ -53,6 +76,7 @@ if __name__ == "__main__":
     parser.add_argument('-o', '--outdir', default='.', help='Destination directory for pickled results.')
     parser.add_argument('-n', '--numtrials', default=2, type=int, help='Number of times to load each URL.')
     parser.add_argument('-u', '--useragent', default=None, help='Custom user agent. If None, use browser default.')
+    parser.add_argument('-c', '--cookies', action='store_true', default=False, help='Use TFO with cookies.')
     parser.add_argument('-q', '--quiet', action='store_true', default=False, help='only print errors')
     parser.add_argument('-v', '--verbose', action='store_true', default=False, help='print debug info. --quiet wins if both are present')
     parser.add_argument('-g', '--logfile', default=None, help='Path for log file.')
