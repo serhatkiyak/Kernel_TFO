@@ -53,15 +53,13 @@ def main():
     if len(urls) > 0:
         loader = TCPLoader(outdir=args.outdir, user_agent=args.useragent,\
             num_trials=args.numtrials, restart_on_fail=True, retries_per_trial=1,\
-            check_protocol_availability=False)
+            full_page=False, check_protocol_availability=False)
         loader.load_pages(urls)
-        print loader
 
         # pickle load results
         try:
             with open(os.path.join(args.outdir, 'crawl_results.pickle'), 'w') as f:
                 pickle.dump(loader, f)
-            f.closed
         except:
             logging.exception('Error saving pickled results.')
 
