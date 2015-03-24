@@ -25,6 +25,26 @@ def print_errors(loader):
             print '{:<30}{:<}'.format(url,\
                 [result.status for result in loader.load_results[url]])
 
+def print_summary_stats(loader):
+    success_count = 0  # number of pages successfully loaded
+    success_with_tfo_count = 0  # page successfully loaded AND supported TFO
+    urls_with_tfo = []
+
+    for url, page_result in loader.page_results.iteritems():
+        if page_result.status == PageResult.SUCCESS:
+            success_count += 1
+            if True in page_result.tcp_fast_open_support_statuses:
+                success_with_tfo_count += 1
+                urls_with_tfo.append(url)
+
+    print 'TFO support:\t%d/%d  (%.02f %%)\n' % \
+        (success_with_tfo_count, success_count,\
+         float(success_with_tfo_count)/success_count*100.0)
+
+    print 'URLs with TFO support:'
+    for url in urls_with_tfo:
+        print url
+
 
 def main():
     logging.info('Loading pickled loader: %s' % args.loader)
@@ -32,9 +52,12 @@ def main():
     with open(args.loader, 'r') as f:
         loader = pickle.load(f)
 
-    print_errors(loader)
-    print '\n\n'
-    print_tfo_stats(loader)
+    print_summary_stats(loader)
+
+    if args.verbose:
+        print_errors(loader)
+        print '\n\n'
+        print_tfo_stats(loader)
 
 
 

@@ -53,12 +53,14 @@ def main():
     if len(urls) > 0:
         loader = TCPLoader(outdir=args.outdir, user_agent=args.useragent,\
             num_trials=args.numtrials, restart_on_fail=True, retries_per_trial=1,\
-            full_page=False, check_protocol_availability=False)
+            timeout=10, full_page=False, check_protocol_availability=False)
         loader.load_pages(urls)
 
         # pickle load results
         try:
-            with open(os.path.join(args.outdir, 'crawl_results.pickle'), 'w') as f:
+            crawlname = args.url_file.split('.')[0] if args.url_file else 'crawl'
+            filename = '%s.results' % crawlname
+            with open(os.path.join(args.outdir, filename), 'w') as f:
                 pickle.dump(loader, f)
         except:
             logging.exception('Error saving pickled results.')
@@ -99,8 +101,8 @@ if __name__ == "__main__":
         'format' : logfmt,
         'level' : level
     }
-    logging.basicConfig(**config)
     if args.logfile:
         config['filename'] = args.logfile
+    logging.basicConfig(**config)
 
     main()
