@@ -604,6 +604,7 @@ const struct file_operations bad_sock_fops = {
 void sock_release(struct socket *sock)
 {
 	struct node_fastopen *node;
+	struct node_fastopen *del_node;
 	int counter;
 
 	spin_lock(&hashtable_fastopen_lock);
@@ -611,10 +612,14 @@ void sock_release(struct socket *sock)
 	{
 		if (sock == node->sock)
 		{
+			del_node = node;
 			hash_del(&node->listnode);
 		}
 	}
 	spin_unlock(&hashtable_fastopen_lock);
+
+	if(del_node)
+		kfree(del_node);
 
 	if (sock->ops) {
 		struct module *owner = sock->ops->owner;
@@ -1706,6 +1711,7 @@ int connect_fastopen(int fd, struct sockaddr __user * uservaddr, int addrlen)
 {
 	struct node_fastopen * node;
 	struct node_fastopen * node_traverse;
+	struct node_fastopen * del_node;
 	struct socket *sock;
 	int err;
 	int fput_needed;
@@ -1714,9 +1720,13 @@ int connect_fastopen(int fd, struct sockaddr __user * uservaddr, int addrlen)
 	spin_lock(&hashtable_fastopen_lock);
 	hash_for_each_possible(hashtable_fastopen, node_traverse, listnode, fd) 
 	{
+		del_node = node_traverse;
 		hash_del(&node_traverse->listnode);
 	}
 	spin_unlock(&hashtable_fastopen_lock);
+
+	if(del_node)
+		kfree(del_node);
 
 	sock = sockfd_lookup_light(fd, &err, &fput_needed);
 	if (!sock)
