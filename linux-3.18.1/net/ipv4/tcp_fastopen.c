@@ -11,6 +11,8 @@
 int sysctl_tcp_fastopen __read_mostly = TFO_CLIENT_ENABLE | TFO_CLIENT_NO_COOKIE | TFO_SERVER_ENABLE | TFO_SERVER_COOKIE_NOT_REQD | TFO_SERVER_WO_SOCKOPT1;
 //int sysctl_tcp_fastopen __read_mostly = TFO_CLIENT_ENABLE | TFO_SERVER_ENABLE | TFO_SERVER_WO_SOCKOPT1;
 
+int sysctl_tcp_fastopen_queue __read_mostly = 0;
+
 struct tcp_fastopen_context __rcu *tcp_fastopen_ctx;
 
 static DEFINE_SPINLOCK(tcp_fastopen_ctx_lock);
