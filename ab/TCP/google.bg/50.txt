@@ -1,0 +1,44 @@
+This is ApacheBench, Version 2.3 <$Revision: 1528965 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking google.bg (be patient).....done
+
+
+Server Software:        gws
+Server Hostname:        google.bg
+Server Port:            443
+SSL/TLS Protocol:       TLSv1,ECDHE-RSA-RC4-SHA,2048,128
+
+Document Path:          /
+Document Length:        219 bytes
+
+Concurrency Level:      1
+Time taken for tests:   7.137 seconds
+Complete requests:      50
+Failed requests:        0
+Non-2xx responses:      50
+Total transferred:      28800 bytes
+HTML transferred:       10950 bytes
+Requests per second:    7.01 [#/sec] (mean)
+Time per request:       142.745 [ms] (mean)
+Time per request:       142.745 [ms] (mean, across all concurrent requests)
+Transfer rate:          3.94 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       84   94   7.6     93     123
+Processing:    40   48   6.4     47      75
+Waiting:       39   44   4.9     43      74
+Total:        127  143   9.7    142     173
+
+Percentage of the requests served within a certain time (ms)
+  50%    142
+  66%    145
+  75%    145
+  80%    149
+  90%    158
+  95%    162
+  98%    173
+  99%    173
+ 100%    173 (longest request)

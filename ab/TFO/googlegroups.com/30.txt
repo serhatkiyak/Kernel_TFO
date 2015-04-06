@@ -1,0 +1,44 @@
+This is ApacheBench, Version 2.3 <$Revision: 1528965 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking googlegroups.com (be patient).....done
+
+
+Server Software:        GSE
+Server Hostname:        googlegroups.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1,ECDHE-RSA-RC4-SHA,2048,128
+
+Document Path:          /
+Document Length:        210 bytes
+
+Concurrency Level:      1
+Time taken for tests:   5.938 seconds
+Complete requests:      30
+Failed requests:        0
+Non-2xx responses:      30
+Total transferred:      20100 bytes
+HTML transferred:       6300 bytes
+Requests per second:    5.05 [#/sec] (mean)
+Time per request:       197.935 [ms] (mean)
+Time per request:       197.935 [ms] (mean, across all concurrent requests)
+Transfer rate:          3.31 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       60   69   6.5     69      87
+Processing:   113  129  15.6    126     200
+Waiting:      112  125  15.3    122     197
+Total:        175  198  18.0    196     274
+
+Percentage of the requests served within a certain time (ms)
+  50%    196
+  66%    200
+  75%    204
+  80%    205
+  90%    215
+  95%    220
+  98%    274
+  99%    274
+ 100%    274 (longest request)

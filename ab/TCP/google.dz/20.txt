@@ -1,0 +1,44 @@
+This is ApacheBench, Version 2.3 <$Revision: 1528965 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking google.dz (be patient).....done
+
+
+Server Software:        HTTP
+Server Hostname:        google.dz
+Server Port:            443
+SSL/TLS Protocol:       TLSv1,ECDHE-RSA-RC4-SHA,2048,128
+
+Document Path:          /
+Document Length:        330 bytes
+
+Concurrency Level:      1
+Time taken for tests:   9.190 seconds
+Complete requests:      20
+Failed requests:        0
+Non-2xx responses:      20
+Total transferred:      17140 bytes
+HTML transferred:       6600 bytes
+Requests per second:    2.18 [#/sec] (mean)
+Time per request:       459.482 [ms] (mean)
+Time per request:       459.482 [ms] (mean, across all concurrent requests)
+Transfer rate:          1.82 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       85   93   5.9     91     107
+Processing:   239  366  84.2    353     522
+Waiting:      237  363  83.5    350     519
+Total:        331  459  85.9    440     629
+
+Percentage of the requests served within a certain time (ms)
+  50%    440
+  66%    498
+  75%    530
+  80%    540
+  90%    615
+  95%    629
+  98%    629
+  99%    629
+ 100%    629 (longest request)

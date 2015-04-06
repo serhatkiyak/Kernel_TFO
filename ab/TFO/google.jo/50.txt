@@ -1,0 +1,44 @@
+This is ApacheBench, Version 2.3 <$Revision: 1528965 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking google.jo (be patient).....done
+
+
+Server Software:        HTTP
+Server Hostname:        google.jo
+Server Port:            443
+SSL/TLS Protocol:       TLSv1,ECDHE-RSA-RC4-SHA,2048,128
+
+Document Path:          /
+Document Length:        330 bytes
+
+Concurrency Level:      1
+Time taken for tests:   47.196 seconds
+Complete requests:      50
+Failed requests:        0
+Non-2xx responses:      50
+Total transferred:      42850 bytes
+HTML transferred:       16500 bytes
+Requests per second:    1.06 [#/sec] (mean)
+Time per request:       943.918 [ms] (mean)
+Time per request:       943.918 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.89 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       77  399 401.4    245    1638
+Processing:   307  545 143.5    522     980
+Waiting:      290  499 130.5    502     911
+Total:        395  944 471.6    783    2473
+
+Percentage of the requests served within a certain time (ms)
+  50%    783
+  66%    921
+  75%   1029
+  80%   1112
+  90%   1638
+  95%   2094
+  98%   2473
+  99%   2473
+ 100%   2473 (longest request)

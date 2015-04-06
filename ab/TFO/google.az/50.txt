@@ -1,0 +1,44 @@
+This is ApacheBench, Version 2.3 <$Revision: 1528965 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking google.az (be patient).....done
+
+
+Server Software:        gws
+Server Hostname:        google.az
+Server Port:            443
+SSL/TLS Protocol:       TLSv1,ECDHE-RSA-RC4-SHA,2048,128
+
+Document Path:          /
+Document Length:        219 bytes
+
+Concurrency Level:      1
+Time taken for tests:   7.714 seconds
+Complete requests:      50
+Failed requests:        0
+Non-2xx responses:      50
+Total transferred:      28800 bytes
+HTML transferred:       10950 bytes
+Requests per second:    6.48 [#/sec] (mean)
+Time per request:       154.283 [ms] (mean)
+Time per request:       154.283 [ms] (mean, across all concurrent requests)
+Transfer rate:          3.65 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       73   91  10.6     91     115
+Processing:    54   63   6.7     62      86
+Waiting:       51   59   5.7     60      79
+Total:        134  154  14.0    155     189
+
+Percentage of the requests served within a certain time (ms)
+  50%    155
+  66%    160
+  75%    165
+  80%    166
+  90%    175
+  95%    177
+  98%    189
+  99%    189
+ 100%    189 (longest request)

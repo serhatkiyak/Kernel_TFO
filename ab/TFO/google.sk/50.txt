@@ -1,0 +1,44 @@
+This is ApacheBench, Version 2.3 <$Revision: 1528965 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking google.sk (be patient).....done
+
+
+Server Software:        gws
+Server Hostname:        google.sk
+Server Port:            443
+SSL/TLS Protocol:       TLSv1,ECDHE-RSA-RC4-SHA,2048,128
+
+Document Path:          /
+Document Length:        219 bytes
+
+Concurrency Level:      1
+Time taken for tests:   6.159 seconds
+Complete requests:      50
+Failed requests:        0
+Non-2xx responses:      50
+Total transferred:      28800 bytes
+HTML transferred:       10950 bytes
+Requests per second:    8.12 [#/sec] (mean)
+Time per request:       123.183 [ms] (mean)
+Time per request:       123.183 [ms] (mean, across all concurrent requests)
+Transfer rate:          4.57 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       48   63  10.4     63      95
+Processing:    47   60  23.7     55     214
+Waiting:       44   56  23.5     52     211
+Total:         95  123  24.6    120     265
+
+Percentage of the requests served within a certain time (ms)
+  50%    120
+  66%    125
+  75%    130
+  80%    134
+  90%    144
+  95%    148
+  98%    265
+  99%    265
+ 100%    265 (longest request)

@@ -1,0 +1,44 @@
+This is ApacheBench, Version 2.3 <$Revision: 1528965 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking google.com.pk (be patient).....done
+
+
+Server Software:        gws
+Server Hostname:        google.com.pk
+Server Port:            443
+SSL/TLS Protocol:       TLSv1,ECDHE-RSA-RC4-SHA,2048,128
+
+Document Path:          /
+Document Length:        223 bytes
+
+Concurrency Level:      1
+Time taken for tests:   5.294 seconds
+Complete requests:      50
+Failed requests:        0
+Non-2xx responses:      50
+Total transferred:      29200 bytes
+HTML transferred:       11150 bytes
+Requests per second:    9.44 [#/sec] (mean)
+Time per request:       105.880 [ms] (mean)
+Time per request:       105.880 [ms] (mean, across all concurrent requests)
+Transfer rate:          5.39 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       43   54   7.8     53      83
+Processing:    46   51   3.0     51      58
+Waiting:       43   48   2.6     48      56
+Total:         89  106   8.9    105     138
+
+Percentage of the requests served within a certain time (ms)
+  50%    105
+  66%    105
+  75%    108
+  80%    110
+  90%    120
+  95%    125
+  98%    138
+  99%    138
+ 100%    138 (longest request)

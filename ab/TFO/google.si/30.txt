@@ -1,0 +1,44 @@
+This is ApacheBench, Version 2.3 <$Revision: 1528965 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking google.si (be patient).....done
+
+
+Server Software:        gws
+Server Hostname:        google.si
+Server Port:            443
+SSL/TLS Protocol:       TLSv1,ECDHE-RSA-RC4-SHA,2048,128
+
+Document Path:          /
+Document Length:        219 bytes
+
+Concurrency Level:      1
+Time taken for tests:   3.989 seconds
+Complete requests:      30
+Failed requests:        0
+Non-2xx responses:      30
+Total transferred:      17280 bytes
+HTML transferred:       6570 bytes
+Requests per second:    7.52 [#/sec] (mean)
+Time per request:       132.982 [ms] (mean)
+Time per request:       132.982 [ms] (mean, across all concurrent requests)
+Transfer rate:          4.23 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       60   71   9.5     70     110
+Processing:    55   62   7.2     60      94
+Waiting:       53   59   7.5     57      93
+Total:        121  133  14.3    130     185
+
+Percentage of the requests served within a certain time (ms)
+  50%    130
+  66%    133
+  75%    135
+  80%    135
+  90%    140
+  95%    180
+  98%    185
+  99%    185
+ 100%    185 (longest request)

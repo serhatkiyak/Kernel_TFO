@@ -1,0 +1,44 @@
+This is ApacheBench, Version 2.3 <$Revision: 1528965 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking google.ie (be patient).....done
+
+
+Server Software:        gws
+Server Hostname:        google.ie
+Server Port:            443
+SSL/TLS Protocol:       TLSv1,ECDHE-RSA-RC4-SHA,2048,128
+
+Document Path:          /
+Document Length:        219 bytes
+
+Concurrency Level:      1
+Time taken for tests:   4.045 seconds
+Complete requests:      30
+Failed requests:        0
+Non-2xx responses:      30
+Total transferred:      17280 bytes
+HTML transferred:       6570 bytes
+Requests per second:    7.42 [#/sec] (mean)
+Time per request:       134.831 [ms] (mean)
+Time per request:       134.831 [ms] (mean, across all concurrent requests)
+Transfer rate:          4.17 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       60   72   7.8     71      96
+Processing:    54   63  11.8     60     115
+Waiting:       52   60  11.3     56     111
+Total:        120  135  15.6    130     190
+
+Percentage of the requests served within a certain time (ms)
+  50%    130
+  66%    135
+  75%    140
+  80%    140
+  90%    165
+  95%    169
+  98%    190
+  99%    190
+ 100%    190 (longest request)

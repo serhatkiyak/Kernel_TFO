@@ -1,0 +1,72 @@
+This is ApacheBench, Version 2.3 <$Revision: 1528965 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking okta.com (be patient)...SSL handshake failed (5).
+SSL handshake failed (5).
+SSL handshake failed (5).
+SSL handshake failed (5).
+SSL handshake failed (5).
+SSL handshake failed (5).
+SSL handshake failed (5).
+SSL handshake failed (5).
+SSL handshake failed (5).
+SSL handshake failed (5).
+SSL handshake failed (5).
+SSL handshake failed (5).
+SSL handshake failed (5).
+SSL handshake failed (5).
+SSL handshake failed (5).
+SSL handshake failed (5).
+SSL handshake failed (5).
+SSL handshake failed (5).
+SSL handshake failed (5).
+SSL handshake failed (5).
+SSL handshake failed (5).
+SSL handshake failed (5).
+SSL handshake failed (5).
+SSL handshake failed (5).
+SSL handshake failed (5).
+SSL handshake failed (5).
+SSL handshake failed (5).
+SSL handshake failed (5).
+SSL handshake failed (5).
+SSL handshake failed (5).
+..done
+
+
+Server Software:        
+Server Hostname:        okta.com
+Server Port:            443
+
+Document Path:          /
+Document Length:        0 bytes
+
+Concurrency Level:      1
+Time taken for tests:   1.548 seconds
+Complete requests:      30
+Failed requests:        0
+Total transferred:      0 bytes
+HTML transferred:       0 bytes
+Requests per second:    19.38 [#/sec] (mean)
+Time per request:       51.610 [ms] (mean)
+Time per request:       51.610 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.00 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.0      0       0
+Processing:    40   52   7.8     51      80
+Waiting:        0    0   0.0      0       0
+Total:         40   52   7.8     51      80
+
+Percentage of the requests served within a certain time (ms)
+  50%     51
+  66%     54
+  75%     55
+  80%     55
+  90%     58
+  95%     65
+  98%     80
+  99%     80
+ 100%     80 (longest request)

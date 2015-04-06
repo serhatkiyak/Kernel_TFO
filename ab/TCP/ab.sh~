@@ -1,0 +1,16 @@
+#!/bin/bash
+
+while read SITE
+do
+	mkdir $SITE
+
+	s="/"
+	http="http://"
+	url="$http$SITE$s"
+
+	for i in {10..100..10}
+	do	
+		ab -n $i -c 10 $url &> $SITE/$i.txt 
+	done
+
+done < alexa.txt
