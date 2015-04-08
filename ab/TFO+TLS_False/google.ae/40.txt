@@ -1,0 +1,45 @@
+This is ApacheBench, Version 2.4 (OpenSSL 1.0.1f 6 Jan 2014)
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking google.ae (be patient).....done
+
+
+Server Software:        gws
+Server Hostname:        google.ae
+Server Port:            443
+SSL/TLS Protocol:       TLSv1/SSLv3,ECDHE-RSA-RC4-SHA,2048,128
+
+Document Path:          /
+Document Length:        219 bytes
+
+Concurrency Level:      1
+Time taken for tests:   3.581 seconds
+Complete requests:      40
+Failed requests:        0
+Write errors:           0
+Non-2xx responses:      40
+Total transferred:      23040 bytes
+HTML transferred:       8760 bytes
+Requests per second:    11.17 [#/sec] (mean)
+Time per request:       89.516 [ms] (mean)
+Time per request:       89.516 [ms] (mean, across all concurrent requests)
+Transfer rate:          6.28 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       33   39   6.2     37      65
+Processing:    43   50   3.6     51      57
+Waiting:       40   47   3.6     47      55
+Total:         80   89   7.3     89     120
+
+Percentage of the requests served within a certain time (ms)
+  50%     89
+  66%     90
+  75%     93
+  80%     94
+  90%     97
+  95%    106
+  98%    120
+  99%    120
+ 100%    120 (longest request)

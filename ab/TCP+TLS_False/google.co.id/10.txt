@@ -1,0 +1,45 @@
+This is ApacheBench, Version 2.4 (OpenSSL 1.0.1f 6 Jan 2014)
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking google.co.id (be patient).....done
+
+
+Server Software:        HTTP
+Server Hostname:        google.co.id
+Server Port:            443
+SSL/TLS Protocol:       TLSv1/SSLv3,ECDHE-RSA-RC4-SHA,2048,128
+
+Document Path:          /
+Document Length:        349 bytes
+
+Concurrency Level:      1
+Time taken for tests:   4.441 seconds
+Complete requests:      10
+Failed requests:        0
+Write errors:           0
+Non-2xx responses:      10
+Total transferred:      8950 bytes
+HTML transferred:       3490 bytes
+Requests per second:    2.25 [#/sec] (mean)
+Time per request:       444.054 [ms] (mean)
+Time per request:       444.054 [ms] (mean, across all concurrent requests)
+Transfer rate:          1.97 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       50   68  13.6     70      87
+Processing:   243  375 110.4    378     528
+Waiting:      240  372 111.1    376     525
+Total:        309  443 106.4    430     590
+
+Percentage of the requests served within a certain time (ms)
+  50%    430
+  66%    520
+  75%    524
+  80%    579
+  90%    590
+  95%    590
+  98%    590
+  99%    590
+ 100%    590 (longest request)

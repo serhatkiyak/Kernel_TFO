@@ -1,0 +1,45 @@
+This is ApacheBench, Version 2.4 (OpenSSL 1.0.1f 6 Jan 2014)
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking google.ro (be patient).....done
+
+
+Server Software:        gws
+Server Hostname:        google.ro
+Server Port:            443
+SSL/TLS Protocol:       TLSv1/SSLv3,ECDHE-RSA-RC4-SHA,2048,128
+
+Document Path:          /
+Document Length:        219 bytes
+
+Concurrency Level:      1
+Time taken for tests:   4.820 seconds
+Complete requests:      40
+Failed requests:        0
+Write errors:           0
+Non-2xx responses:      40
+Total transferred:      23040 bytes
+HTML transferred:       8760 bytes
+Requests per second:    8.30 [#/sec] (mean)
+Time per request:       120.499 [ms] (mean)
+Time per request:       120.499 [ms] (mean, across all concurrent requests)
+Transfer rate:          4.67 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       61   72   8.4     71     105
+Processing:    41   47   4.7     46      67
+Waiting:       39   44   3.0     43      53
+Total:        104  120   8.9    118     150
+
+Percentage of the requests served within a certain time (ms)
+  50%    118
+  66%    123
+  75%    125
+  80%    127
+  90%    130
+  95%    138
+  98%    150
+  99%    150
+ 100%    150 (longest request)

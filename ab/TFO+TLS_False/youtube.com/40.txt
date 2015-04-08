@@ -1,0 +1,45 @@
+This is ApacheBench, Version 2.4 (OpenSSL 1.0.1f 6 Jan 2014)
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking youtube.com (be patient).....done
+
+
+Server Software:        gwiseguy/2.0
+Server Hostname:        youtube.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1/SSLv3,ECDHE-RSA-RC4-SHA,2048,128
+
+Document Path:          /
+Document Length:        0 bytes
+
+Concurrency Level:      1
+Time taken for tests:   3.815 seconds
+Complete requests:      40
+Failed requests:        0
+Write errors:           0
+Non-2xx responses:      40
+Total transferred:      9680 bytes
+HTML transferred:       0 bytes
+Requests per second:    10.48 [#/sec] (mean)
+Time per request:       95.382 [ms] (mean)
+Time per request:       95.382 [ms] (mean, across all concurrent requests)
+Transfer rate:          2.48 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       29   42  11.7     37      70
+Processing:    45   53   6.3     52      78
+Waiting:       43   49   3.2     48      58
+Total:         79   95  13.8     90     146
+
+Percentage of the requests served within a certain time (ms)
+  50%     90
+  66%     93
+  75%    103
+  80%    110
+  90%    115
+  95%    124
+  98%    146
+  99%    146
+ 100%    146 (longest request)

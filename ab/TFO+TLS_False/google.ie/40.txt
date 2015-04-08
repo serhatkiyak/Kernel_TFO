@@ -1,0 +1,45 @@
+This is ApacheBench, Version 2.4 (OpenSSL 1.0.1f 6 Jan 2014)
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking google.ie (be patient).....done
+
+
+Server Software:        gws
+Server Hostname:        google.ie
+Server Port:            443
+SSL/TLS Protocol:       TLSv1/SSLv3,ECDHE-RSA-RC4-SHA,2048,128
+
+Document Path:          /
+Document Length:        219 bytes
+
+Concurrency Level:      1
+Time taken for tests:   3.648 seconds
+Complete requests:      40
+Failed requests:        0
+Write errors:           0
+Non-2xx responses:      40
+Total transferred:      23040 bytes
+HTML transferred:       8760 bytes
+Requests per second:    10.96 [#/sec] (mean)
+Time per request:       91.199 [ms] (mean)
+Time per request:       91.199 [ms] (mean, across all concurrent requests)
+Transfer rate:          6.17 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       34   41   7.6     39      67
+Processing:    42   50   4.0     50      60
+Waiting:       39   46   3.5     46      56
+Total:         79   91   8.7     89     119
+
+Percentage of the requests served within a certain time (ms)
+  50%     89
+  66%     91
+  75%     94
+  80%     95
+  90%    105
+  95%    112
+  98%    119
+  99%    119
+ 100%    119 (longest request)

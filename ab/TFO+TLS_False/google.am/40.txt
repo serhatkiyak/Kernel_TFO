@@ -1,0 +1,45 @@
+This is ApacheBench, Version 2.4 (OpenSSL 1.0.1f 6 Jan 2014)
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking google.am (be patient).....done
+
+
+Server Software:        HTTP
+Server Hostname:        google.am
+Server Port:            443
+SSL/TLS Protocol:       TLSv1/SSLv3,ECDHE-RSA-RC4-SHA,2048,128
+
+Document Path:          /
+Document Length:        330 bytes
+
+Concurrency Level:      1
+Time taken for tests:   16.701 seconds
+Complete requests:      40
+Failed requests:        0
+Write errors:           0
+Non-2xx responses:      40
+Total transferred:      34280 bytes
+HTML transferred:       13200 bytes
+Requests per second:    2.40 [#/sec] (mean)
+Time per request:       417.529 [ms] (mean)
+Time per request:       417.529 [ms] (mean, across all concurrent requests)
+Transfer rate:          2.00 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       31   37   6.6     36      67
+Processing:   249  380  87.9    380     546
+Waiting:      247  376  87.3    374     540
+Total:        289  417  86.2    415     586
+
+Percentage of the requests served within a certain time (ms)
+  50%    415
+  66%    450
+  75%    480
+  80%    505
+  90%    549
+  95%    579
+  98%    586
+  99%    586
+ 100%    586 (longest request)

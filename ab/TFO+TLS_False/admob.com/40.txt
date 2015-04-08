@@ -1,0 +1,45 @@
+This is ApacheBench, Version 2.4 (OpenSSL 1.0.1f 6 Jan 2014)
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking admob.com (be patient).....done
+
+
+Server Software:        sffe
+Server Hostname:        admob.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1/SSLv3,ECDHE-RSA-RC4-SHA,2048,128
+
+Document Path:          /
+Document Length:        226 bytes
+
+Concurrency Level:      1
+Time taken for tests:   3.440 seconds
+Complete requests:      40
+Failed requests:        0
+Write errors:           0
+Non-2xx responses:      40
+Total transferred:      24168 bytes
+HTML transferred:       9040 bytes
+Requests per second:    11.63 [#/sec] (mean)
+Time per request:       85.994 [ms] (mean)
+Time per request:       85.994 [ms] (mean, across all concurrent requests)
+Transfer rate:          6.86 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       32   50  13.7     44      84
+Processing:    27   36   6.1     36      50
+Waiting:       22   33   6.5     33      46
+Total:         63   86  14.0     85     124
+
+Percentage of the requests served within a certain time (ms)
+  50%     85
+  66%     90
+  75%     93
+  80%     96
+  90%    110
+  95%    116
+  98%    124
+  99%    124
+ 100%    124 (longest request)

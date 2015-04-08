@@ -1,0 +1,45 @@
+This is ApacheBench, Version 2.4 (OpenSSL 1.0.1f 6 Jan 2014)
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking google.co.ke (be patient).....done
+
+
+Server Software:        HTTP
+Server Hostname:        google.co.ke
+Server Port:            443
+SSL/TLS Protocol:       TLSv1/SSLv3,ECDHE-RSA-RC4-SHA,2048,128
+
+Document Path:          /
+Document Length:        333 bytes
+
+Concurrency Level:      1
+Time taken for tests:   4.630 seconds
+Complete requests:      10
+Failed requests:        0
+Write errors:           0
+Non-2xx responses:      10
+Total transferred:      8630 bytes
+HTML transferred:       3330 bytes
+Requests per second:    2.16 [#/sec] (mean)
+Time per request:       462.962 [ms] (mean)
+Time per request:       462.962 [ms] (mean, across all concurrent requests)
+Transfer rate:          1.82 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       34   41   8.7     38      62
+Processing:   253  422 102.3    466     531
+Waiting:      251  418 102.8    463     530
+Total:        315  463  98.5    516     565
+
+Percentage of the requests served within a certain time (ms)
+  50%    516
+  66%    550
+  75%    554
+  80%    560
+  90%    565
+  95%    565
+  98%    565
+  99%    565
+ 100%    565 (longest request)

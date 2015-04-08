@@ -1,0 +1,45 @@
+This is ApacheBench, Version 2.4 (OpenSSL 1.0.1f 6 Jan 2014)
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking google.lk (be patient).....done
+
+
+Server Software:        HTTP
+Server Hostname:        google.lk
+Server Port:            443
+SSL/TLS Protocol:       TLSv1/SSLv3,ECDHE-RSA-RC4-SHA,2048,128
+
+Document Path:          /
+Document Length:        346 bytes
+
+Concurrency Level:      1
+Time taken for tests:   13.633 seconds
+Complete requests:      30
+Failed requests:        0
+Write errors:           0
+Non-2xx responses:      30
+Total transferred:      26670 bytes
+HTML transferred:       10380 bytes
+Requests per second:    2.20 [#/sec] (mean)
+Time per request:       454.426 [ms] (mean)
+Time per request:       454.426 [ms] (mean, across all concurrent requests)
+Transfer rate:          1.91 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       64   74   7.1     73      94
+Processing:   246  379  92.3    373     538
+Waiting:      243  376  92.2    367     535
+Total:        319  454  91.0    449     614
+
+Percentage of the requests served within a certain time (ms)
+  50%    449
+  66%    464
+  75%    539
+  80%    554
+  90%    594
+  95%    604
+  98%    614
+  99%    614
+ 100%    614 (longest request)

@@ -1,0 +1,45 @@
+This is ApacheBench, Version 2.4 (OpenSSL 1.0.1f 6 Jan 2014)
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking google.lv (be patient).....done
+
+
+Server Software:        HTTP
+Server Hostname:        google.lv
+Server Port:            443
+SSL/TLS Protocol:       TLSv1/SSLv3,ECDHE-RSA-RC4-SHA,2048,128
+
+Document Path:          /
+Document Length:        346 bytes
+
+Concurrency Level:      1
+Time taken for tests:   18.322 seconds
+Complete requests:      40
+Failed requests:        0
+Write errors:           0
+Non-2xx responses:      40
+Total transferred:      35560 bytes
+HTML transferred:       13840 bytes
+Requests per second:    2.18 [#/sec] (mean)
+Time per request:       458.054 [ms] (mean)
+Time per request:       458.054 [ms] (mean, across all concurrent requests)
+Transfer rate:          1.90 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       61   70   5.6     69      92
+Processing:   247  388  96.1    387     540
+Waiting:      244  385  95.7    385     538
+Total:        319  457  95.1    454     615
+
+Percentage of the requests served within a certain time (ms)
+  50%    454
+  66%    492
+  75%    563
+  80%    575
+  90%    590
+  95%    606
+  98%    615
+  99%    615
+ 100%    615 (longest request)
