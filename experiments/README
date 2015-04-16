@@ -4,3 +4,18 @@ submodule to this repository; to load it, run:
 
 git submodule init
 git submodule update
+
+
+The python script also expects two files, set_cookie and set_nocookie, created
+as per these instructions:
+http://askubuntu.com/questions/155791/how-do-i-sudo-a-command-in-a-script-without-being-asked-for-a-password
+
+set_cookie should contain:
+
+#!/bin/bash
+echo "0x403" > /proc/sys/net/ipv4/tcp_fastopen
+
+set_nocookie should contain:
+
+#!/bin/bash
+echo "0x607" > /proc/sys/net/ipv4/tcp_fastopen
