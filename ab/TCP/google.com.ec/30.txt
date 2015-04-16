@@ -1,0 +1,44 @@
+This is ApacheBench, Version 2.3 <$Revision: 1528965 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking google.com.ec (be patient).....done
+
+
+Server Software:        gws
+Server Hostname:        google.com.ec
+Server Port:            443
+SSL/TLS Protocol:       TLSv1,ECDHE-RSA-RC4-SHA,2048,128
+
+Document Path:          /
+Document Length:        223 bytes
+
+Concurrency Level:      1
+Time taken for tests:   3.870 seconds
+Complete requests:      30
+Failed requests:        0
+Non-2xx responses:      30
+Total transferred:      17520 bytes
+HTML transferred:       6690 bytes
+Requests per second:    7.75 [#/sec] (mean)
+Time per request:       128.991 [ms] (mean)
+Time per request:       128.991 [ms] (mean, across all concurrent requests)
+Transfer rate:          4.42 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       70   85  12.2     81     109
+Processing:    33   44  19.0     40     142
+Waiting:       30   40  18.8     36     138
+Total:        105  129  26.4    125     248
+
+Percentage of the requests served within a certain time (ms)
+  50%    125
+  66%    134
+  75%    140
+  80%    141
+  90%    145
+  95%    152
+  98%    248
+  99%    248
+ 100%    248 (longest request)

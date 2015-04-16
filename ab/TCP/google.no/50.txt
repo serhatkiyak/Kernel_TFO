@@ -1,0 +1,44 @@
+This is ApacheBench, Version 2.3 <$Revision: 1528965 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking google.no (be patient).....done
+
+
+Server Software:        gws
+Server Hostname:        google.no
+Server Port:            443
+SSL/TLS Protocol:       TLSv1,ECDHE-RSA-RC4-SHA,2048,128
+
+Document Path:          /
+Document Length:        219 bytes
+
+Concurrency Level:      1
+Time taken for tests:   7.806 seconds
+Complete requests:      50
+Failed requests:        0
+Non-2xx responses:      50
+Total transferred:      28800 bytes
+HTML transferred:       10950 bytes
+Requests per second:    6.40 [#/sec] (mean)
+Time per request:       156.129 [ms] (mean)
+Time per request:       156.129 [ms] (mean, across all concurrent requests)
+Transfer rate:          3.60 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       84  104  12.9    102     132
+Processing:    42   52   8.8     50      88
+Waiting:       40   48   7.5     46      80
+Total:        134  156  16.1    154     193
+
+Percentage of the requests served within a certain time (ms)
+  50%    154
+  66%    160
+  75%    168
+  80%    173
+  90%    180
+  95%    190
+  98%    193
+  99%    193
+ 100%    193 (longest request)

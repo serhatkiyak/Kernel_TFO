@@ -1,0 +1,44 @@
+This is ApacheBench, Version 2.3 <$Revision: 1528965 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking google.com.ar (be patient).....done
+
+
+Server Software:        HTTP
+Server Hostname:        google.com.ar
+Server Port:            443
+SSL/TLS Protocol:       TLSv1,ECDHE-RSA-RC4-SHA,2048,128
+
+Document Path:          /
+Document Length:        334 bytes
+
+Concurrency Level:      1
+Time taken for tests:   22.600 seconds
+Complete requests:      50
+Failed requests:        0
+Non-2xx responses:      50
+Total transferred:      43250 bytes
+HTML transferred:       16700 bytes
+Requests per second:    2.21 [#/sec] (mean)
+Time per request:       452.003 [ms] (mean)
+Time per request:       452.003 [ms] (mean, across all concurrent requests)
+Transfer rate:          1.87 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       48   66  17.4     65     149
+Processing:   245  386  86.4    397     532
+Waiting:      241  381  87.1    393     527
+Total:        309  452  89.1    456     650
+
+Percentage of the requests served within a certain time (ms)
+  50%    456
+  66%    502
+  75%    520
+  80%    545
+  90%    569
+  95%    579
+  98%    650
+  99%    650
+ 100%    650 (longest request)

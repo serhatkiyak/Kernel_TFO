@@ -1,0 +1,45 @@
+This is ApacheBench, Version 2.4 (OpenSSL 1.0.1f 6 Jan 2014)
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking blogger.com (be patient).....done
+
+
+Server Software:        sffe
+Server Hostname:        blogger.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1/SSLv3,ECDHE-RSA-RC4-SHA,2048,128
+
+Document Path:          /
+Document Length:        221 bytes
+
+Concurrency Level:      1
+Time taken for tests:   3.510 seconds
+Complete requests:      40
+Failed requests:        0
+Write errors:           0
+Non-2xx responses:      40
+Total transferred:      23920 bytes
+HTML transferred:       8840 bytes
+Requests per second:    11.40 [#/sec] (mean)
+Time per request:       87.752 [ms] (mean)
+Time per request:       87.752 [ms] (mean, across all concurrent requests)
+Transfer rate:          6.65 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       46   62  10.4     62      93
+Processing:    17   25   5.8     26      53
+Waiting:       15   21   3.8     22      31
+Total:         63   87  14.4     88     128
+
+Percentage of the requests served within a certain time (ms)
+  50%     88
+  66%     94
+  75%     98
+  80%     99
+  90%    104
+  95%    122
+  98%    128
+  99%    128
+ 100%    128 (longest request)

@@ -1,0 +1,45 @@
+This is ApacheBench, Version 2.4 (OpenSSL 1.0.1f 6 Jan 2014)
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking google.hr (be patient).....done
+
+
+Server Software:        HTTP
+Server Hostname:        google.hr
+Server Port:            443
+SSL/TLS Protocol:       TLSv1/SSLv3,ECDHE-RSA-RC4-SHA,2048,128
+
+Document Path:          /
+Document Length:        330 bytes
+
+Concurrency Level:      1
+Time taken for tests:   22.197 seconds
+Complete requests:      50
+Failed requests:        0
+Write errors:           0
+Non-2xx responses:      50
+Total transferred:      42850 bytes
+HTML transferred:       16500 bytes
+Requests per second:    2.25 [#/sec] (mean)
+Time per request:       443.946 [ms] (mean)
+Time per request:       443.946 [ms] (mean, across all concurrent requests)
+Transfer rate:          1.89 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       26   36   5.8     36      54
+Processing:   244  408  79.3    411     529
+Waiting:      242  404  79.6    408     528
+Total:        279  444  79.0    445     564
+
+Percentage of the requests served within a certain time (ms)
+  50%    445
+  66%    491
+  75%    510
+  80%    539
+  90%    554
+  95%    559
+  98%    564
+  99%    564
+ 100%    564 (longest request)

@@ -1,0 +1,44 @@
+This is ApacheBench, Version 2.3 <$Revision: 1528965 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking googlecode.com (be patient).....done
+
+
+Server Software:        GFE/2.0
+Server Hostname:        googlecode.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1,ECDHE-RSA-RC4-SHA,2048,128
+
+Document Path:          /
+Document Length:        54 bytes
+
+Concurrency Level:      1
+Time taken for tests:   2.805 seconds
+Complete requests:      10
+Failed requests:        0
+Non-2xx responses:      10
+Total transferred:      3640 bytes
+HTML transferred:       540 bytes
+Requests per second:    3.56 [#/sec] (mean)
+Time per request:       280.535 [ms] (mean)
+Time per request:       280.535 [ms] (mean, across all concurrent requests)
+Transfer rate:          1.27 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      102  149  43.5    146     226
+Processing:    54  131  34.2    129     175
+Waiting:       40  125  36.8    122     174
+Total:        156  280  64.6    288     358
+
+Percentage of the requests served within a certain time (ms)
+  50%    288
+  66%    324
+  75%    338
+  80%    354
+  90%    358
+  95%    358
+  98%    358
+  99%    358
+ 100%    358 (longest request)

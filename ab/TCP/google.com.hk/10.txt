@@ -1,0 +1,44 @@
+This is ApacheBench, Version 2.3 <$Revision: 1528965 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking google.com.hk (be patient).....done
+
+
+Server Software:        gws
+Server Hostname:        google.com.hk
+Server Port:            443
+SSL/TLS Protocol:       TLSv1,ECDHE-RSA-RC4-SHA,2048,128
+
+Document Path:          /
+Document Length:        223 bytes
+
+Concurrency Level:      1
+Time taken for tests:   1.735 seconds
+Complete requests:      10
+Failed requests:        0
+Non-2xx responses:      10
+Total transferred:      5840 bytes
+HTML transferred:       2230 bytes
+Requests per second:    5.76 [#/sec] (mean)
+Time per request:       173.484 [ms] (mean)
+Time per request:       173.484 [ms] (mean, across all concurrent requests)
+Transfer rate:          3.29 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      113  128   9.7    131     144
+Processing:    35   45   8.3     46      66
+Waiting:       33   41   4.3     42      45
+Total:        155  173  14.7    175     199
+
+Percentage of the requests served within a certain time (ms)
+  50%    175
+  66%    176
+  75%    181
+  80%    191
+  90%    199
+  95%    199
+  98%    199
+  99%    199
+ 100%    199 (longest request)

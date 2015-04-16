@@ -1,0 +1,44 @@
+This is ApacheBench, Version 2.3 <$Revision: 1528965 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking google.co.jp (be patient).....done
+
+
+Server Software:        gws
+Server Hostname:        google.co.jp
+Server Port:            443
+SSL/TLS Protocol:       TLSv1,ECDHE-RSA-RC4-SHA,2048,128
+
+Document Path:          /
+Document Length:        222 bytes
+
+Concurrency Level:      1
+Time taken for tests:   1.440 seconds
+Complete requests:      10
+Failed requests:        0
+Non-2xx responses:      10
+Total transferred:      5820 bytes
+HTML transferred:       2220 bytes
+Requests per second:    6.94 [#/sec] (mean)
+Time per request:       144.012 [ms] (mean)
+Time per request:       144.012 [ms] (mean, across all concurrent requests)
+Transfer rate:          3.95 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       70   90  12.4     96     102
+Processing:    49   54   3.0     55      58
+Waiting:       44   51   3.3     52      55
+Total:        124  144  14.3    152     159
+
+Percentage of the requests served within a certain time (ms)
+  50%    152
+  66%    152
+  75%    155
+  80%    158
+  90%    159
+  95%    159
+  98%    159
+  99%    159
+ 100%    159 (longest request)

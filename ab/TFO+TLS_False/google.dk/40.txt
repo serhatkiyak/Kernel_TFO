@@ -1,0 +1,45 @@
+This is ApacheBench, Version 2.4 (OpenSSL 1.0.1f 6 Jan 2014)
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking google.dk (be patient).....done
+
+
+Server Software:        gws
+Server Hostname:        google.dk
+Server Port:            443
+SSL/TLS Protocol:       TLSv1/SSLv3,ECDHE-RSA-RC4-SHA,2048,128
+
+Document Path:          /
+Document Length:        219 bytes
+
+Concurrency Level:      1
+Time taken for tests:   3.576 seconds
+Complete requests:      40
+Failed requests:        0
+Write errors:           0
+Non-2xx responses:      40
+Total transferred:      23040 bytes
+HTML transferred:       8760 bytes
+Requests per second:    11.19 [#/sec] (mean)
+Time per request:       89.398 [ms] (mean)
+Time per request:       89.398 [ms] (mean, across all concurrent requests)
+Transfer rate:          6.29 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       33   39   6.8     38      68
+Processing:    43   50   5.5     50      72
+Waiting:       41   46   5.1     46      69
+Total:         79   89   8.5     88     120
+
+Percentage of the requests served within a certain time (ms)
+  50%     88
+  66%     90
+  75%     93
+  80%     95
+  90%     97
+  95%    110
+  98%    120
+  99%    120
+ 100%    120 (longest request)

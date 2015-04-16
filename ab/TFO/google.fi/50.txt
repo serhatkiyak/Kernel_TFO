@@ -1,0 +1,44 @@
+This is ApacheBench, Version 2.3 <$Revision: 1528965 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking google.fi (be patient).....done
+
+
+Server Software:        gws
+Server Hostname:        google.fi
+Server Port:            443
+SSL/TLS Protocol:       TLSv1,ECDHE-RSA-RC4-SHA,2048,128
+
+Document Path:          /
+Document Length:        219 bytes
+
+Concurrency Level:      1
+Time taken for tests:   6.937 seconds
+Complete requests:      50
+Failed requests:        0
+Non-2xx responses:      50
+Total transferred:      28800 bytes
+HTML transferred:       10950 bytes
+Requests per second:    7.21 [#/sec] (mean)
+Time per request:       138.741 [ms] (mean)
+Time per request:       138.741 [ms] (mean, across all concurrent requests)
+Transfer rate:          4.05 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       62   73  10.1     71     119
+Processing:    55   65  11.7     61     122
+Waiting:       53   62  12.4     58     122
+Total:        120  139  15.0    135     193
+
+Percentage of the requests served within a certain time (ms)
+  50%    135
+  66%    140
+  75%    143
+  80%    145
+  90%    160
+  95%    170
+  98%    193
+  99%    193
+ 100%    193 (longest request)

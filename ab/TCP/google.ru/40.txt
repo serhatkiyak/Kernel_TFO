@@ -1,0 +1,44 @@
+This is ApacheBench, Version 2.3 <$Revision: 1528965 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking google.ru (be patient).....done
+
+
+Server Software:        gws
+Server Hostname:        google.ru
+Server Port:            443
+SSL/TLS Protocol:       TLSv1,ECDHE-RSA-RC4-SHA,2048,128
+
+Document Path:          /
+Document Length:        219 bytes
+
+Concurrency Level:      1
+Time taken for tests:   5.865 seconds
+Complete requests:      40
+Failed requests:        0
+Non-2xx responses:      40
+Total transferred:      23040 bytes
+HTML transferred:       8760 bytes
+Requests per second:    6.82 [#/sec] (mean)
+Time per request:       146.623 [ms] (mean)
+Time per request:       146.623 [ms] (mean, across all concurrent requests)
+Transfer rate:          3.84 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       87   97   7.4     96     121
+Processing:    42   50   6.1     49      75
+Waiting:       40   46   5.8     45      71
+Total:        135  146   8.7    145     174
+
+Percentage of the requests served within a certain time (ms)
+  50%    145
+  66%    148
+  75%    150
+  80%    154
+  90%    161
+  95%    163
+  98%    174
+  99%    174
+ 100%    174 (longest request)

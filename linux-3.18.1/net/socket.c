@@ -604,17 +604,25 @@ const struct file_operations bad_sock_fops = {
 void sock_release(struct socket *sock)
 {
 	struct node_fastopen *node;
+	struct node_fastopen *del_node = NULL;
 	int counter;
 
-	spin_lock(&hashtable_fastopen_lock);
-	hash_for_each(hashtable_fastopen, counter, node, listnode) 
+	if(sysctl_tcp_fastopen)
 	{
-		if (sock == node->sock)
+		spin_lock(&hashtable_fastopen_lock);
+		hash_for_each(hashtable_fastopen, counter, node, listnode) 
 		{
-			hash_del(&node->listnode);
+			if (sock == node->sock)
+			{
+				del_node = node;
+				hash_del(&node->listnode);
+			}
 		}
+		spin_unlock(&hashtable_fastopen_lock);
+
+		if(del_node)
+			kfree(del_node);
 	}
-	spin_unlock(&hashtable_fastopen_lock);
 
 	if (sock->ops) {
 		struct module *owner = sock->ops->owner;
@@ -1587,16 +1595,20 @@ SYSCALL_DEFINE2(listen, int, fd, int, backlog)
 	struct socket *sock;
 	int err, fput_needed;
 	int somaxconn;
+	int queue = backlog;
+
+	if((sysctl_tcp_fastopen & TFO_SERVER_WO_SOCKOPT1) != 0 && queue < sysctl_tcp_fastopen_queue)
+		queue = sysctl_tcp_fastopen_queue;
 
 	sock = sockfd_lookup_light(fd, &err, &fput_needed);
 	if (sock) {
 		somaxconn = sock_net(sock->sk)->core.sysctl_somaxconn;
-		if ((unsigned int)backlog > somaxconn)
-			backlog = somaxconn;
+		if ((unsigned int)queue > somaxconn)
+			queue = somaxconn;
 
-		err = security_socket_listen(sock, backlog);
+		err = security_socket_listen(sock, queue);
 		if (!err)
-			err = sock->ops->listen(sock, backlog);
+			err = sock->ops->listen(sock, queue);
 
 		fput_light(sock->file, fput_needed);
 	}
@@ -1706,6 +1718,7 @@ int connect_fastopen(int fd, struct sockaddr __user * uservaddr, int addrlen)
 {
 	struct node_fastopen * node;
 	struct node_fastopen * node_traverse;
+	struct node_fastopen * del_node = NULL;
 	struct socket *sock;
 	int err;
 	int fput_needed;
@@ -1714,9 +1727,13 @@ int connect_fastopen(int fd, struct sockaddr __user * uservaddr, int addrlen)
 	spin_lock(&hashtable_fastopen_lock);
 	hash_for_each_possible(hashtable_fastopen, node_traverse, listnode, fd) 
 	{
+		del_node = node_traverse;
 		hash_del(&node_traverse->listnode);
 	}
 	spin_unlock(&hashtable_fastopen_lock);
+
+	if(del_node)
+		kfree(del_node);
 
 	sock = sockfd_lookup_light(fd, &err, &fput_needed);
 	if (!sock)
@@ -1768,10 +1785,13 @@ SYSCALL_DEFINE3(connect, int, fd, struct sockaddr __user *, uservaddr,
 	if (!sock)
 		goto out;
 
-	sk = sock->sk;
-	if(sk && sk->sk_protocol == IPPROTO_TCP)
+	if(sysctl_tcp_fastopen)
 	{
-		return connect_fastopen(fd, uservaddr, addrlen);
+		sk = sock->sk;
+		if(sk && sk->sk_protocol == IPPROTO_TCP)
+		{
+			return connect_fastopen(fd, uservaddr, addrlen);
+		}
 	}
 
 	err = move_addr_to_kernel(uservaddr, addrlen, &address);
@@ -1929,16 +1949,19 @@ SYSCALL_DEFINE6(sendto, int, fd, void __user *, buff, size_t, len,
 	struct node_fastopen * node;
 	bool exists = false;
 
-	spin_lock(&hashtable_fastopen_lock);
-	hash_for_each_possible(hashtable_fastopen, node, listnode, fd) 
+	if(sysctl_tcp_fastopen)
 	{
-		exists = true;	
-	}
-	spin_unlock(&hashtable_fastopen_lock);
+		spin_lock(&hashtable_fastopen_lock);
+		hash_for_each_possible(hashtable_fastopen, node, listnode, fd) 
+		{
+			exists = true;	
+		}
+		spin_unlock(&hashtable_fastopen_lock);
 
-	if(exists)
-	{
-		return send_fastopen(fd, buff, len, flags);
+		if(exists)
+		{
+			return send_fastopen(fd, buff, len, flags);
+		}
 	}
 
 	return sendto_ori(fd, buff, len, flags, addr, addr_len);

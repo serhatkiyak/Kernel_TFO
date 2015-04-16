@@ -1,0 +1,44 @@
+This is ApacheBench, Version 2.3 <$Revision: 1528965 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking google.co.in (be patient).....done
+
+
+Server Software:        HTTP
+Server Hostname:        google.co.in
+Server Port:            443
+SSL/TLS Protocol:       TLSv1,ECDHE-RSA-RC4-SHA,2048,128
+
+Document Path:          /
+Document Length:        333 bytes
+
+Concurrency Level:      1
+Time taken for tests:   18.529 seconds
+Complete requests:      40
+Failed requests:        0
+Non-2xx responses:      40
+Total transferred:      34520 bytes
+HTML transferred:       13320 bytes
+Requests per second:    2.16 [#/sec] (mean)
+Time per request:       463.227 [ms] (mean)
+Time per request:       463.227 [ms] (mean, across all concurrent requests)
+Transfer rate:          1.82 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       59   74  10.1     72     102
+Processing:   264  389  82.2    375     541
+Waiting:      261  386  81.4    370     539
+Total:        330  463  83.1    470     640
+
+Percentage of the requests served within a certain time (ms)
+  50%    470
+  66%    501
+  75%    519
+  80%    549
+  90%    573
+  95%    613
+  98%    640
+  99%    640
+ 100%    640 (longest request)

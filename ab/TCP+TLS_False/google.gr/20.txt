@@ -1,0 +1,45 @@
+This is ApacheBench, Version 2.4 (OpenSSL 1.0.1f 6 Jan 2014)
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking google.gr (be patient).....done
+
+
+Server Software:        HTTP
+Server Hostname:        google.gr
+Server Port:            443
+SSL/TLS Protocol:       TLSv1/SSLv3,ECDHE-RSA-RC4-SHA,2048,128
+
+Document Path:          /
+Document Length:        346 bytes
+
+Concurrency Level:      1
+Time taken for tests:   9.111 seconds
+Complete requests:      20
+Failed requests:        0
+Write errors:           0
+Non-2xx responses:      20
+Total transferred:      17780 bytes
+HTML transferred:       6920 bytes
+Requests per second:    2.20 [#/sec] (mean)
+Time per request:       455.573 [ms] (mean)
+Time per request:       455.573 [ms] (mean, across all concurrent requests)
+Transfer rate:          1.91 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       63   69   3.4     68      77
+Processing:   243  386  91.9    415     525
+Waiting:      243  383  91.6    410     521
+Total:        310  455  90.7    483     594
+
+Percentage of the requests served within a certain time (ms)
+  50%    483
+  66%    496
+  75%    535
+  80%    559
+  90%    581
+  95%    594
+  98%    594
+  99%    594
+ 100%    594 (longest request)

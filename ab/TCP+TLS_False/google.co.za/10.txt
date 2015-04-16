@@ -1,0 +1,45 @@
+This is ApacheBench, Version 2.4 (OpenSSL 1.0.1f 6 Jan 2014)
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking google.co.za (be patient).....done
+
+
+Server Software:        HTTP
+Server Hostname:        google.co.za
+Server Port:            443
+SSL/TLS Protocol:       TLSv1/SSLv3,ECDHE-RSA-RC4-SHA,2048,128
+
+Document Path:          /
+Document Length:        349 bytes
+
+Concurrency Level:      1
+Time taken for tests:   4.590 seconds
+Complete requests:      10
+Failed requests:        0
+Write errors:           0
+Non-2xx responses:      10
+Total transferred:      8950 bytes
+HTML transferred:       3490 bytes
+Requests per second:    2.18 [#/sec] (mean)
+Time per request:       458.966 [ms] (mean)
+Time per request:       458.966 [ms] (mean, across all concurrent requests)
+Transfer rate:          1.90 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       64   70   4.9     70      82
+Processing:   280  389  73.9    423     480
+Waiting:      277  384  73.8    406     476
+Total:        349  459  75.5    491     550
+
+Percentage of the requests served within a certain time (ms)
+  50%    491
+  66%    509
+  75%    529
+  80%    529
+  90%    550
+  95%    550
+  98%    550
+  99%    550
+ 100%    550 (longest request)

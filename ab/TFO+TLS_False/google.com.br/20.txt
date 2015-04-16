@@ -1,0 +1,45 @@
+This is ApacheBench, Version 2.4 (OpenSSL 1.0.1f 6 Jan 2014)
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking google.com.br (be patient).....done
+
+
+Server Software:        HTTP
+Server Hostname:        google.com.br
+Server Port:            443
+SSL/TLS Protocol:       TLSv1/SSLv3,ECDHE-RSA-RC4-SHA,2048,128
+
+Document Path:          /
+Document Length:        334 bytes
+
+Concurrency Level:      1
+Time taken for tests:   8.016 seconds
+Complete requests:      20
+Failed requests:        0
+Write errors:           0
+Non-2xx responses:      20
+Total transferred:      17300 bytes
+HTML transferred:       6680 bytes
+Requests per second:    2.50 [#/sec] (mean)
+Time per request:       400.787 [ms] (mean)
+Time per request:       400.787 [ms] (mean, across all concurrent requests)
+Transfer rate:          2.11 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       30   37   3.3     37      44
+Processing:   253  364  96.0    329     557
+Waiting:      248  359  94.6    327     550
+Total:        290  401  95.1    364     590
+
+Percentage of the requests served within a certain time (ms)
+  50%    364
+  66%    466
+  75%    484
+  80%    503
+  90%    564
+  95%    590
+  98%    590
+  99%    590
+ 100%    590 (longest request)

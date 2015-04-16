@@ -1,0 +1,45 @@
+This is ApacheBench, Version 2.4 (OpenSSL 1.0.1f 6 Jan 2014)
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking google.com.au (be patient).....done
+
+
+Server Software:        HTTP
+Server Hostname:        google.com.au
+Server Port:            443
+SSL/TLS Protocol:       TLSv1/SSLv3,ECDHE-RSA-RC4-SHA,2048,128
+
+Document Path:          /
+Document Length:        334 bytes
+
+Concurrency Level:      1
+Time taken for tests:   13.225 seconds
+Complete requests:      30
+Failed requests:        0
+Write errors:           0
+Non-2xx responses:      30
+Total transferred:      25950 bytes
+HTML transferred:       10020 bytes
+Requests per second:    2.27 [#/sec] (mean)
+Time per request:       440.836 [ms] (mean)
+Time per request:       440.836 [ms] (mean, across all concurrent requests)
+Transfer rate:          1.92 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       34   37   2.1     37      43
+Processing:   245  404  86.0    421     556
+Waiting:      242  401  86.0    417     554
+Total:        280  441  86.1    460     595
+
+Percentage of the requests served within a certain time (ms)
+  50%    460
+  66%    470
+  75%    510
+  80%    516
+  90%    555
+  95%    591
+  98%    595
+  99%    595
+ 100%    595 (longest request)

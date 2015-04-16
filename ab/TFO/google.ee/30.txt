@@ -1,0 +1,44 @@
+This is ApacheBench, Version 2.3 <$Revision: 1528965 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking google.ee (be patient).....done
+
+
+Server Software:        gws
+Server Hostname:        google.ee
+Server Port:            443
+SSL/TLS Protocol:       TLSv1,ECDHE-RSA-RC4-SHA,2048,128
+
+Document Path:          /
+Document Length:        219 bytes
+
+Concurrency Level:      1
+Time taken for tests:   3.764 seconds
+Complete requests:      30
+Failed requests:        0
+Non-2xx responses:      30
+Total transferred:      17280 bytes
+HTML transferred:       6570 bytes
+Requests per second:    7.97 [#/sec] (mean)
+Time per request:       125.455 [ms] (mean)
+Time per request:       125.455 [ms] (mean, across all concurrent requests)
+Transfer rate:          4.48 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       49   69  15.0     67     112
+Processing:    45   56   5.2     56      66
+Waiting:       44   53   4.8     54      62
+Total:        100  125  17.2    124     176
+
+Percentage of the requests served within a certain time (ms)
+  50%    124
+  66%    130
+  75%    135
+  80%    135
+  90%    145
+  95%    165
+  98%    176
+  99%    176
+ 100%    176 (longest request)

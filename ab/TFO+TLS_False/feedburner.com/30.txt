@@ -1,0 +1,45 @@
+This is ApacheBench, Version 2.4 (OpenSSL 1.0.1f 6 Jan 2014)
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking feedburner.com (be patient).....done
+
+
+Server Software:        GFE/2.0
+Server Hostname:        feedburner.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1/SSLv3,ECDHE-RSA-RC4-SHA,2048,128
+
+Document Path:          /
+Document Length:        1425 bytes
+
+Concurrency Level:      1
+Time taken for tests:   2.520 seconds
+Complete requests:      30
+Failed requests:        0
+Write errors:           0
+Non-2xx responses:      30
+Total transferred:      48090 bytes
+HTML transferred:       42750 bytes
+Requests per second:    11.91 [#/sec] (mean)
+Time per request:       83.997 [ms] (mean)
+Time per request:       83.997 [ms] (mean, across all concurrent requests)
+Transfer rate:          18.64 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       32   39   8.7     36      63
+Processing:    38   45   6.5     44      68
+Waiting:       36   42   6.1     40      62
+Total:         74   84   9.7     80     105
+
+Percentage of the requests served within a certain time (ms)
+  50%     80
+  66%     84
+  75%     85
+  80%     93
+  90%    105
+  95%    105
+  98%    105
+  99%    105
+ 100%    105 (longest request)

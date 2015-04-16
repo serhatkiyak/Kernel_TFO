@@ -1,0 +1,44 @@
+This is ApacheBench, Version 2.3 <$Revision: 1528965 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking google.rs (be patient).....done
+
+
+Server Software:        gws
+Server Hostname:        google.rs
+Server Port:            443
+SSL/TLS Protocol:       TLSv1,ECDHE-RSA-RC4-SHA,2048,128
+
+Document Path:          /
+Document Length:        219 bytes
+
+Concurrency Level:      1
+Time taken for tests:   1.214 seconds
+Complete requests:      10
+Failed requests:        0
+Non-2xx responses:      10
+Total transferred:      5760 bytes
+HTML transferred:       2190 bytes
+Requests per second:    8.24 [#/sec] (mean)
+Time per request:       121.432 [ms] (mean)
+Time per request:       121.432 [ms] (mean, across all concurrent requests)
+Transfer rate:          4.63 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       53   67  10.7     69      80
+Processing:    46   54   4.5     55      60
+Waiting:       45   51   4.8     53      58
+Total:        104  121  13.0    125     138
+
+Percentage of the requests served within a certain time (ms)
+  50%    125
+  66%    126
+  75%    134
+  80%    136
+  90%    138
+  95%    138
+  98%    138
+  99%    138
+ 100%    138 (longest request)

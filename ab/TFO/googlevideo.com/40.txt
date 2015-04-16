@@ -1,0 +1,44 @@
+This is ApacheBench, Version 2.3 <$Revision: 1528965 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking googlevideo.com (be patient).....done
+
+
+Server Software:        GFE/2.0
+Server Hostname:        googlevideo.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1,ECDHE-RSA-RC4-SHA,2048,128
+
+Document Path:          /
+Document Length:        1425 bytes
+
+Concurrency Level:      1
+Time taken for tests:   4.005 seconds
+Complete requests:      40
+Failed requests:        0
+Non-2xx responses:      40
+Total transferred:      62680 bytes
+HTML transferred:       57000 bytes
+Requests per second:    9.99 [#/sec] (mean)
+Time per request:       100.132 [ms] (mean)
+Time per request:       100.132 [ms] (mean, across all concurrent requests)
+Transfer rate:          15.28 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       59   69   7.4     68      89
+Processing:    24   31   7.6     29      68
+Waiting:       22   27   4.4     26      45
+Total:         85  100  10.4     98     131
+
+Percentage of the requests served within a certain time (ms)
+  50%     98
+  66%    100
+  75%    110
+  80%    110
+  90%    117
+  95%    120
+  98%    131
+  99%    131
+ 100%    131 (longest request)
