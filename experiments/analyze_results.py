@@ -48,9 +48,11 @@ def print_summary_stats(loader):
          float(success_with_tfo_count)/success_count*100.0)
 
     print 'Server support: (# domains with support / # domains)'
-    for server in server_to_tfo_count:
-        print '{:<20}{:<}'.format(server, '%d / %d' % \
-            (server_to_tfo_count[server], server_to_total_count[server]))
+    servers_sorted = sorted(server_to_total_count, reverse=True,\
+        key=lambda x: server_to_tfo_count[x])
+    for server in servers_sorted:
+        print '{:<10}{:<}'.format('%d / %d' % \
+            (server_to_tfo_count[server], server_to_total_count[server]), server)
     print ''
 
     print 'URLs with TFO support:'
