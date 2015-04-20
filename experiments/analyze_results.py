@@ -5,6 +5,7 @@ import sys
 import logging
 import argparse
 import pickle
+from collections import defaultdict
 
 sys.path.append(os.path.join(os.path.dirname(__file__), 'web-profiler'))
 from webloader.tcp_loader import TCPLoader
@@ -15,7 +16,8 @@ def print_tfo_stats(loader):
     '''Print TFO stats for manual inspection'''
     print 'TFO Statuses:'
     for url, page_result in loader.page_results.iteritems():
-        print '{:<30}{:<}'.format(url, page_result.tcp_fast_open_support_statuses)
+        print '{:<30}{:<20}{:<}'.format(url, 
+            page_result.tcp_fast_open_support_statuses, page_result.server)
 
 def print_errors(loader):
     '''Print success/error statuses for manual inspection'''
@@ -29,21 +31,34 @@ def print_summary_stats(loader):
     success_count = 0  # number of pages successfully loaded
     success_with_tfo_count = 0  # page successfully loaded AND supported TFO
     urls_with_tfo = []
+    server_to_tfo_count = defaultdict(int)
+    server_to_total_count = defaultdict(int)
 
     for url, page_result in loader.page_results.iteritems():
         if page_result.status == PageResult.SUCCESS:
             success_count += 1
+            server_to_total_count[page_result.server] += 1
             if True in page_result.tcp_fast_open_support_statuses:
                 success_with_tfo_count += 1
                 urls_with_tfo.append(url)
+                server_to_tfo_count[page_result.server] += 1
 
     print 'TFO support:\t%d/%d  (%.02f %%)\n' % \
         (success_with_tfo_count, success_count,\
          float(success_with_tfo_count)/success_count*100.0)
 
+    print 'Server support: (# domains with support / # domains)'
+    servers_sorted = sorted(server_to_total_count, reverse=True,\
+        key=lambda x: server_to_tfo_count[x])
+    for server in servers_sorted:
+        print '{:<10}{:<}'.format('%d / %d' % \
+            (server_to_tfo_count[server], server_to_total_count[server]), server)
+    print ''
+
     print 'URLs with TFO support:'
     for url in urls_with_tfo:
         print url
+    print ''
 
 
 def main():
