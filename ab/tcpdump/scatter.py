@@ -4,6 +4,7 @@ import csv
 import os.path
 import matplotlib.pyplot as plt
 import pylab
+import numpy as np
 
 ##ALL
 
@@ -357,5 +358,15 @@ plt.plot([-500,2000], [0,0], 'k-', lw=2)
 ##plt.ylim(0, 200)
 ##plt.xlim(-500, 2000)
 plt.legend(loc = 'lower right')
+plt.show()
+
+data = percentage
+num_bins = 100
+counts, bin_edges = np.histogram(data, bins=num_bins, normed=True)
+cdf = np.cumsum(counts)
+scale = 1.0/cdf[-1]
+ncdf = scale * cdf
+plt.xlabel('Connection time improvement (percentage)')
+plt.plot(bin_edges[1:], ncdf)
 plt.show()
 
