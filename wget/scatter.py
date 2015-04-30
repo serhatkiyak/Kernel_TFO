@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import pylab
 import numpy as np
 
-N = 32
+N = 2
 
 ctime_tcp = [0] * N
 ctime_tfo = [0] * N

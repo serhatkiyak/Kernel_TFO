@@ -1,0 +1,16 @@
+
+
+
+var m_hdt_pos_id='5761';
+var m_hdt_pos_str_id='5761';
+var m_hdt_ic5='00709f72303c81a44bfd1824aa8b78ef';
+var m_hdt_rt_code='';
+
+
+		
+		document.write('<scr'+'ipt language="javascript" src="http://adm.icast.cn/nortb/hdt-ifocus/request/?id=PM130428'+m_hdt_pos_id+'&res='+screen.width+'x'+screen.height+'"></scr'+'ipt>'); 
+		
+
+	
+
+document.write('<scr'+'ipt language="javascript" src="http://track.ra.icast.cn/ifocus/red.js"></scr'+'ipt>');

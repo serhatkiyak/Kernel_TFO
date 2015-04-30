@@ -1,0 +1,40 @@
+--2015-04-29 22:14:50--  http://110.75.115.70/
+Connecting to 110.75.115.70:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://127.0.0.1 [following]
+--2015-04-29 22:14:50--  http://127.0.0.1/
+Connecting to 127.0.0.1:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 11510 (11K) [text/html]
+Saving to: ‘39/110.75.115.70/index.html’
+
+     0K .......... .                                          100%  119M=0.00009s
+
+2015-04-29 22:14:50 (119 MB/s) - ‘39/110.75.115.70/index.html’ saved [11510/11510]
+
+--2015-04-29 22:14:50--  http://127.0.0.1/icons/ubuntu-logo.png
+Reusing existing connection to 127.0.0.1:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 3404 (3.3K) [image/png]
+Saving to: ‘39/127.0.0.1/icons/ubuntu-logo.png’
+
+     0K ...                                                   100%  279M=0.00001s
+
+2015-04-29 22:14:50 (279 MB/s) - ‘39/127.0.0.1/icons/ubuntu-logo.png’ saved [3404/3404]
+
+--2015-04-29 22:14:50--  http://www.w3.org/Icons/valid-xhtml10
+Resolving www.w3.org... 128.30.52.37
+Connecting to www.w3.org|128.30.52.37|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1882 (1.8K) [image/png]
+Saving to: ‘39/www.w3.org/Icons/valid-xhtml10’
+
+     0K .                                                     100% 6.82M=0.00026s
+
+2015-04-29 22:14:51 (6.82 MB/s) - ‘39/www.w3.org/Icons/valid-xhtml10’ saved [1882/1882]
+
+FINISHED --2015-04-29 22:14:51--
+Total wall clock time: 0.64600
+Downloaded: 3 files, 16K in 0.00037 (43.7 MB/s)
+Converting 39/110.75.115.70/index.html... 2-1
+Converted 1 files in 0.00023 seconds.

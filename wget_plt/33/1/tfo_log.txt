@@ -1,0 +1,147 @@
+--2015-04-29 22:13:12--  http://140.205.142.18/
+Connecting to 140.205.142.18:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘33/140.205.142.18/index.html’
+
+     0K .......... .......... .......... .......... .......... 28.4K
+    50K .........                                               821K=1.76962s
+
+2015-04-29 22:13:14 (33.7 KB/s) - ‘33/140.205.142.18/index.html’ saved [60978]
+
+--2015-04-29 22:13:14--  http://a.tbcdn.cn/apps/e/base/favicon.ico
+Resolving a.tbcdn.cn... 66.198.178.110, 66.198.178.120
+Connecting to a.tbcdn.cn|66.198.178.110|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1150 (1.1K) [image/x-icon]
+Saving to: ‘33/a.tbcdn.cn/apps/e/base/favicon.ico’
+
+     0K .                                                     100% 87.7M=0.00001s
+
+2015-04-29 22:13:15 (87.7 MB/s) - ‘33/a.tbcdn.cn/apps/e/base/favicon.ico’ saved [1150/1150]
+
+--2015-04-29 22:13:15--  http://g.tbcdn.cn/kissy/k/1.4.3/??seed-min.js,import-style-min.js
+Resolving g.tbcdn.cn... 66.231.239.120, 66.231.239.110
+Connecting to g.tbcdn.cn|66.231.239.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 45402 (44K) [application/x-javascript]
+Saving to: ‘33/g.tbcdn.cn/kissy/k/1.4.3/index.html??seed-min.js,import-style-min.js’
+
+     0K .......... .......... .......... .......... ....      100%  476K=0.09318s
+
+2015-04-29 22:13:15 (476 KB/s) - ‘33/g.tbcdn.cn/kissy/k/1.4.3/index.html??seed-min.js,import-style-min.js’ saved [45402/45402]
+
+--2015-04-29 22:13:15--  http://g.tbcdn.cn/??etao/header/0.0.21/config.js,tb/tracker/1.0.16/index.js
+Reusing existing connection to g.tbcdn.cn:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 12518 (12K) [application/x-javascript]
+Saving to: ‘33/g.tbcdn.cn/index.html??etao%2Fheader%2F0.0.21%2Fconfig.js,tb%2Ftracker%2F1.0.16%2Findex.js’
+
+     0K .......... ..                                         100% 11.0M=0.00108s
+
+2015-04-29 22:13:15 (11.0 MB/s) - ‘33/g.tbcdn.cn/index.html??etao%2Fheader%2F0.0.21%2Fconfig.js,tb%2Ftracker%2F1.0.16%2Findex.js’ saved [12518/12518]
+
+--2015-04-29 22:13:15--  http://g.tbcdn.cn/??etao/treejs/0.2.0/tree-kissy-min.js,tbc/umpp/1.4.20/index-min.js
+Reusing existing connection to g.tbcdn.cn:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 31721 (31K) [application/x-javascript]
+Saving to: ‘33/g.tbcdn.cn/index.html??etao%2Ftreejs%2F0.2.0%2Ftree-kissy-min.js,tbc%2Fumpp%2F1.4.20%2Findex-min.js’
+
+     0K .......... .......... ..........                      100%  662K=0.04679s
+
+2015-04-29 22:13:15 (662 KB/s) - ‘33/g.tbcdn.cn/index.html??etao%2Ftreejs%2F0.2.0%2Ftree-kissy-min.js,tbc%2Fumpp%2F1.4.20%2Findex-min.js’ saved [31721/31721]
+
+--2015-04-29 22:13:15--  http://gtms02.alicdn.com/tps/i2/TB1pSl3GFXXXXXPXpXXW4780FXX-110-110.png
+Resolving gtms02.alicdn.com... 66.102.255.50, 66.102.255.40
+Connecting to gtms02.alicdn.com|66.102.255.50|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 5938 (5.8K) [image/png]
+Saving to: ‘33/gtms02.alicdn.com/tps/i2/TB1pSl3GFXXXXXPXpXXW4780FXX-110-110.png’
+
+     0K .....                                                 100%  505M=0.00001s
+
+2015-04-29 22:13:16 (505 MB/s) - ‘33/gtms02.alicdn.com/tps/i2/TB1pSl3GFXXXXXPXpXXW4780FXX-110-110.png’ saved [5938/5938]
+
+--2015-04-29 22:13:16--  http://gtms04.alicdn.com/tps/i4/TB1iUkeGFXXXXbUXpXXWDYrQXXX-1400-591.png
+Resolving gtms04.alicdn.com... 66.198.178.120, 66.198.178.110
+Connecting to gtms04.alicdn.com|66.198.178.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 197696 (193K) [image/png]
+Saving to: ‘33/gtms04.alicdn.com/tps/i4/TB1iUkeGFXXXXbUXpXXWDYrQXXX-1400-591.png’
+
+     0K .......... .......... .......... .......... .......... 25%  471K 0s
+    50K .......... .......... .......... .......... .......... 51%  624K 0s
+   100K .......... .......... .......... .......... .......... 77% 1.82M 0s
+   150K .......... .......... .......... .......... ...       100% 1.09M=0.25169s
+
+2015-04-29 22:13:16 (767 KB/s) - ‘33/gtms04.alicdn.com/tps/i4/TB1iUkeGFXXXXbUXpXXWDYrQXXX-1400-591.png’ saved [197696/197696]
+
+--2015-04-29 22:13:16--  http://gtms02.alicdn.com/tps/i2/TB1K87lGFXXXXXGXFXXSAOhOpXX-700-1493.png
+Connecting to gtms02.alicdn.com|66.102.255.50|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 109063 (107K) [image/png]
+Saving to: ‘33/gtms02.alicdn.com/tps/i2/TB1K87lGFXXXXXGXFXXSAOhOpXX-700-1493.png’
+
+     0K .......... .......... .......... .......... .......... 46%  198K 0s
+    50K .......... .......... .......... .......... .......... 93%  519K 0s
+   100K ......                                                100% 12411G=0.34884s
+
+2015-04-29 22:13:16 (305 KB/s) - ‘33/gtms02.alicdn.com/tps/i2/TB1K87lGFXXXXXGXFXXSAOhOpXX-700-1493.png’ saved [109063/109063]
+
+--2015-04-29 22:13:16--  http://gtms02.alicdn.com/tps/i2/TB1.bVCGFXXXXcWXFXXYXUO.pXX-1-347.png
+Reusing existing connection to gtms02.alicdn.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 140 [image/png]
+Saving to: ‘33/gtms02.alicdn.com/tps/i2/TB1.bVCGFXXXXcWXFXXYXUO.pXX-1-347.png’
+
+     0K                                                       100% 9.22M=0.00001s
+
+2015-04-29 22:13:17 (9.22 MB/s) - ‘33/gtms02.alicdn.com/tps/i2/TB1.bVCGFXXXXcWXFXXYXUO.pXX-1-347.png’ saved [140/140]
+
+--2015-04-29 22:13:17--  http://gtms03.alicdn.com/tps/i3/TB1ZRGfGFXXXXXWXXXXxDo0QpXX-300-300.png
+Resolving gtms03.alicdn.com... 66.198.178.110, 66.198.178.120
+Connecting to gtms03.alicdn.com|66.198.178.110|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 26803 (26K) [image/png]
+Saving to: ‘33/gtms03.alicdn.com/tps/i3/TB1ZRGfGFXXXXXWXXXXxDo0QpXX-300-300.png’
+
+     0K .......... .......... ......                          100%  778K=0.03363s
+
+2015-04-29 22:13:17 (778 KB/s) - ‘33/gtms03.alicdn.com/tps/i3/TB1ZRGfGFXXXXXWXXXXxDo0QpXX-300-300.png’ saved [26803/26803]
+
+--2015-04-29 22:13:17--  http://140.205.142.18/%3C%25%20pic%20%25%3E
+Connecting to 140.205.142.18:80... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2015-04-29 22:13:17 ERROR 404: Not Found.
+
+--2015-04-29 22:13:17--  http://140.205.142.18/%3C%25%20imageUrl%20%25%3E
+Reusing existing connection to 140.205.142.18:80.
+HTTP request sent, awaiting response... 404 Not Found
+2015-04-29 22:13:18 ERROR 404: Not Found.
+
+--2015-04-29 22:13:18--  http://g.tbcdn.cn/etao/tms/1.9.13/20141111.js
+Connecting to g.tbcdn.cn|66.231.239.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 5422 (5.3K) [application/x-javascript]
+Saving to: ‘33/g.tbcdn.cn/etao/tms/1.9.13/20141111.js’
+
+     0K .....                                                 100%  768M=0.00001s
+
+2015-04-29 22:13:18 (768 MB/s) - ‘33/g.tbcdn.cn/etao/tms/1.9.13/20141111.js’ saved [5422/5422]
+
+--2015-04-29 22:13:18--  http://gtms01.alicdn.com/tps/i1/T1BJFzFAJXXXaAKfZG-116-116.png_60x60.jpg
+Resolving gtms01.alicdn.com... 66.102.255.40, 66.102.255.50
+Connecting to gtms01.alicdn.com|66.102.255.40|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 4550 (4.4K) [image/png]
+Saving to: ‘33/gtms01.alicdn.com/tps/i1/T1BJFzFAJXXXaAKfZG-116-116.png_60x60.jpg’
+
+     0K ....                                                  100%  200M=0.00002s
+
+2015-04-29 22:13:18 (200 MB/s) - ‘33/gtms01.alicdn.com/tps/i1/T1BJFzFAJXXXaAKfZG-116-116.png_60x60.jpg’ saved [4550/4550]
+
+FINISHED --2015-04-29 22:13:18--
+Total wall clock time: 6.28239
+Downloaded: 12 files, 490K in 2.54490 (192 KB/s)
+Converting 33/140.205.142.18/index.html... 59-10
+Converted 1 files in 0.00342 seconds.

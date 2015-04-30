@@ -1,0 +1,125 @@
+--2015-04-29 23:41:36--  http://180.76.2.25/
+Connecting to 180.76.2.25:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: en/ [following]
+--2015-04-29 23:41:36--  http://180.76.2.25/en/
+Reusing existing connection to 180.76.2.25:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘116/180.76.2.25/index.html’
+
+     0K .......... .......... ..                               87.4K=0.25599s
+
+2015-04-29 23:41:37 (87.4 KB/s) - ‘116/180.76.2.25/index.html’ saved [22903]
+
+--2015-04-29 23:41:37--  http://180.76.2.25/static/css/ver5/home.css?ver=5
+Reusing existing connection to 180.76.2.25:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 12594 (12K) [text/css]
+Saving to: ‘116/180.76.2.25/static/css/ver5/home.css?ver=5’
+
+     0K .......... ..                                         100%  109M=0.00011s
+
+2015-04-29 23:41:37 (109 MB/s) - ‘116/180.76.2.25/static/css/ver5/home.css?ver=5’ saved [12594/12594]
+
+--2015-04-29 23:41:37--  http://180.76.2.25/static/css/ver5/animate.min.css
+Reusing existing connection to 180.76.2.25:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 16922 (17K) [text/css]
+Saving to: ‘116/180.76.2.25/static/css/ver5/animate.min.css’
+
+     0K .......... ......                                     100% 65.2K=0.25350s
+
+2015-04-29 23:41:38 (65.2 KB/s) - ‘116/180.76.2.25/static/css/ver5/animate.min.css’ saved [16922/16922]
+
+--2015-04-29 23:41:38--  http://180.76.2.25/static/img/index/cleaner.png
+Reusing existing connection to 180.76.2.25:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 6302 (6.2K) [image/png]
+Saving to: ‘116/180.76.2.25/static/img/index/cleaner.png’
+
+     0K ......                                                100% 5.18M=0.00116s
+
+2015-04-29 23:41:38 (5.18 MB/s) - ‘116/180.76.2.25/static/img/index/cleaner.png’ saved [6302/6302]
+
+--2015-04-29 23:41:38--  http://180.76.2.25/static/js/jquery_1.11.1.js
+Reusing existing connection to 180.76.2.25:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 95785 (94K) [application/javascript]
+Saving to: ‘116/180.76.2.25/static/js/jquery_1.11.1.js’
+
+     0K .......... .......... .......... .......... .......... 53% 65.2K 1s
+    50K .......... .......... .......... .......... ...       100% 56.9K=1.53203s
+
+2015-04-29 23:41:40 (61.1 KB/s) - ‘116/180.76.2.25/static/js/jquery_1.11.1.js’ saved [95785/95785]
+
+--2015-04-29 23:41:40--  http://180.76.2.25/static/js/base_ver5.js?ver=5
+Reusing existing connection to 180.76.2.25:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 4733 (4.6K) [application/javascript]
+Saving to: ‘116/180.76.2.25/static/js/base_ver5.js?ver=5’
+
+     0K ....                                                  100% 8.76M=0.00052s
+
+2015-04-29 23:41:40 (8.76 MB/s) - ‘116/180.76.2.25/static/js/base_ver5.js?ver=5’ saved [4733/4733]
+
+--2015-04-29 23:41:40--  http://180.76.2.25/static/js/2014_index.js?ver=5
+Reusing existing connection to 180.76.2.25:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 6673 (6.5K) [application/javascript]
+Saving to: ‘116/180.76.2.25/static/js/2014_index.js?ver=5’
+
+     0K ......                                                100% 3.50M=0.00182s
+
+2015-04-29 23:41:40 (3.50 MB/s) - ‘116/180.76.2.25/static/js/2014_index.js?ver=5’ saved [6673/6673]
+
+--2015-04-29 23:41:40--  http://www.googleadservices.com/pagead/conversion.js
+Resolving www.googleadservices.com... 216.58.219.226
+Connecting to www.googleadservices.com|216.58.219.226|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/javascript]
+Saving to: ‘116/www.googleadservices.com/pagead/conversion.js’
+
+     0K ..........                                             26.8M=0.00038s
+
+2015-04-29 23:41:40 (26.8 MB/s) - ‘116/www.googleadservices.com/pagead/conversion.js’ saved [10642]
+
+--2015-04-29 23:41:40--  http://180.76.2.25/static/img/ver5/index_bg.png?ver=2
+Connecting to 180.76.2.25:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 19723 (19K) [image/png]
+Saving to: ‘116/180.76.2.25/static/img/ver5/index_bg.png?ver=2’
+
+     0K .......... .........                                  100% 78.4K=0.24558s
+
+2015-04-29 23:41:41 (78.4 KB/s) - ‘116/180.76.2.25/static/img/ver5/index_bg.png?ver=2’ saved [19723/19723]
+
+--2015-04-29 23:41:41--  http://180.76.2.25/static/img/ver5/first-screen.jpg
+Reusing existing connection to 180.76.2.25:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 103314 (101K) [image/jpeg]
+Saving to: ‘116/180.76.2.25/static/img/ver5/first-screen.jpg’
+
+     0K .......... .......... .......... .......... .......... 49% 68.8K 1s
+    50K .......... .......... .......... .......... .......... 99% 52.3K 0s
+   100K                                                       100% 1702G=1.68290s
+
+2015-04-29 23:41:43 (60.0 KB/s) - ‘116/180.76.2.25/static/img/ver5/first-screen.jpg’ saved [103314/103314]
+
+--2015-04-29 23:41:43--  http://180.76.2.25/static/img/ver5/fblink-es.png
+Reusing existing connection to 180.76.2.25:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 5244 (5.1K) [image/png]
+Saving to: ‘116/180.76.2.25/static/img/ver5/fblink-es.png’
+
+     0K .....                                                 100% 9.20M=0.00054s
+
+2015-04-29 23:41:43 (9.20 MB/s) - ‘116/180.76.2.25/static/img/ver5/fblink-es.png’ saved [5244/5244]
+
+FINISHED --2015-04-29 23:41:43--
+Total wall clock time: 7.37756
+Downloaded: 11 files, 298K in 3.97454 (74.9 KB/s)
+Converting 116/180.76.2.25/index.html... 10-20
+Converting 116/180.76.2.25/static/css/ver5/home.css?ver=5... 13-0
+Converting 116/180.76.2.25/static/css/ver5/animate.min.css... nothing to do.
+Converted 3 files in 0.00211 seconds.

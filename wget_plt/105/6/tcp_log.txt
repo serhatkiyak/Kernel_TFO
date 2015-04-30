@@ -1,0 +1,46 @@
+--2015-04-29 23:39:09--  http://216.58.217.137/
+Connecting to 216.58.217.137:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Cookie coming from 216.58.217.137 attempted to set domain to 
+Length: unspecified [text/html]
+Saving to: ‘105/216.58.217.137/index.html’
+
+     0K .......... .......                                      683K=0.02546s
+
+2015-04-29 23:39:09 (683 KB/s) - ‘105/216.58.217.137/index.html’ saved [17802]
+
+--2015-04-29 23:39:09--  http://216.58.217.137/images/srpr/nav_logo80.png
+Reusing existing connection to 216.58.217.137:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 35615 (35K) [image/png]
+Saving to: ‘105/216.58.217.137/images/srpr/nav_logo80.png’
+
+     0K .......... .......... .......... ....                 100% 1.92M=0.01767s
+
+2015-04-29 23:39:09 (1.92 MB/s) - ‘105/216.58.217.137/images/srpr/nav_logo80.png’ saved [35615/35615]
+
+--2015-04-29 23:39:09--  http://216.58.217.137/images/icons/product/chrome-48.png
+Reusing existing connection to 216.58.217.137:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1834 (1.8K) [image/png]
+Saving to: ‘105/216.58.217.137/images/icons/product/chrome-48.png’
+
+     0K .                                                     100% 82.6M=0.00002s
+
+2015-04-29 23:39:09 (82.6 MB/s) - ‘105/216.58.217.137/images/icons/product/chrome-48.png’ saved [1834/1834]
+
+--2015-04-29 23:39:09--  http://216.58.217.137/images/srpr/logo9w.png
+Reusing existing connection to 216.58.217.137:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 8228 (8.0K) [image/png]
+Saving to: ‘105/216.58.217.137/images/srpr/logo9w.png’
+
+     0K ........                                              100% 6.60M=0.00119s
+
+2015-04-29 23:39:09 (6.60 MB/s) - ‘105/216.58.217.137/images/srpr/logo9w.png’ saved [8228/8228]
+
+FINISHED --2015-04-29 23:39:09--
+Total wall clock time: 0.20549
+Downloaded: 4 files, 62K in 0.04434 (1.37 MB/s)
+Converting 105/216.58.217.137/index.html... 4-11
+Converted 1 files in 0.00042 seconds.

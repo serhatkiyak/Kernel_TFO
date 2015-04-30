@@ -1,0 +1,792 @@
+--2015-04-29 23:16:22--  http://58.83.142.135/
+Connecting to 58.83.142.135:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://www.meituan.com/ [following]
+--2015-04-29 23:16:23--  http://www.meituan.com/
+Resolving www.meituan.com... 211.151.229.99, 211.151.229.80
+Connecting to www.meituan.com|211.151.229.99|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘96/58.83.142.135/index.html’
+
+     0K .......... .......... .......... .......... .......... 87.7K
+    50K .......... .......... .......... .......... .......... 90.7K
+   100K .......... .......... .......... .......... .......... 90.0K
+   150K .......... .......... .......... .......... ..........  180K
+   200K .......... .......... .......... .......... ....       2.61M=1.97213s
+
+2015-04-29 23:16:26 (124 KB/s) - ‘96/58.83.142.135/index.html’ saved [250352]
+
+--2015-04-29 23:16:26--  http://www.meituan.com/favicon.ico
+Reusing existing connection to www.meituan.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1150 (1.1K) [image/x-icon]
+Saving to: ‘96/www.meituan.com/favicon.ico’
+
+     0K .                                                     100% 65.4M=0.00002s
+
+2015-04-29 23:16:26 (65.4 MB/s) - ‘96/www.meituan.com/favicon.ico’ saved [1150/1150]
+
+--2015-04-29 23:16:26--  http://www.meituan.com/',this.getUrl(b),'
+Reusing existing connection to www.meituan.com:80.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://www.meituan.com/',this.getUrl(b),'/ [following]
+--2015-04-29 23:16:26--  http://www.meituan.com/',this.getUrl(b),'/
+Reusing existing connection to www.meituan.com:80.
+HTTP request sent, awaiting response... 404 Not Found
+2015-04-29 23:16:27 ERROR 404: Not Found.
+
+--2015-04-29 23:16:27--  http://c.meituan.net/combo/?f=/www/css/common.v4171ed90.css;/www/css/base.vbdfe49ef.css;/www/css/search-box.vd03866d5.css;/www/css/cate-nav.vebe2aff5.css
+Resolving c.meituan.net... 163.177.169.100, 112.90.148.14, 111.202.7.29, ...
+Connecting to c.meituan.net|163.177.169.100|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 171241 (167K) [text/css]
+Saving to: ‘96/c.meituan.net/combo/index.html?f=%2Fwww%2Fcss%2Fcommon.v4171ed90.css;%2Fwww%2Fcss%2Fbase.vbdfe49ef.css;%2Fwww%2Fcss%2Fsearch-box.vd03866d5.css;%2Fwww%2Fcss%2Fcate-nav.vebe2aff5.css’
+
+     0K .......... .......... .......... .......... .......... 29%  107K 1s
+    50K .......... .......... .......... .......... .......... 59%  259K 0s
+   100K .......... .......... .......... .......... .......... 89%  339K 0s
+   150K .......... .......                                    100%  513K=0.84185s
+
+2015-04-29 23:16:29 (199 KB/s) - ‘96/c.meituan.net/combo/index.html?f=%2Fwww%2Fcss%2Fcommon.v4171ed90.css;%2Fwww%2Fcss%2Fbase.vbdfe49ef.css;%2Fwww%2Fcss%2Fsearch-box.vd03866d5.css;%2Fwww%2Fcss%2Fcate-nav.vebe2aff5.css’ saved [171241/171241]
+
+--2015-04-29 23:16:29--  http://c.meituan.net/combo/?f=/www/css/changecity.v9d08aff8.css
+Reusing existing connection to c.meituan.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2928 (2.9K) [text/css]
+Saving to: ‘96/c.meituan.net/combo/index.html?f=%2Fwww%2Fcss%2Fchangecity.v9d08aff8.css’
+
+     0K ..                                                    100% 2.06M=0.00136s
+
+2015-04-29 23:16:29 (2.06 MB/s) - ‘96/c.meituan.net/combo/index.html?f=%2Fwww%2Fcss%2Fchangecity.v9d08aff8.css’ saved [2928/2928]
+
+The name is too long, 1284 chars total.
+Trying to shorten...
+New name is index.html?f=mt-web-core-min.v3.16.0.js;www%2Fjs%2Finline%2Fconf-min.v87622123.js;fecore%2Fmt-core%2Fmt-core-min.v0590d4d9.js;fecore%2Fmt-base%2Fmt-base-min.v15b395a3.js;fecore%2Fmt-uiutil%2Fmt-uiutil-min.v3ee76d1b.js;fecore%2Fmt-window.
+The name is too long, 1284 chars total.
+Trying to shorten...
+New name is index.html?f=mt-web-core-min.v3.16.0.js;www%2Fjs%2Finline%2Fconf-min.v87622123.js;fecore%2Fmt-core%2Fmt-core-min.v0590d4d9.js;fecore%2Fmt-base%2Fmt-base-min.v15b395a3.js;fecore%2Fmt-uiutil%2Fmt-uiutil-min.v3ee76d1b.js;fecore%2Fmt-window.
+--2015-04-29 23:16:29--  http://c.meituan.net/combo/?f=mt-web-core-min.v3.16.0.js;www/js/inline/conf-min.v87622123.js;fecore/mt-core/mt-core-min.v0590d4d9.js;fecore/mt-base/mt-base-min.v15b395a3.js;fecore/mt-uiutil/mt-uiutil-min.v3ee76d1b.js;fecore/mt-window/mt-window-min.v1e88af0c.js;fecore/mt-event/mt-event-min.v42245138.js;fecore/mt-event-hover/mt-event-hover-min.v453b1323.js;fecore/mt-component/mt-component-min.ve3345f6f.js;fecore/mt-viewporttracker/mt-viewporttracker-min.vae8a3ff1.js;fecore/mt-bigrender/mt-bigrender-min.v62f48709.js;fecore/mt-imageloader/mt-imageloader-min.vfe7667b5.js;fecore/mt-ajax/mt-ajax-min.vba8e887f.js;fecore/uix-dropdown/uix-dropdown-min.v06c153d5.js;fecore/p-node-placeholder/p-node-placeholder-min.v6107f6dc.js;fecore/p-node-effect/p-node-effect-min.va5d2a9e5.js;www/js/base-min.v1fcee98c.js;www/js/tracker-min.v19a834fc.js;www/js/hub-min.vd8d96f51.js;www/component/search-box/search-box-min.v8b003c22.js;www/component/cate-nav/cate-nav-min.vc1e8b5c2.js;fecore/mt-ngparser/mt-ngparser-min.vd6767290.js;fecore/mt-scope/mt-scope-min.vf23007ec.js;fecore/mt-validator/mt-validator-min.va059e90c.js;fecore/mt-autoinit/mt-autoinit-min.v8c4b64e2.js;fecore/mt-bind/mt-bind-min.v0e51b36d.js
+Reusing existing connection to c.meituan.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 121668 (119K) [application/x-javascript]
+Saving to: ‘96/c.meituan.net/combo/index.html?f=mt-web-core-min.v3.16.0.js;www%2Fjs%2Finline%2Fconf-min.v87622123.js;fecore%2Fmt-core%2Fmt-core-min.v0590d4d9.js;fecore%2Fmt-base%2Fmt-base-min.v15b395a3.js;fecore%2Fmt-uiutil%2Fmt-uiutil-min.v3ee76d1b.js;fecore%2Fmt-window’
+
+     0K .......... .......... .......... .......... .......... 42% 3.29M 0s
+    50K .......... .......... .......... .......... .......... 84% 2.90M 0s
+   100K .......... ........                                   100% 3.24M=0.03736s
+
+2015-04-29 23:16:29 (3.11 MB/s) - ‘96/c.meituan.net/combo/index.html?f=mt-web-core-min.v3.16.0.js;www%2Fjs%2Finline%2Fconf-min.v87622123.js;fecore%2Fmt-core%2Fmt-core-min.v0590d4d9.js;fecore%2Fmt-base%2Fmt-base-min.v15b395a3.js;fecore%2Fmt-uiutil%2Fmt-uiutil-min.v3ee76d1b.js;fecore%2Fmt-window’ saved [121668/121668]
+
+--2015-04-29 23:16:29--  http://c.meituan.net/combo/?f=fecore/deps-mr-min.vdef2516a.js;vendor/deps-mr-min.v055e5580.js;www/deps-mr-min.vbe4f6209.js;/www/js/inline/init-min.v7751681b.js
+Reusing existing connection to c.meituan.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 37858 (37K) [application/x-javascript]
+Saving to: ‘96/c.meituan.net/combo/index.html?f=fecore%2Fdeps-mr-min.vdef2516a.js;vendor%2Fdeps-mr-min.v055e5580.js;www%2Fdeps-mr-min.vbe4f6209.js;%2Fwww%2Fjs%2Finline%2Finit-min.v7751681b.js’
+
+     0K .......... .......... .......... ......               100% 1.41M=0.02566s
+
+2015-04-29 23:16:30 (1.41 MB/s) - ‘96/c.meituan.net/combo/index.html?f=fecore%2Fdeps-mr-min.vdef2516a.js;vendor%2Fdeps-mr-min.v055e5580.js;www%2Fdeps-mr-min.vbe4f6209.js;%2Fwww%2Fjs%2Finline%2Finit-min.v7751681b.js’ saved [37858/37858]
+
+--2015-04-29 23:16:30--  http://s1.meituan.net/www/css/si/close.v04cd7d81.png
+Resolving s1.meituan.net... 111.202.7.29, 123.159.202.136, 36.250.90.5, ...
+Connecting to s1.meituan.net|111.202.7.29|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 449 [image/png]
+Saving to: ‘96/s1.meituan.net/www/css/si/close.v04cd7d81.png’
+
+     0K                                                       100%  106M=0.00000s
+
+2015-04-29 23:16:31 (106 MB/s) - ‘96/s1.meituan.net/www/css/si/close.v04cd7d81.png’ saved [449/449]
+
+--2015-04-29 23:16:31--  http://s0.meituan.net/www/css/si/icon-status.vd6b9c1a3.png
+Resolving s0.meituan.net... 183.95.152.2, 27.195.146.10, 210.76.58.79, ...
+Connecting to s0.meituan.net|183.95.152.2|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 5936 (5.8K) [image/png]
+Saving to: ‘96/s0.meituan.net/www/css/si/icon-status.vd6b9c1a3.png’
+
+     0K .....                                                 100%  245M=0.00002s
+
+2015-04-29 23:16:32 (245 MB/s) - ‘96/s0.meituan.net/www/css/si/icon-status.vd6b9c1a3.png’ saved [5936/5936]
+
+--2015-04-29 23:16:32--  http://s1.meituan.net/www/css/si/dialog.v641a3701.png
+Connecting to s1.meituan.net|111.202.7.29|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3836 (3.7K) [image/png]
+Saving to: ‘96/s1.meituan.net/www/css/si/dialog.v641a3701.png’
+
+     0K ...                                                   100% 21.4M=0.00017s
+
+2015-04-29 23:16:33 (21.4 MB/s) - ‘96/s1.meituan.net/www/css/si/dialog.v641a3701.png’ saved [3836/3836]
+
+--2015-04-29 23:16:33--  http://s0.meituan.net/www/css/i/icon-loading16x16.vecf78228.gif
+Connecting to s0.meituan.net|183.95.152.2|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1861 (1.8K) [image/gif]
+Saving to: ‘96/s0.meituan.net/www/css/i/icon-loading16x16.vecf78228.gif’
+
+     0K .                                                     100% 97.2M=0.00002s
+
+2015-04-29 23:16:33 (97.2 MB/s) - ‘96/s0.meituan.net/www/css/i/icon-loading16x16.vecf78228.gif’ saved [1861/1861]
+
+--2015-04-29 23:16:33--  http://s0.meituan.net/www/css/si/icon-login.v7cf1a4cc.png
+Reusing existing connection to s0.meituan.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 7380 (7.2K) [image/png]
+Saving to: ‘96/s0.meituan.net/www/css/si/icon-login.v7cf1a4cc.png’
+
+     0K .......                                               100% 13.2M=0.00053s
+
+2015-04-29 23:16:34 (13.2 MB/s) - ‘96/s0.meituan.net/www/css/si/icon-login.v7cf1a4cc.png’ saved [7380/7380]
+
+--2015-04-29 23:16:34--  http://s0.meituan.net/www/css/si/icon-oauth.vd9a227af.png
+Reusing existing connection to s0.meituan.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 6196 (6.1K) [image/png]
+Saving to: ‘96/s0.meituan.net/www/css/si/icon-oauth.vd9a227af.png’
+
+     0K ......                                                100%  230K=0.02627s
+
+2015-04-29 23:16:34 (230 KB/s) - ‘96/s0.meituan.net/www/css/si/icon-oauth.vd9a227af.png’ saved [6196/6196]
+
+--2015-04-29 23:16:34--  http://s0.meituan.net/www/css/si/retrieve.v3f9fcc2a.png
+Reusing existing connection to s0.meituan.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2499 (2.4K) [image/png]
+Saving to: ‘96/s0.meituan.net/www/css/si/retrieve.v3f9fcc2a.png’
+
+     0K ..                                                    100%  356K=0.00686s
+
+2015-04-29 23:16:35 (356 KB/s) - ‘96/s0.meituan.net/www/css/si/retrieve.v3f9fcc2a.png’ saved [2499/2499]
+
+--2015-04-29 23:16:35--  http://s1.meituan.net/www/css/i/bg-loading-small-32.v67c45a9d.gif
+Connecting to s1.meituan.net|111.202.7.29|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2306 (2.3K) [image/gif]
+Saving to: ‘96/s1.meituan.net/www/css/i/bg-loading-small-32.v67c45a9d.gif’
+
+     0K ..                                                    100%  234M=0.00001s
+
+2015-04-29 23:16:35 (234 MB/s) - ‘96/s1.meituan.net/www/css/i/bg-loading-small-32.v67c45a9d.gif’ saved [2306/2306]
+
+--2015-04-29 23:16:35--  http://s1.meituan.net/www/css/i/bg-loading-small-64.vbe849a4b.gif
+Reusing existing connection to s1.meituan.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 3628 (3.5K) [image/gif]
+Saving to: ‘96/s1.meituan.net/www/css/i/bg-loading-small-64.vbe849a4b.gif’
+
+     0K ...                                                   100%  183M=0.00002s
+
+2015-04-29 23:16:35 (183 MB/s) - ‘96/s1.meituan.net/www/css/i/bg-loading-small-64.vbe849a4b.gif’ saved [3628/3628]
+
+--2015-04-29 23:16:35--  http://s1.meituan.net/www/css/i/bg-loading-normal-32.vf9892dc5.gif
+Reusing existing connection to s1.meituan.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 3799 (3.7K) [image/gif]
+Saving to: ‘96/s1.meituan.net/www/css/i/bg-loading-normal-32.vf9892dc5.gif’
+
+     0K ...                                                   100%  447K=0.00830s
+
+2015-04-29 23:16:36 (447 KB/s) - ‘96/s1.meituan.net/www/css/i/bg-loading-normal-32.vf9892dc5.gif’ saved [3799/3799]
+
+--2015-04-29 23:16:36--  http://s0.meituan.net/www/css/i/bg-loading-normal-64.v0d1eb714.gif
+Connecting to s0.meituan.net|183.95.152.2|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 7275 (7.1K) [image/gif]
+Saving to: ‘96/s0.meituan.net/www/css/i/bg-loading-normal-64.v0d1eb714.gif’
+
+     0K .......                                               100%  341M=0.00002s
+
+2015-04-29 23:16:36 (341 MB/s) - ‘96/s0.meituan.net/www/css/i/bg-loading-normal-64.v0d1eb714.gif’ saved [7275/7275]
+
+--2015-04-29 23:16:36--  http://s1.meituan.net/www/css/i/bg-loading-large-32.v28956a7f.gif
+Connecting to s1.meituan.net|111.202.7.29|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3496 (3.4K) [image/gif]
+Saving to: ‘96/s1.meituan.net/www/css/i/bg-loading-large-32.v28956a7f.gif’
+
+     0K ...                                                   100%  177M=0.00002s
+
+2015-04-29 23:16:37 (177 MB/s) - ‘96/s1.meituan.net/www/css/i/bg-loading-large-32.v28956a7f.gif’ saved [3496/3496]
+
+--2015-04-29 23:16:37--  http://s1.meituan.net/www/css/i/bg-loading-large-100.va65630ce.gif
+Reusing existing connection to s1.meituan.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 6975 (6.8K) [image/gif]
+Saving to: ‘96/s1.meituan.net/www/css/i/bg-loading-large-100.va65630ce.gif’
+
+     0K ......                                                100%  311M=0.00002s
+
+2015-04-29 23:16:38 (311 MB/s) - ‘96/s1.meituan.net/www/css/i/bg-loading-large-100.va65630ce.gif’ saved [6975/6975]
+
+--2015-04-29 23:16:38--  http://s1.meituan.net/www/css/si/eventsp.v217f94e4.png
+Reusing existing connection to s1.meituan.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 10059 (9.8K) [image/png]
+Saving to: ‘96/s1.meituan.net/www/css/si/eventsp.v217f94e4.png’
+
+     0K .........                                             100% 25.5K=0.38448s
+
+2015-04-29 23:16:38 (25.5 KB/s) - ‘96/s1.meituan.net/www/css/si/eventsp.v217f94e4.png’ saved [10059/10059]
+
+--2015-04-29 23:16:38--  http://s1.meituan.net/www/css/si/slider.v32cb9c24.png
+Reusing existing connection to s1.meituan.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1147 (1.1K) [image/png]
+Saving to: ‘96/s1.meituan.net/www/css/si/slider.v32cb9c24.png’
+
+     0K .                                                     100% 39.2K=0.02856s
+
+2015-04-29 23:16:39 (39.2 KB/s) - ‘96/s1.meituan.net/www/css/si/slider.v32cb9c24.png’ saved [1147/1147]
+
+--2015-04-29 23:16:39--  http://s0.meituan.net/www/css/i/inline/common/icon-faq-new.v78153cbf.png
+Connecting to s0.meituan.net|183.95.152.2|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 112 [image/png]
+Saving to: ‘96/s0.meituan.net/www/css/i/inline/common/icon-faq-new.v78153cbf.png’
+
+     0K                                                       100% 6.13M=0.00002s
+
+2015-04-29 23:16:39 (6.13 MB/s) - ‘96/s0.meituan.net/www/css/i/inline/common/icon-faq-new.v78153cbf.png’ saved [112/112]
+
+--2015-04-29 23:16:39--  http://s0.meituan.net/www/css/si/common.ve827c4d9.png
+Reusing existing connection to s0.meituan.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 744 [image/png]
+Saving to: ‘96/s0.meituan.net/www/css/si/common.ve827c4d9.png’
+
+     0K                                                       100% 46.7M=0.00002s
+
+2015-04-29 23:16:40 (46.7 MB/s) - ‘96/s0.meituan.net/www/css/si/common.ve827c4d9.png’ saved [744/744]
+
+--2015-04-29 23:16:40--  http://s1.meituan.net/www/css/si/base.vfa2b4bb2.png
+Connecting to s1.meituan.net|111.202.7.29|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2251 (2.2K) [image/png]
+Saving to: ‘96/s1.meituan.net/www/css/si/base.vfa2b4bb2.png’
+
+     0K ..                                                    100%  103M=0.00002s
+
+2015-04-29 23:16:40 (103 MB/s) - ‘96/s1.meituan.net/www/css/si/base.vfa2b4bb2.png’ saved [2251/2251]
+
+--2015-04-29 23:16:40--  http://s1.meituan.net/www/css/si/buy.v3bab9b3b.png
+Reusing existing connection to s1.meituan.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 4175 (4.1K) [image/png]
+Saving to: ‘96/s1.meituan.net/www/css/si/buy.v3bab9b3b.png’
+
+     0K ....                                                  100%  205M=0.00002s
+
+2015-04-29 23:16:40 (205 MB/s) - ‘96/s1.meituan.net/www/css/si/buy.v3bab9b3b.png’ saved [4175/4175]
+
+--2015-04-29 23:16:40--  http://s1.meituan.net/www/css/si/qrcode.v0caaea92.png
+Reusing existing connection to s1.meituan.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 95268 (93K) [image/png]
+Saving to: ‘96/s1.meituan.net/www/css/si/qrcode.v0caaea92.png’
+
+     0K .......... .......... .......... .......... .......... 53%  168K 0s
+    50K .......... .......... .......... .......... ...       100%  373K=0.41270s
+
+2015-04-29 23:16:41 (225 KB/s) - ‘96/s1.meituan.net/www/css/si/qrcode.v0caaea92.png’ saved [95268/95268]
+
+--2015-04-29 23:16:41--  http://s0.meituan.net/www/css/si/growth-icons.v7acbd41a.png
+Connecting to s0.meituan.net|183.95.152.2|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3740 (3.7K) [image/png]
+Saving to: ‘96/s0.meituan.net/www/css/si/growth-icons.v7acbd41a.png’
+
+     0K ...                                                   100%  216M=0.00002s
+
+2015-04-29 23:16:42 (216 MB/s) - ‘96/s0.meituan.net/www/css/si/growth-icons.v7acbd41a.png’ saved [3740/3740]
+
+--2015-04-29 23:16:42--  http://s0.meituan.net/www/css/si/icon-caret.vb682116e.png
+Reusing existing connection to s0.meituan.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 268 [image/png]
+Saving to: ‘96/s0.meituan.net/www/css/si/icon-caret.vb682116e.png’
+
+     0K                                                       100% 17.6M=0.00001s
+
+2015-04-29 23:16:42 (17.6 MB/s) - ‘96/s0.meituan.net/www/css/si/icon-caret.vb682116e.png’ saved [268/268]
+
+--2015-04-29 23:16:42--  http://s1.meituan.net/www/css/si/icon-share.v3bdab9bf.png
+Connecting to s1.meituan.net|111.202.7.29|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1406 (1.4K) [image/png]
+Saving to: ‘96/s1.meituan.net/www/css/si/icon-share.v3bdab9bf.png’
+
+     0K .                                                     100% 6.38M=0.00021s
+
+2015-04-29 23:16:43 (6.38 MB/s) - ‘96/s1.meituan.net/www/css/si/icon-share.v3bdab9bf.png’ saved [1406/1406]
+
+--2015-04-29 23:16:43--  http://s1.meituan.net/www/css/si/sidebar.v5c06e548.png
+Reusing existing connection to s1.meituan.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 61426 (60K) [image/png]
+Saving to: ‘96/s1.meituan.net/www/css/si/sidebar.v5c06e548.png’
+
+     0K .......... .......... .......... .......... .......... 83% 93.3K 0s
+    50K .........                                             100%  195K=0.58712s
+
+2015-04-29 23:16:44 (102 KB/s) - ‘96/s1.meituan.net/www/css/si/sidebar.v5c06e548.png’ saved [61426/61426]
+
+--2015-04-29 23:16:44--  http://s0.meituan.net/www/css/si/deal.v641117e8.png
+Connecting to s0.meituan.net|183.95.152.2|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 4062 (4.0K) [image/png]
+Saving to: ‘96/s0.meituan.net/www/css/si/deal.v641117e8.png’
+
+     0K ...                                                   100%  215M=0.00002s
+
+2015-04-29 23:16:44 (215 MB/s) - ‘96/s0.meituan.net/www/css/si/deal.v641117e8.png’ saved [4062/4062]
+
+--2015-04-29 23:16:44--  http://s0.meituan.net/www/css/si/filter.v026de7d5.png
+Reusing existing connection to s0.meituan.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 657 [image/png]
+Saving to: ‘96/s0.meituan.net/www/css/si/filter.v026de7d5.png’
+
+     0K                                                       100% 47.6M=0.00001s
+
+2015-04-29 23:16:45 (47.6 MB/s) - ‘96/s0.meituan.net/www/css/si/filter.v026de7d5.png’ saved [657/657]
+
+--2015-04-29 23:16:45--  http://s1.meituan.net/www/css/si/icon-filter.vf6f41a64.png
+Connecting to s1.meituan.net|111.202.7.29|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1291 (1.3K) [image/png]
+Saving to: ‘96/s1.meituan.net/www/css/si/icon-filter.vf6f41a64.png’
+
+     0K .                                                     100%  277M=0.00000s
+
+2015-04-29 23:16:45 (277 MB/s) - ‘96/s1.meituan.net/www/css/si/icon-filter.vf6f41a64.png’ saved [1291/1291]
+
+--2015-04-29 23:16:45--  http://s0.meituan.net/www/css/si/icon-broswer.vc82e6d33.png
+Connecting to s0.meituan.net|183.95.152.2|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 48177 (47K) [image/png]
+Saving to: ‘96/s0.meituan.net/www/css/si/icon-broswer.vc82e6d33.png’
+
+     0K .......... .......... .......... .......... .......   100%  136K=0.34583s
+
+2015-04-29 23:16:46 (136 KB/s) - ‘96/s0.meituan.net/www/css/si/icon-broswer.vc82e6d33.png’ saved [48177/48177]
+
+--2015-04-29 23:16:46--  http://s0.meituan.net/www/css/si/footer.vfd204291.png
+Reusing existing connection to s0.meituan.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 8127 (7.9K) [image/png]
+Saving to: ‘96/s0.meituan.net/www/css/si/footer.vfd204291.png’
+
+     0K .......                                               100%  556K=0.01428s
+
+2015-04-29 23:16:46 (556 KB/s) - ‘96/s0.meituan.net/www/css/si/footer.vfd204291.png’ saved [8127/8127]
+
+--2015-04-29 23:16:46--  http://s0.meituan.net/www/css/i/double-up-arrow.v7e183247.png
+Reusing existing connection to s0.meituan.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 108 [image/png]
+Saving to: ‘96/s0.meituan.net/www/css/i/double-up-arrow.v7e183247.png’
+
+     0K                                                       100% 5.08M=0.00002s
+
+2015-04-29 23:16:47 (5.08 MB/s) - ‘96/s0.meituan.net/www/css/i/double-up-arrow.v7e183247.png’ saved [108/108]
+
+--2015-04-29 23:16:47--  http://s1.meituan.net/www/css/i/double-down-arrow.vee8ff5af.png
+Connecting to s1.meituan.net|111.202.7.29|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 108 [image/png]
+Saving to: ‘96/s1.meituan.net/www/css/i/double-down-arrow.vee8ff5af.png’
+
+     0K                                                       100%  318K=0.00033s
+
+2015-04-29 23:16:48 (318 KB/s) - ‘96/s1.meituan.net/www/css/i/double-down-arrow.vee8ff5af.png’ saved [108/108]
+
+--2015-04-29 23:16:48--  http://s0.meituan.net/www/css/i/logo-license-zhejiang.vb9885291.png
+Connecting to s0.meituan.net|183.95.152.2|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1821 (1.8K) [image/png]
+Saving to: ‘96/s0.meituan.net/www/css/i/logo-license-zhejiang.vb9885291.png’
+
+     0K .                                                     100% 96.6M=0.00002s
+
+2015-04-29 23:16:48 (96.6 MB/s) - ‘96/s0.meituan.net/www/css/i/logo-license-zhejiang.vb9885291.png’ saved [1821/1821]
+
+--2015-04-29 23:16:48--  http://s1.meituan.net/www/css/i/logo-license-shanghai.v8dc482ff.png
+Connecting to s1.meituan.net|111.202.7.29|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1687 (1.6K) [image/png]
+Saving to: ‘96/s1.meituan.net/www/css/i/logo-license-shanghai.v8dc482ff.png’
+
+     0K .                                                     100% 4.13M=0.00039s
+
+2015-04-29 23:16:49 (4.13 MB/s) - ‘96/s1.meituan.net/www/css/i/logo-license-shanghai.v8dc482ff.png’ saved [1687/1687]
+
+--2015-04-29 23:16:49--  http://s1.meituan.net/www/css/i/logo-license-shandong.v904e89de.png
+Reusing existing connection to s1.meituan.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 3970 (3.9K) [image/png]
+Saving to: ‘96/s1.meituan.net/www/css/i/logo-license-shandong.v904e89de.png’
+
+     0K ...                                                   100% 77.9M=0.00005s
+
+2015-04-29 23:16:49 (77.9 MB/s) - ‘96/s1.meituan.net/www/css/i/logo-license-shandong.v904e89de.png’ saved [3970/3970]
+
+--2015-04-29 23:16:49--  http://s0.meituan.net/www/css/i/logo-gongshang-chongqing.v0837173c.png
+Connecting to s0.meituan.net|183.95.152.2|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 4649 (4.5K) [image/png]
+Saving to: ‘96/s0.meituan.net/www/css/i/logo-gongshang-chongqing.v0837173c.png’
+
+     0K ....                                                  100%  226M=0.00002s
+
+2015-04-29 23:16:50 (226 MB/s) - ‘96/s0.meituan.net/www/css/i/logo-gongshang-chongqing.v0837173c.png’ saved [4649/4649]
+
+--2015-04-29 23:16:50--  http://s1.meituan.net/www/css/i/content-title-bg.v72711a86.png
+Connecting to s1.meituan.net|111.202.7.29|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 128 [image/png]
+Saving to: ‘96/s1.meituan.net/www/css/i/content-title-bg.v72711a86.png’
+
+     0K                                                       100% 6.85M=0.00002s
+
+2015-04-29 23:16:50 (6.85 MB/s) - ‘96/s1.meituan.net/www/css/i/content-title-bg.v72711a86.png’ saved [128/128]
+
+--2015-04-29 23:16:50--  http://s1.meituan.net/www/css/i/bg-deal-default-icons.vadbd8ed7.gif
+Reusing existing connection to s1.meituan.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2976 (2.9K) [image/gif]
+Saving to: ‘96/s1.meituan.net/www/css/i/bg-deal-default-icons.vadbd8ed7.gif’
+
+     0K ..                                                    100% 4.82M=0.00059s
+
+2015-04-29 23:16:51 (4.82 MB/s) - ‘96/s1.meituan.net/www/css/i/bg-deal-default-icons.vadbd8ed7.gif’ saved [2976/2976]
+
+--2015-04-29 23:16:51--  http://s1.meituan.net/www/css/i/bg-banner-lottery.vd7356ea8.png
+Reusing existing connection to s1.meituan.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 5335 (5.2K) [image/png]
+Saving to: ‘96/s1.meituan.net/www/css/i/bg-banner-lottery.vd7356ea8.png’
+
+     0K .....                                                 100%  328K=0.01590s
+
+2015-04-29 23:16:51 (328 KB/s) - ‘96/s1.meituan.net/www/css/i/bg-banner-lottery.vd7356ea8.png’ saved [5335/5335]
+
+--2015-04-29 23:16:51--  http://s0.meituan.net/www/css/i/banner-icon-lottery.va20a3123.png
+Connecting to s0.meituan.net|183.95.152.2|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2821 (2.8K) [image/png]
+Saving to: ‘96/s0.meituan.net/www/css/i/banner-icon-lottery.va20a3123.png’
+
+     0K ..                                                    100%  140M=0.00002s
+
+2015-04-29 23:16:52 (140 MB/s) - ‘96/s0.meituan.net/www/css/i/banner-icon-lottery.va20a3123.png’ saved [2821/2821]
+
+--2015-04-29 23:16:52--  http://s1.meituan.net/www/css/i/bg-business.v93a918f7.png
+Connecting to s1.meituan.net|111.202.7.29|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 859 [image/png]
+Saving to: ‘96/s1.meituan.net/www/css/i/bg-business.v93a918f7.png’
+
+     0K                                                       100% 47.8M=0.00002s
+
+2015-04-29 23:16:52 (47.8 MB/s) - ‘96/s1.meituan.net/www/css/i/bg-business.v93a918f7.png’ saved [859/859]
+
+--2015-04-29 23:16:52--  http://s1.meituan.net/www/css/i/bg-deals.vca46d991.png
+Reusing existing connection to s1.meituan.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 54291 (53K) [image/png]
+Saving to: ‘96/s1.meituan.net/www/css/i/bg-deals.vca46d991.png’
+
+     0K .......... .......... .......... .......... .......... 94%  144K 0s
+    50K ...                                                   100%  309K=0.35785s
+
+2015-04-29 23:16:53 (148 KB/s) - ‘96/s1.meituan.net/www/css/i/bg-deals.vca46d991.png’ saved [54291/54291]
+
+--2015-04-29 23:16:53--  http://s1.meituan.net/www/css/i/bg-side-movie-info-download.v98d3560d.jpg
+Reusing existing connection to s1.meituan.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 15671 (15K) [image/jpeg]
+Saving to: ‘96/s1.meituan.net/www/css/i/bg-side-movie-info-download.v98d3560d.jpg’
+
+     0K .......... .....                                      100%  758K=0.02020s
+
+2015-04-29 23:16:53 (758 KB/s) - ‘96/s1.meituan.net/www/css/i/bg-side-movie-info-download.v98d3560d.jpg’ saved [15671/15671]
+
+--2015-04-29 23:16:53--  http://s0.meituan.net/www/css/si/shop/star.vdc907dc4.png
+Connecting to s0.meituan.net|183.95.152.2|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 681 [image/png]
+Saving to: ‘96/s0.meituan.net/www/css/si/shop/star.vdc907dc4.png’
+
+     0K                                                       100% 91.8M=0.00001s
+
+2015-04-29 23:16:54 (91.8 MB/s) - ‘96/s0.meituan.net/www/css/si/shop/star.vdc907dc4.png’ saved [681/681]
+
+--2015-04-29 23:16:54--  http://s1.meituan.net/www/css/i/side-pay-consolation.vbd4509d3.png
+Connecting to s1.meituan.net|111.202.7.29|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2190 (2.1K) [image/png]
+Saving to: ‘96/s1.meituan.net/www/css/i/side-pay-consolation.vbd4509d3.png’
+
+     0K ..                                                    100% 2.62M=0.00080s
+
+2015-04-29 23:16:55 (2.62 MB/s) - ‘96/s1.meituan.net/www/css/i/side-pay-consolation.vbd4509d3.png’ saved [2190/2190]
+
+--2015-04-29 23:16:55--  http://s1.meituan.net/www/css/i/sys-icons-16.vbca6fa77.png
+Reusing existing connection to s1.meituan.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1886 (1.8K) [image/png]
+Saving to: ‘96/s1.meituan.net/www/css/i/sys-icons-16.vbca6fa77.png’
+
+     0K .                                                     100%  110M=0.00002s
+
+2015-04-29 23:16:55 (110 MB/s) - ‘96/s1.meituan.net/www/css/i/sys-icons-16.vbca6fa77.png’ saved [1886/1886]
+
+--2015-04-29 23:16:55--  http://s1.meituan.net/www/css/i/bg-pay-return-success.v3fa147ee.gif
+Reusing existing connection to s1.meituan.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1776 (1.7K) [image/gif]
+Saving to: ‘96/s1.meituan.net/www/css/i/bg-pay-return-success.v3fa147ee.gif’
+
+     0K .                                                     100%  105M=0.00002s
+
+2015-04-29 23:16:56 (105 MB/s) - ‘96/s1.meituan.net/www/css/i/bg-pay-return-success.v3fa147ee.gif’ saved [1776/1776]
+
+--2015-04-29 23:16:56--  http://s0.meituan.net/www/css/i/bg-pay-return-error.vbc799b90.gif
+Connecting to s0.meituan.net|183.95.152.2|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1618 (1.6K) [image/gif]
+Saving to: ‘96/s0.meituan.net/www/css/i/bg-pay-return-error.vbc799b90.gif’
+
+     0K .                                                     100% 88.3M=0.00002s
+
+2015-04-29 23:16:56 (88.3 MB/s) - ‘96/s0.meituan.net/www/css/i/bg-pay-return-error.vbc799b90.gif’ saved [1618/1618]
+
+--2015-04-29 23:16:56--  http://s0.meituan.net/www/css/i/icons-share.v186f5c42.gif
+Reusing existing connection to s0.meituan.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2122 (2.1K) [image/gif]
+Saving to: ‘96/s0.meituan.net/www/css/i/icons-share.v186f5c42.gif’
+
+     0K ..                                                    100%  110M=0.00002s
+
+2015-04-29 23:16:57 (110 MB/s) - ‘96/s0.meituan.net/www/css/i/icons-share.v186f5c42.gif’ saved [2122/2122]
+
+--2015-04-29 23:16:57--  http://s0.meituan.net/www/css/i/icon-arrow.vdec0de1a.png
+Reusing existing connection to s0.meituan.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 130 [image/png]
+Saving to: ‘96/s0.meituan.net/www/css/i/icon-arrow.vdec0de1a.png’
+
+     0K                                                       100% 7.58M=0.00002s
+
+2015-04-29 23:16:57 (7.58 MB/s) - ‘96/s0.meituan.net/www/css/i/icon-arrow.vdec0de1a.png’ saved [130/130]
+
+--2015-04-29 23:16:57--  http://s1.meituan.net/www/css/i/inline/rate/star-orange.v1e9f6280.png
+Connecting to s1.meituan.net|111.202.7.29|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 397 [image/png]
+Saving to: ‘96/s1.meituan.net/www/css/i/inline/rate/star-orange.v1e9f6280.png’
+
+     0K                                                       100% 20.9M=0.00002s
+
+2015-04-29 23:16:57 (20.9 MB/s) - ‘96/s1.meituan.net/www/css/i/inline/rate/star-orange.v1e9f6280.png’ saved [397/397]
+
+--2015-04-29 23:16:57--  http://s0.meituan.net/www/css/i/inline/rate/star-gray.v34a0ba31.png
+Connecting to s0.meituan.net|183.95.152.2|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 274 [image/png]
+Saving to: ‘96/s0.meituan.net/www/css/i/inline/rate/star-gray.v34a0ba31.png’
+
+     0K                                                       100% 15.1M=0.00002s
+
+2015-04-29 23:16:58 (15.1 MB/s) - ‘96/s0.meituan.net/www/css/i/inline/rate/star-gray.v34a0ba31.png’ saved [274/274]
+
+--2015-04-29 23:16:58--  http://s0.meituan.net/www/css/i/inline/rate/star-biz-gray.v15309b20.png
+Reusing existing connection to s0.meituan.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 230 [image/png]
+Saving to: ‘96/s0.meituan.net/www/css/i/inline/rate/star-biz-gray.v15309b20.png’
+
+     0K                                                       100% 14.6M=0.00002s
+
+2015-04-29 23:16:58 (14.6 MB/s) - ‘96/s0.meituan.net/www/css/i/inline/rate/star-biz-gray.v15309b20.png’ saved [230/230]
+
+--2015-04-29 23:16:58--  http://s0.meituan.net/www/css/i/inline/rate/star-biz-orange.v28d5b8e7.png
+Reusing existing connection to s0.meituan.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1013 [image/png]
+Saving to: ‘96/s0.meituan.net/www/css/i/inline/rate/star-biz-orange.v28d5b8e7.png’
+
+     0K                                                       100% 95.1M=0.00001s
+
+2015-04-29 23:16:59 (95.1 MB/s) - ‘96/s0.meituan.net/www/css/i/inline/rate/star-biz-orange.v28d5b8e7.png’ saved [1013/1013]
+
+--2015-04-29 23:16:59--  http://s0.meituan.net/www/css/i/inline/rate/star-biz-gray--middle.v5ea78251.png
+Reusing existing connection to s0.meituan.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1009 [image/png]
+Saving to: ‘96/s0.meituan.net/www/css/i/inline/rate/star-biz-gray--middle.v5ea78251.png’
+
+     0K                                                       100%  230M=0.00000s
+
+2015-04-29 23:16:59 (230 MB/s) - ‘96/s0.meituan.net/www/css/i/inline/rate/star-biz-gray--middle.v5ea78251.png’ saved [1009/1009]
+
+--2015-04-29 23:16:59--  http://s1.meituan.net/www/css/i/inline/rate/star-biz-orange--middle.vb340f52b.png
+Connecting to s1.meituan.net|111.202.7.29|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1102 (1.1K) [image/png]
+Saving to: ‘96/s1.meituan.net/www/css/i/inline/rate/star-biz-orange--middle.vb340f52b.png’
+
+     0K .                                                     100%  226M=0.00000s
+
+2015-04-29 23:17:00 (226 MB/s) - ‘96/s1.meituan.net/www/css/i/inline/rate/star-biz-orange--middle.vb340f52b.png’ saved [1102/1102]
+
+--2015-04-29 23:17:00--  http://s0.meituan.net/www/css/i/inline/rate/star-gray--middle.vd4c92281.png
+Connecting to s0.meituan.net|183.95.152.2|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 301 [image/png]
+Saving to: ‘96/s0.meituan.net/www/css/i/inline/rate/star-gray--middle.vd4c92281.png’
+
+     0K                                                       100% 15.8M=0.00002s
+
+2015-04-29 23:17:00 (15.8 MB/s) - ‘96/s0.meituan.net/www/css/i/inline/rate/star-gray--middle.vd4c92281.png’ saved [301/301]
+
+--2015-04-29 23:17:00--  http://s0.meituan.net/www/css/i/inline/rate/star-orange--middle.v1c6f5507.png
+Reusing existing connection to s0.meituan.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 504 [image/png]
+Saving to: ‘96/s0.meituan.net/www/css/i/inline/rate/star-orange--middle.v1c6f5507.png’
+
+     0K                                                       100% 31.9M=0.00002s
+
+2015-04-29 23:17:01 (31.9 MB/s) - ‘96/s0.meituan.net/www/css/i/inline/rate/star-orange--middle.v1c6f5507.png’ saved [504/504]
+
+--2015-04-29 23:17:01--  http://s1.meituan.net/www/css/i/bg-sys-icon-info.va2b8e321.gif
+Connecting to s1.meituan.net|111.202.7.29|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 753 [image/gif]
+Saving to: ‘96/s1.meituan.net/www/css/i/bg-sys-icon-info.va2b8e321.gif’
+
+     0K                                                       100% 2.07M=0.00035s
+
+2015-04-29 23:17:01 (2.07 MB/s) - ‘96/s1.meituan.net/www/css/i/bg-sys-icon-info.va2b8e321.gif’ saved [753/753]
+
+--2015-04-29 23:17:01--  http://s1.meituan.net/www/css/i/sp-growth-bars.v62dc5371.png
+Reusing existing connection to s1.meituan.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2433 (2.4K) [image/png]
+Saving to: ‘96/s1.meituan.net/www/css/i/sp-growth-bars.v62dc5371.png’
+
+     0K ..                                                    100%  148M=0.00002s
+
+2015-04-29 23:17:01 (148 MB/s) - ‘96/s1.meituan.net/www/css/i/sp-growth-bars.v62dc5371.png’ saved [2433/2433]
+
+--2015-04-29 23:17:01--  http://s1.meituan.net/www/css/i/5-years-bubble.v6170b825.jpg
+Reusing existing connection to s1.meituan.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 4500 (4.4K) [image/jpeg]
+Saving to: ‘96/s1.meituan.net/www/css/i/5-years-bubble.v6170b825.jpg’
+
+     0K ....                                                  100%  208M=0.00002s
+
+2015-04-29 23:17:02 (208 MB/s) - ‘96/s1.meituan.net/www/css/i/5-years-bubble.v6170b825.jpg’ saved [4500/4500]
+
+--2015-04-29 23:17:02--  http://s0.meituan.net/www/css/i/mt-logo@2x.v3df525af.png
+Connecting to s0.meituan.net|183.95.152.2|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3296 (3.2K) [image/png]
+Saving to: ‘96/s0.meituan.net/www/css/i/mt-logo@2x.v3df525af.png’
+
+     0K ...                                                   100%  164M=0.00002s
+
+2015-04-29 23:17:02 (164 MB/s) - ‘96/s0.meituan.net/www/css/i/mt-logo@2x.v3df525af.png’ saved [3296/3296]
+
+--2015-04-29 23:17:02--  http://s0.meituan.net/www/css/i/header-commitment.vedc306f1.png
+Reusing existing connection to s0.meituan.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1814 (1.8K) [image/png]
+Saving to: ‘96/s0.meituan.net/www/css/i/header-commitment.vedc306f1.png’
+
+     0K .                                                     100%  114M=0.00002s
+
+2015-04-29 23:17:03 (114 MB/s) - ‘96/s0.meituan.net/www/css/i/header-commitment.vedc306f1.png’ saved [1814/1814]
+
+--2015-04-29 23:17:03--  http://s1.meituan.net/www/css/i/loading-jumping-circle.v24f16f87.gif
+Connecting to s1.meituan.net|111.202.7.29|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1016 [image/gif]
+Saving to: ‘96/s1.meituan.net/www/css/i/loading-jumping-circle.v24f16f87.gif’
+
+     0K                                                       100% 55.3M=0.00002s
+
+2015-04-29 23:17:03 (55.3 MB/s) - ‘96/s1.meituan.net/www/css/i/loading-jumping-circle.v24f16f87.gif’ saved [1016/1016]
+
+--2015-04-29 23:17:03--  http://s0.meituan.net/www/css/i/lazyloading-image.v25f19518.gif
+Connecting to s0.meituan.net|183.95.152.2|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 938 [image/gif]
+Saving to: ‘96/s0.meituan.net/www/css/i/lazyloading-image.v25f19518.gif’
+
+     0K                                                       100% 50.3M=0.00002s
+
+2015-04-29 23:17:04 (50.3 MB/s) - ‘96/s0.meituan.net/www/css/i/lazyloading-image.v25f19518.gif’ saved [938/938]
+
+--2015-04-29 23:17:04--  http://s1.meituan.net/www/css/i/lazyloading-content.vabe35937.gif
+Connecting to s1.meituan.net|111.202.7.29|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 5267 (5.1K) [image/gif]
+Saving to: ‘96/s1.meituan.net/www/css/i/lazyloading-content.vabe35937.gif’
+
+     0K .....                                                 100%  222M=0.00002s
+
+2015-04-29 23:17:05 (222 MB/s) - ‘96/s1.meituan.net/www/css/i/lazyloading-content.vabe35937.gif’ saved [5267/5267]
+
+--2015-04-29 23:17:05--  http://s1.meituan.net/www/css/si/icon-searchbox.vdd692e93.png
+Reusing existing connection to s1.meituan.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 220 [image/png]
+Saving to: ‘96/s1.meituan.net/www/css/si/icon-searchbox.vdd692e93.png’
+
+     0K                                                       100% 1.43M=0.00015s
+
+2015-04-29 23:17:05 (1.43 MB/s) - ‘96/s1.meituan.net/www/css/si/icon-searchbox.vdd692e93.png’ saved [220/220]
+
+--2015-04-29 23:17:05--  http://s0.meituan.net/www/css/i/icon-online-movie.v8ca504e0.png
+Connecting to s0.meituan.net|183.95.152.2|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 144 [image/png]
+Saving to: ‘96/s0.meituan.net/www/css/i/icon-online-movie.v8ca504e0.png’
+
+     0K                                                       100% 7.97M=0.00002s
+
+2015-04-29 23:17:05 (7.97 MB/s) - ‘96/s0.meituan.net/www/css/i/icon-online-movie.v8ca504e0.png’ saved [144/144]
+
+--2015-04-29 23:17:05--  http://s0.meituan.net/www/css/i/icon-direction.vbcf9abc9.png
+Reusing existing connection to s0.meituan.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 159 [image/png]
+Saving to: ‘96/s0.meituan.net/www/css/i/icon-direction.vbcf9abc9.png’
+
+     0K                                                       100% 7.95M=0.00002s
+
+2015-04-29 23:17:06 (7.95 MB/s) - ‘96/s0.meituan.net/www/css/i/icon-direction.vbcf9abc9.png’ saved [159/159]
+
+--2015-04-29 23:17:06--  http://s1.meituan.net/www/css/i/bg-cate.vc00b4c9c.png
+Connecting to s1.meituan.net|111.202.7.29|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 120 [image/png]
+Saving to: ‘96/s1.meituan.net/www/css/i/bg-cate.vc00b4c9c.png’
+
+     0K                                                       100%  566K=0.00021s
+
+2015-04-29 23:17:07 (566 KB/s) - ‘96/s1.meituan.net/www/css/i/bg-cate.vc00b4c9c.png’ saved [120/120]
+
+FINISHED --2015-04-29 23:17:07--
+Total wall clock time: 44.55389
+Downloaded: 75 files, 990K in 5.09124 (195 KB/s)
+Converting 96/58.83.142.135/index.html... 9-9
+Converting 96/c.meituan.net/combo/index.html?f=%2Fwww%2Fcss%2Fcommon.v4171ed90.css;%2Fwww%2Fcss%2Fbase.vbdfe49ef.css;%2Fwww%2Fcss%2Fsearch-box.vd03866d5.css;%2Fwww%2Fcss%2Fcate-nav.vebe2aff5.css... 77-0
+Converting 96/c.meituan.net/combo/index.html?f=%2Fwww%2Fcss%2Fchangecity.v9d08aff8.css... 1-0
+Converted 3 files in 0.01236 seconds.

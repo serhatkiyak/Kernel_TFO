@@ -1,0 +1,282 @@
+--2015-04-29 22:18:47--  http://42.96.248.189/
+Connecting to 42.96.248.189:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://www.58pic.com/ [following]
+--2015-04-29 22:18:47--  http://www.58pic.com/
+Resolving www.58pic.com... 42.96.248.189
+Reusing existing connection to 42.96.248.189:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘53/42.96.248.189/index.html’
+
+     0K .......... .......... .......... .......... .......... 29.9K
+    50K .......... .......... .......... .......... .......... 73.9K
+   100K ....                                                   32.3M=2.34731s
+
+2015-04-29 22:18:50 (44.6 KB/s) - ‘53/42.96.248.189/index.html’ saved [107197]
+
+--2015-04-29 22:18:50--  http://icon.58pic.com/css/global_v2.css
+Resolving icon.58pic.com... 72.8.188.98, 72.8.188.94, 72.8.188.90
+Connecting to icon.58pic.com|72.8.188.98|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 22425 (22K) [text/css]
+Saving to: ‘53/icon.58pic.com/css/global_v2.css’
+
+     0K .......... .......... .                               100%  213K=0.10267s
+
+2015-04-29 22:18:51 (213 KB/s) - ‘53/icon.58pic.com/css/global_v2.css’ saved [22425/22425]
+
+--2015-04-29 22:18:51--  http://icon.58pic.com/css/home_v2.css
+Reusing existing connection to icon.58pic.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 15918 (16K) [text/css]
+Saving to: ‘53/icon.58pic.com/css/home_v2.css’
+
+     0K .......... .....                                      100% 6.03M=0.00252s
+
+2015-04-29 22:18:52 (6.03 MB/s) - ‘53/icon.58pic.com/css/home_v2.css’ saved [15918/15918]
+
+--2015-04-29 22:18:52--  http://icon.58pic.com/images/common/vip_rd_tx.gif
+Reusing existing connection to icon.58pic.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1758 (1.7K) [image/gif]
+Saving to: ‘53/icon.58pic.com/images/common/vip_rd_tx.gif’
+
+     0K .                                                     100% 3.63M=0.00046s
+
+2015-04-29 22:18:52 (3.63 MB/s) - ‘53/icon.58pic.com/images/common/vip_rd_tx.gif’ saved [1758/1758]
+
+--2015-04-29 22:18:52--  http://pic.58pic.com/images/slideshow/55371085658f2.png
+Resolving pic.58pic.com... 72.8.188.94, 72.8.188.90, 72.8.188.98
+Reusing existing connection to icon.58pic.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 31238 (31K) [image/png]
+Saving to: ‘53/pic.58pic.com/images/slideshow/55371085658f2.png’
+
+     0K .......... .......... ..........                      100%  155K=0.19732s
+
+2015-04-29 22:18:53 (155 KB/s) - ‘53/pic.58pic.com/images/slideshow/55371085658f2.png’ saved [31238/31238]
+
+--2015-04-29 22:18:53--  http://icon.58pic.com/img/lazypic.jpg
+Reusing existing connection to icon.58pic.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1399 (1.4K) [image/jpeg]
+Saving to: ‘53/icon.58pic.com/img/lazypic.jpg’
+
+     0K .                                                     100% 75.9M=0.00002s
+
+2015-04-29 22:18:53 (75.9 MB/s) - ‘53/icon.58pic.com/img/lazypic.jpg’ saved [1399/1399]
+
+--2015-04-29 22:18:53--  http://icon.58pic.com/js/jQuery.js
+Reusing existing connection to icon.58pic.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 92596 (90K) [application/x-javascript]
+Saving to: ‘53/icon.58pic.com/js/jQuery.js’
+
+     0K .......... .......... .......... .......... .......... 55%  251K 0s
+    50K .......... .......... .......... ..........           100%  405K=0.29877s
+
+2015-04-29 22:18:53 (303 KB/s) - ‘53/icon.58pic.com/js/jQuery.js’ saved [92596/92596]
+
+--2015-04-29 22:18:53--  http://icon.58pic.com/js/home_v3.js
+Reusing existing connection to icon.58pic.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 27253 (27K) [application/x-javascript]
+Saving to: ‘53/icon.58pic.com/js/home_v3.js’
+
+     0K .......... .......... ......                          100% 19.9M=0.00131s
+
+2015-04-29 22:18:53 (19.9 MB/s) - ‘53/icon.58pic.com/js/home_v3.js’ saved [27253/27253]
+
+--2015-04-29 22:18:53--  http://www.58pic.com/'+slideUrl+'
+Connecting to www.58pic.com|42.96.248.189|:80... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2015-04-29 22:18:54 ERROR 404: Not Found.
+
+--2015-04-29 22:18:54--  http://icon.58pic.com/images/newIndex/homeCombine_v1.png
+Connecting to icon.58pic.com|72.8.188.98|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 7902 (7.7K) [image/png]
+Saving to: ‘53/icon.58pic.com/images/newIndex/homeCombine_v1.png’
+
+     0K .......                                               100%  656M=0.00001s
+
+2015-04-29 22:18:54 (656 MB/s) - ‘53/icon.58pic.com/images/newIndex/homeCombine_v1.png’ saved [7902/7902]
+
+--2015-04-29 22:18:54--  http://icon.58pic.com/images/show/bj-border.png
+Reusing existing connection to icon.58pic.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 300 [image/png]
+Saving to: ‘53/icon.58pic.com/images/show/bj-border.png’
+
+     0K                                                       100% 76.0M=0.00000s
+
+2015-04-29 22:18:54 (76.0 MB/s) - ‘53/icon.58pic.com/images/show/bj-border.png’ saved [300/300]
+
+--2015-04-29 22:18:54--  http://icon.58pic.com/images/show/bj_index_3.jpg
+Reusing existing connection to icon.58pic.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2537 (2.5K) [image/jpeg]
+Saving to: ‘53/icon.58pic.com/images/show/bj_index_3.jpg’
+
+     0K ..                                                    100% 5.24M=0.00046s
+
+2015-04-29 22:18:54 (5.24 MB/s) - ‘53/icon.58pic.com/images/show/bj_index_3.jpg’ saved [2537/2537]
+
+--2015-04-29 22:18:54--  http://icon.58pic.com/images/show/shouye-danghang-lbgt1.png
+Reusing existing connection to icon.58pic.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 79 [image/png]
+Saving to: ‘53/icon.58pic.com/images/show/shouye-danghang-lbgt1.png’
+
+     0K                                                       100% 10.6M=0.00001s
+
+2015-04-29 22:18:54 (10.6 MB/s) - ‘53/icon.58pic.com/images/show/shouye-danghang-lbgt1.png’ saved [79/79]
+
+--2015-04-29 22:18:54--  http://icon.58pic.com//images/newIndex/home_sprt_1.png
+Reusing existing connection to icon.58pic.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 17699 (17K) [image/png]
+Saving to: ‘53/icon.58pic.com/images/newIndex/home_sprt_1.png’
+
+     0K .......... .......                                    100%  167K=0.10340s
+
+2015-04-29 22:18:55 (167 KB/s) - ‘53/icon.58pic.com/images/newIndex/home_sprt_1.png’ saved [17699/17699]
+
+--2015-04-29 22:18:55--  http://icon.58pic.com/images/right/right_v1.2.png
+Reusing existing connection to icon.58pic.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 4166 (4.1K) [image/png]
+Saving to: ‘53/icon.58pic.com/images/right/right_v1.2.png’
+
+     0K ....                                                  100% 8.96M=0.00044s
+
+2015-04-29 22:18:55 (8.96 MB/s) - ‘53/icon.58pic.com/images/right/right_v1.2.png’ saved [4166/4166]
+
+--2015-04-29 22:18:55--  http://icon.58pic.com/images/newIndex/bottom_bg.png
+Reusing existing connection to icon.58pic.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 7605 (7.4K) [image/png]
+Saving to: ‘53/icon.58pic.com/images/newIndex/bottom_bg.png’
+
+     0K .......                                               100% 20.4M=0.00036s
+
+2015-04-29 22:18:55 (20.4 MB/s) - ‘53/icon.58pic.com/images/newIndex/bottom_bg.png’ saved [7605/7605]
+
+--2015-04-29 22:18:55--  http://icon.58pic.com/images/general/misc.png
+Reusing existing connection to icon.58pic.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 5448 (5.3K) [image/png]
+Saving to: ‘53/icon.58pic.com/images/general/misc.png’
+
+     0K .....                                                 100% 54.6K=0.09747s
+
+2015-04-29 22:18:55 (54.6 KB/s) - ‘53/icon.58pic.com/images/general/misc.png’ saved [5448/5448]
+
+--2015-04-29 22:18:55--  http://icon.58pic.com/images/newIndex/bg_sprt.png
+Reusing existing connection to icon.58pic.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 278 [image/png]
+Saving to: ‘53/icon.58pic.com/images/newIndex/bg_sprt.png’
+
+     0K                                                       100% 18.6M=0.00001s
+
+2015-04-29 22:18:55 (18.6 MB/s) - ‘53/icon.58pic.com/images/newIndex/bg_sprt.png’ saved [278/278]
+
+--2015-04-29 22:18:55--  http://icon.58pic.com/images/general/misc1.png
+Reusing existing connection to icon.58pic.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 5468 (5.3K) [image/png]
+Saving to: ‘53/icon.58pic.com/images/general/misc1.png’
+
+     0K .....                                                 100%  218M=0.00002s
+
+2015-04-29 22:18:55 (218 MB/s) - ‘53/icon.58pic.com/images/general/misc1.png’ saved [5468/5468]
+
+--2015-04-29 22:18:55--  http://icon.58pic.com/images/show/fdl-default.png
+Reusing existing connection to icon.58pic.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 742 [image/png]
+Saving to: ‘53/icon.58pic.com/images/show/fdl-default.png’
+
+     0K                                                       100%  175M=0.00000s
+
+2015-04-29 22:19:01 (175 MB/s) - ‘53/icon.58pic.com/images/show/fdl-default.png’ saved [742/742]
+
+--2015-04-29 22:19:01--  http://icon.58pic.com/images/show/fdl-hover.png
+Reusing existing connection to icon.58pic.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 814 [image/png]
+Saving to: ‘53/icon.58pic.com/images/show/fdl-hover.png’
+
+     0K                                                       100% 51.6M=0.00002s
+
+2015-04-29 22:19:06 (51.6 MB/s) - ‘53/icon.58pic.com/images/show/fdl-hover.png’ saved [814/814]
+
+--2015-04-29 22:19:06--  http://icon.58pic.com/images/show/fdl-active.png
+Reusing existing connection to icon.58pic.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 813 [image/png]
+Saving to: ‘53/icon.58pic.com/images/show/fdl-active.png’
+
+     0K                                                       100% 53.6M=0.00001s
+
+2015-04-29 22:19:06 (53.6 MB/s) - ‘53/icon.58pic.com/images/show/fdl-active.png’ saved [813/813]
+
+--2015-04-29 22:19:06--  http://icon.58pic.com/images/show/shoucang-nor.gif
+Reusing existing connection to icon.58pic.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 12975 (13K) [image/gif]
+Saving to: ‘53/icon.58pic.com/images/show/shoucang-nor.gif’
+
+     0K .......... ..                                         100%  128K=0.09874s
+
+2015-04-29 22:19:06 (128 KB/s) - ‘53/icon.58pic.com/images/show/shoucang-nor.gif’ saved [12975/12975]
+
+--2015-04-29 22:19:06--  http://icon.58pic.com/images/show/limit/socal_login_icon.png
+Reusing existing connection to icon.58pic.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 4710 (4.6K) [image/png]
+Saving to: ‘53/icon.58pic.com/images/show/limit/socal_login_icon.png’
+
+     0K ....                                                  100%  233M=0.00002s
+
+2015-04-29 22:19:06 (233 MB/s) - ‘53/icon.58pic.com/images/show/limit/socal_login_icon.png’ saved [4710/4710]
+
+--2015-04-29 22:19:06--  http://icon.58pic.com/images/newIndex/slide-arrow.png
+Reusing existing connection to icon.58pic.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2867 (2.8K) [image/png]
+Saving to: ‘53/icon.58pic.com/images/newIndex/slide-arrow.png’
+
+     0K ..                                                    100%  158M=0.00002s
+
+2015-04-29 22:19:06 (158 MB/s) - ‘53/icon.58pic.com/images/newIndex/slide-arrow.png’ saved [2867/2867]
+
+--2015-04-29 22:19:06--  http://icon.58pic.com/images/newIndex/snsBtns.png
+Reusing existing connection to icon.58pic.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 5502 (5.4K) [image/png]
+Saving to: ‘53/icon.58pic.com/images/newIndex/snsBtns.png’
+
+     0K .....                                                 100% 3.80M=0.00138s
+
+2015-04-29 22:19:07 (3.80 MB/s) - ‘53/icon.58pic.com/images/newIndex/snsBtns.png’ saved [5502/5502]
+
+--2015-04-29 22:19:07--  http://icon.58pic.com/images/newIndex/homeTools_v2.png
+Reusing existing connection to icon.58pic.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 13728 (13K) [image/png]
+Saving to: ‘53/icon.58pic.com/images/newIndex/homeTools_v2.png’
+
+     0K .......... ...                                        100%  135K=0.09953s
+
+2015-04-29 22:19:07 (135 KB/s) - ‘53/icon.58pic.com/images/newIndex/homeTools_v2.png’ saved [13728/13728]
+
+FINISHED --2015-04-29 22:19:07--
+Total wall clock time: 20.14138
+Downloaded: 26 files, 384K in 3.35230 (115 KB/s)
+Converting 53/42.96.248.189/index.html... 50-481
+Converting 53/icon.58pic.com/css/global_v2.css... 52-0
+Converting 53/icon.58pic.com/css/home_v2.css... 21-0
+Converted 3 files in 0.01197 seconds.

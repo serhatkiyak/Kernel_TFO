@@ -1,0 +1,46 @@
+--2015-04-29 23:45:51--  http://173.194.123.114/
+Connecting to 173.194.123.114:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Cookie coming from 173.194.123.114 attempted to set domain to 
+Length: unspecified [text/html]
+Saving to: ‘128/173.194.123.114/index.html’
+
+     0K .......... .......                                      644K=0.02697s
+
+2015-04-29 23:45:51 (644 KB/s) - ‘128/173.194.123.114/index.html’ saved [17781]
+
+--2015-04-29 23:45:51--  http://173.194.123.114/images/srpr/nav_logo80.png
+Reusing existing connection to 173.194.123.114:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 35615 (35K) [image/png]
+Saving to: ‘128/173.194.123.114/images/srpr/nav_logo80.png’
+
+     0K .......... .......... .......... ....                 100% 1.19M=0.02852s
+
+2015-04-29 23:45:51 (1.19 MB/s) - ‘128/173.194.123.114/images/srpr/nav_logo80.png’ saved [35615/35615]
+
+--2015-04-29 23:45:51--  http://173.194.123.114/images/icons/product/chrome-48.png
+Reusing existing connection to 173.194.123.114:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1834 (1.8K) [image/png]
+Saving to: ‘128/173.194.123.114/images/icons/product/chrome-48.png’
+
+     0K .                                                     100% 4.18M=0.00042s
+
+2015-04-29 23:45:51 (4.18 MB/s) - ‘128/173.194.123.114/images/icons/product/chrome-48.png’ saved [1834/1834]
+
+--2015-04-29 23:45:51--  http://173.194.123.114/images/srpr/logo9w.png
+Reusing existing connection to 173.194.123.114:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 8228 (8.0K) [image/png]
+Saving to: ‘128/173.194.123.114/images/srpr/logo9w.png’
+
+     0K ........                                              100% 7.11M=0.00110s
+
+2015-04-29 23:45:51 (7.11 MB/s) - ‘128/173.194.123.114/images/srpr/logo9w.png’ saved [8228/8228]
+
+FINISHED --2015-04-29 23:45:51--
+Total wall clock time: 0.26225
+Downloaded: 4 files, 62K in 0.05701 (1.06 MB/s)
+Converting 128/173.194.123.114/index.html... 4-11
+Converted 1 files in 0.00112 seconds.

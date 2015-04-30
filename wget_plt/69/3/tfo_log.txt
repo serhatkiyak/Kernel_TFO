@@ -1,0 +1,479 @@
+--2015-04-29 22:49:13--  http://42.156.162.55/
+Connecting to 42.156.162.55:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘69/42.156.162.55/index.html’
+
+     0K .......... .......... .......... .......... .......    33.2K=1.44144s
+
+2015-04-29 22:49:16 (33.2 KB/s) - ‘69/42.156.162.55/index.html’ saved [48993]
+
+--2015-04-29 22:49:16--  http://www.cnzz.com/favicon.ico
+Resolving www.cnzz.com... 42.156.162.55
+Reusing existing connection to 42.156.162.55:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1406 (1.4K) [image/x-icon]
+Saving to: ‘69/www.cnzz.com/favicon.ico’
+
+     0K .                                                     100% 5.37M=0.00025s
+
+2015-04-29 22:49:16 (5.37 MB/s) - ‘69/www.cnzz.com/favicon.ico’ saved [1406/1406]
+
+--2015-04-29 22:49:16--  http://www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/top_bg.png
+Resolving www-img.oss-cn-qingdao.aliyuncs.com... 115.28.250.5
+Connecting to www-img.oss-cn-qingdao.aliyuncs.com|115.28.250.5|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3221 (3.1K) [image/png]
+Saving to: ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/top_bg.png’
+
+     0K ...                                                   100%  173M=0.00002s
+
+2015-04-29 22:49:17 (173 MB/s) - ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/top_bg.png’ saved [3221/3221]
+
+--2015-04-29 22:49:17--  http://www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/follow.png
+Connecting to www-img.oss-cn-qingdao.aliyuncs.com|115.28.250.5|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 4961 (4.8K) [image/png]
+Saving to: ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/follow.png’
+
+     0K ....                                                  100%  281M=0.00002s
+
+2015-04-29 22:49:17 (281 MB/s) - ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/follow.png’ saved [4961/4961]
+
+--2015-04-29 22:49:17--  http://www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/follow_hover.png
+Connecting to www-img.oss-cn-qingdao.aliyuncs.com|115.28.250.5|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3320 (3.2K) [image/png]
+Saving to: ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/follow_hover.png’
+
+     0K ...                                                   100% 9.02M=0.00035s
+
+2015-04-29 22:49:18 (9.02 MB/s) - ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/follow_hover.png’ saved [3320/3320]
+
+--2015-04-29 22:49:18--  http://www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/header_bg.png
+Connecting to www-img.oss-cn-qingdao.aliyuncs.com|115.28.250.5|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 15030 (15K) [image/png]
+Saving to: ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/header_bg.png’
+
+     0K .......... ....                                       100% 48.0K=0.30581s
+
+2015-04-29 22:49:19 (48.0 KB/s) - ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/header_bg.png’ saved [15030/15030]
+
+--2015-04-29 22:49:19--  http://www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/count.png
+Connecting to www-img.oss-cn-qingdao.aliyuncs.com|115.28.250.5|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2658 (2.6K) [image/png]
+Saving to: ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/count.png’
+
+     0K ..                                                    100% 97.8M=0.00003s
+
+2015-04-29 22:49:19 (97.8 MB/s) - ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/count.png’ saved [2658/2658]
+
+--2015-04-29 22:49:19--  http://www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/focus_arrow.png
+Connecting to www-img.oss-cn-qingdao.aliyuncs.com|115.28.250.5|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2361 (2.3K) [image/png]
+Saving to: ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/focus_arrow.png’
+
+     0K ..                                                    100%  146M=0.00002s
+
+2015-04-29 22:49:20 (146 MB/s) - ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/focus_arrow.png’ saved [2361/2361]
+
+--2015-04-29 22:49:20--  http://www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/loading.gif
+Connecting to www-img.oss-cn-qingdao.aliyuncs.com|115.28.250.5|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2094 (2.0K) [image/gif]
+Saving to: ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/loading.gif’
+
+     0K ..                                                    100%  372M=0.00001s
+
+2015-04-29 22:49:20 (372 MB/s) - ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/loading.gif’ saved [2094/2094]
+
+--2015-04-29 22:49:20--  http://www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/focus_dot.png
+Connecting to www-img.oss-cn-qingdao.aliyuncs.com|115.28.250.5|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1704 (1.7K) [image/png]
+Saving to: ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/focus_dot.png’
+
+     0K .                                                     100%  104M=0.00002s
+
+2015-04-29 22:49:21 (104 MB/s) - ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/focus_dot.png’ saved [1704/1704]
+
+--2015-04-29 22:49:21--  http://www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/icon20150409.png
+Connecting to www-img.oss-cn-qingdao.aliyuncs.com|115.28.250.5|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 11165 (11K) [image/png]
+Saving to: ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/icon20150409.png’
+
+     0K ..........                                            100% 95.7M=0.00011s
+
+2015-04-29 22:49:21 (95.7 MB/s) - ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/icon20150409.png’ saved [11165/11165]
+
+--2015-04-29 22:49:21--  http://www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/slider.png
+Connecting to www-img.oss-cn-qingdao.aliyuncs.com|115.28.250.5|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2603 (2.5K) [image/png]
+Saving to: ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/slider.png’
+
+     0K ..                                                    100%  159M=0.00002s
+
+2015-04-29 22:49:22 (159 MB/s) - ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/slider.png’ saved [2603/2603]
+
+--2015-04-29 22:49:22--  http://www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/service.png
+Connecting to www-img.oss-cn-qingdao.aliyuncs.com|115.28.250.5|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1086 (1.1K) [image/png]
+Saving to: ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/service.png’
+
+     0K .                                                     100% 71.9M=0.00001s
+
+2015-04-29 22:49:23 (71.9 MB/s) - ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/service.png’ saved [1086/1086]
+
+--2015-04-29 22:49:23--  http://www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/up.png
+Connecting to www-img.oss-cn-qingdao.aliyuncs.com|115.28.250.5|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1494 (1.5K) [image/png]
+Saving to: ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/up.png’
+
+     0K .                                                     100% 91.8M=0.00002s
+
+2015-04-29 22:49:23 (91.8 MB/s) - ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/up.png’ saved [1494/1494]
+
+--2015-04-29 22:49:23--  http://www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo.png
+Connecting to www-img.oss-cn-qingdao.aliyuncs.com|115.28.250.5|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 8345 (8.1K) [image/png]
+Saving to: ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo.png’
+
+     0K ........                                              100%  243M=0.00003s
+
+2015-04-29 22:49:24 (243 MB/s) - ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo.png’ saved [8345/8345]
+
+--2015-04-29 22:49:24--  http://www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/qrcode.png
+Connecting to www-img.oss-cn-qingdao.aliyuncs.com|115.28.250.5|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2704 (2.6K) [image/png]
+Saving to: ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/qrcode.png’
+
+     0K ..                                                    100%  191M=0.00001s
+
+2015-04-29 22:49:24 (191 MB/s) - ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/qrcode.png’ saved [2704/2704]
+
+--2015-04-29 22:49:24--  https://i.cnzz.com/main.php?c=useropt&a=login&style=1&ptype=2&tab=20&rurl=http%3A%2F%2Ftongji.cnzz.com%2Fmain.php%3Fc%3Dsite%26a%3Dshow%26from%3Dlogin
+Resolving i.cnzz.com... 42.156.162.54
+Connecting to i.cnzz.com|42.156.162.54|:443... connected.
+Unable to establish SSL connection.
+--2015-04-29 22:49:25--  http://www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/demo/logo7k7k.jpg
+Connecting to www-img.oss-cn-qingdao.aliyuncs.com|115.28.250.5|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3613 (3.5K) [image/jpeg]
+Saving to: ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/demo/logo7k7k.jpg’
+
+     0K ...                                                   100%  203M=0.00002s
+
+2015-04-29 22:49:26 (203 MB/s) - ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/demo/logo7k7k.jpg’ saved [3613/3613]
+
+--2015-04-29 22:49:26--  http://www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/demo/logoaili.jpg
+Connecting to www-img.oss-cn-qingdao.aliyuncs.com|115.28.250.5|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3120 (3.0K) [image/jpeg]
+Saving to: ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/demo/logoaili.jpg’
+
+     0K ...                                                   100%  187M=0.00002s
+
+2015-04-29 22:49:26 (187 MB/s) - ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/demo/logoaili.jpg’ saved [3120/3120]
+
+--2015-04-29 22:49:26--  http://www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/demo/logomafeng.jpg
+Connecting to www-img.oss-cn-qingdao.aliyuncs.com|115.28.250.5|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3635 (3.5K) [image/jpeg]
+Saving to: ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/demo/logomafeng.jpg’
+
+     0K ...                                                   100%  206M=0.00002s
+
+2015-04-29 22:49:27 (206 MB/s) - ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/demo/logomafeng.jpg’ saved [3635/3635]
+
+--2015-04-29 22:49:27--  http://www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/aliyun-logo.gif
+Connecting to www-img.oss-cn-qingdao.aliyuncs.com|115.28.250.5|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2925 (2.9K) [image/gif]
+Saving to: ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/aliyun-logo.gif’
+
+     0K ..                                                    100%  138M=0.00002s
+
+2015-04-29 22:49:28 (138 MB/s) - ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/aliyun-logo.gif’ saved [2925/2925]
+
+--2015-04-29 22:49:28--  http://www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/178-logo.gif
+Connecting to www-img.oss-cn-qingdao.aliyuncs.com|115.28.250.5|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3228 (3.2K) [image/gif]
+Saving to: ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/178-logo.gif’
+
+     0K ...                                                   100%  144M=0.00002s
+
+2015-04-29 22:49:28 (144 MB/s) - ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/178-logo.gif’ saved [3228/3228]
+
+--2015-04-29 22:49:28--  http://www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/pw-logo.gif
+Connecting to www-img.oss-cn-qingdao.aliyuncs.com|115.28.250.5|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3160 (3.1K) [image/gif]
+Saving to: ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/pw-logo.gif’
+
+     0K ...                                                   100%  199M=0.00002s
+
+2015-04-29 22:49:29 (199 MB/s) - ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/pw-logo.gif’ saved [3160/3160]
+
+--2015-04-29 22:49:29--  http://www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/chinaz-logo.gif
+Connecting to www-img.oss-cn-qingdao.aliyuncs.com|115.28.250.5|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3703 (3.6K) [image/gif]
+Saving to: ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/chinaz-logo.gif’
+
+     0K ...                                                   100%  227M=0.00002s
+
+2015-04-29 22:49:29 (227 MB/s) - ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/chinaz-logo.gif’ saved [3703/3703]
+
+--2015-04-29 22:49:29--  http://www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/zongheng-logo.gif
+Connecting to www-img.oss-cn-qingdao.aliyuncs.com|115.28.250.5|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3809 (3.7K) [image/gif]
+Saving to: ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/zongheng-logo.gif’
+
+     0K ...                                                   100%  198M=0.00002s
+
+2015-04-29 22:49:30 (198 MB/s) - ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/zongheng-logo.gif’ saved [3809/3809]
+
+--2015-04-29 22:49:30--  http://www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/jinshan-logo.gif
+Connecting to www-img.oss-cn-qingdao.aliyuncs.com|115.28.250.5|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 4183 (4.1K) [image/gif]
+Saving to: ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/jinshan-logo.gif’
+
+     0K ....                                                  100%  544M=0.00001s
+
+2015-04-29 22:49:31 (544 MB/s) - ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/jinshan-logo.gif’ saved [4183/4183]
+
+--2015-04-29 22:49:31--  http://www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/game-logo.jpg
+Connecting to www-img.oss-cn-qingdao.aliyuncs.com|115.28.250.5|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3722 (3.6K) [image/jpeg]
+Saving to: ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/game-logo.jpg’
+
+     0K ...                                                   100%  161M=0.00002s
+
+2015-04-29 22:49:31 (161 MB/s) - ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/game-logo.jpg’ saved [3722/3722]
+
+--2015-04-29 22:49:31--  http://www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/jutaobao-logo.gif
+Connecting to www-img.oss-cn-qingdao.aliyuncs.com|115.28.250.5|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 4135 (4.0K) [image/gif]
+Saving to: ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/jutaobao-logo.gif’
+
+     0K ....                                                  100%  274M=0.00001s
+
+2015-04-29 22:49:32 (274 MB/s) - ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/jutaobao-logo.gif’ saved [4135/4135]
+
+--2015-04-29 22:49:32--  http://www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/114-logo.gif
+Connecting to www-img.oss-cn-qingdao.aliyuncs.com|115.28.250.5|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3698 (3.6K) [image/gif]
+Saving to: ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/114-logo.gif’
+
+     0K ...                                                   100%  217M=0.00002s
+
+2015-04-29 22:49:32 (217 MB/s) - ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/114-logo.gif’ saved [3698/3698]
+
+--2015-04-29 22:49:32--  http://www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/yy-logo.jpg
+Connecting to www-img.oss-cn-qingdao.aliyuncs.com|115.28.250.5|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3710 (3.6K) [image/jpeg]
+Saving to: ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/yy-logo.jpg’
+
+     0K ...                                                   100%  699M=0.00001s
+
+2015-04-29 22:49:33 (699 MB/s) - ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/yy-logo.jpg’ saved [3710/3710]
+
+--2015-04-29 22:49:33--  http://www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/91-logo.jpg
+Connecting to www-img.oss-cn-qingdao.aliyuncs.com|115.28.250.5|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 5115 (5.0K) [image/jpeg]
+Saving to: ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/91-logo.jpg’
+
+     0K ....                                                  100%  796M=0.00001s
+
+2015-04-29 22:49:33 (796 MB/s) - ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/91-logo.jpg’ saved [5115/5115]
+
+--2015-04-29 22:49:33--  http://www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/zhuixin-logo.jpg
+Connecting to www-img.oss-cn-qingdao.aliyuncs.com|115.28.250.5|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3910 (3.8K) [image/jpeg]
+Saving to: ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/zhuixin-logo.jpg’
+
+     0K ...                                                   100%  221M=0.00002s
+
+2015-04-29 22:49:34 (221 MB/s) - ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/zhuixin-logo.jpg’ saved [3910/3910]
+
+--2015-04-29 22:49:34--  http://www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/A5_logo.gif
+Connecting to www-img.oss-cn-qingdao.aliyuncs.com|115.28.250.5|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3498 (3.4K) [image/gif]
+Saving to: ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/A5_logo.gif’
+
+     0K ...                                                   100%  638M=0.00001s
+
+2015-04-29 22:49:35 (638 MB/s) - ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/A5_logo.gif’ saved [3498/3498]
+
+--2015-04-29 22:49:35--  http://www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/alilogo.jpg
+Connecting to www-img.oss-cn-qingdao.aliyuncs.com|115.28.250.5|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3929 (3.8K) [image/jpeg]
+Saving to: ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/alilogo.jpg’
+
+     0K ...                                                   100%  202M=0.00002s
+
+2015-04-29 22:49:35 (202 MB/s) - ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/alilogo.jpg’ saved [3929/3929]
+
+--2015-04-29 22:49:35--  http://www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/u9logo.jpg
+Connecting to www-img.oss-cn-qingdao.aliyuncs.com|115.28.250.5|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3953 (3.9K) [image/jpeg]
+Saving to: ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/u9logo.jpg’
+
+     0K ...                                                   100%  231M=0.00002s
+
+2015-04-29 22:49:36 (231 MB/s) - ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/u9logo.jpg’ saved [3953/3953]
+
+--2015-04-29 22:49:36--  http://www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/qjwm_logo.gif
+Connecting to www-img.oss-cn-qingdao.aliyuncs.com|115.28.250.5|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 4162 (4.1K) [image/gif]
+Saving to: ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/qjwm_logo.gif’
+
+     0K ....                                                  100%  200M=0.00002s
+
+2015-04-29 22:49:36 (200 MB/s) - ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/qjwm_logo.gif’ saved [4162/4162]
+
+--2015-04-29 22:49:36--  http://www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/xcar-logo.jpg
+Connecting to www-img.oss-cn-qingdao.aliyuncs.com|115.28.250.5|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3881 (3.8K) [image/jpeg]
+Saving to: ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/xcar-logo.jpg’
+
+     0K ...                                                   100%  205M=0.00002s
+
+2015-04-29 22:49:37 (205 MB/s) - ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/xcar-logo.jpg’ saved [3881/3881]
+
+--2015-04-29 22:49:37--  http://www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/xs8-logo.gif
+Connecting to www-img.oss-cn-qingdao.aliyuncs.com|115.28.250.5|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3401 (3.3K) [image/gif]
+Saving to: ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/xs8-logo.gif’
+
+     0K ...                                                   100%  349M=0.00001s
+
+2015-04-29 22:49:38 (349 MB/s) - ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/xs8-logo.gif’ saved [3401/3401]
+
+--2015-04-29 22:49:38--  http://www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/dm5-logo.gif
+Connecting to www-img.oss-cn-qingdao.aliyuncs.com|115.28.250.5|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 9493 (9.3K) [image/gif]
+Saving to: ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/dm5-logo.gif’
+
+     0K .........                                             100% 74.6M=0.00012s
+
+2015-04-29 22:49:38 (74.6 MB/s) - ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/dm5-logo.gif’ saved [9493/9493]
+
+--2015-04-29 22:49:38--  http://www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/baofeng-logo.gif
+Connecting to www-img.oss-cn-qingdao.aliyuncs.com|115.28.250.5|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 4066 (4.0K) [image/gif]
+Saving to: ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/baofeng-logo.gif’
+
+     0K ...                                                   100%  575M=0.00001s
+
+2015-04-29 22:49:39 (575 MB/s) - ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/baofeng-logo.gif’ saved [4066/4066]
+
+--2015-04-29 22:49:39--  http://www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/120ask-logo_tm.gif
+Connecting to www-img.oss-cn-qingdao.aliyuncs.com|115.28.250.5|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3860 (3.8K) [image/gif]
+Saving to: ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/120ask-logo_tm.gif’
+
+     0K ...                                                   100%  229M=0.00002s
+
+2015-04-29 22:49:40 (229 MB/s) - ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/120ask-logo_tm.gif’ saved [3860/3860]
+
+--2015-04-29 22:49:40--  http://www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/wps.png
+Connecting to www-img.oss-cn-qingdao.aliyuncs.com|115.28.250.5|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 5124 (5.0K) [image/png]
+Saving to: ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/wps.png’
+
+     0K .....                                                 100%  276M=0.00002s
+
+2015-04-29 22:49:40 (276 MB/s) - ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/wps.png’ saved [5124/5124]
+
+--2015-04-29 22:49:40--  http://doc.cnzz.com/about/pic/new/mier.jpg
+Resolving doc.cnzz.com... 42.156.162.43
+Connecting to doc.cnzz.com|42.156.162.43|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 5989 (5.8K) [image/jpeg]
+Saving to: ‘69/doc.cnzz.com/about/pic/new/mier.jpg’
+
+     0K .....                                                 100% 8.19M=0.00070s
+
+2015-04-29 22:49:41 (8.19 MB/s) - ‘69/doc.cnzz.com/about/pic/new/mier.jpg’ saved [5989/5989]
+
+--2015-04-29 22:49:41--  http://www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/shouyouribao.jpg
+Connecting to www-img.oss-cn-qingdao.aliyuncs.com|115.28.250.5|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3580 (3.5K) [image/jpeg]
+Saving to: ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/shouyouribao.jpg’
+
+     0K ...                                                   100%  143M=0.00002s
+
+2015-04-29 22:49:41 (143 MB/s) - ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/logo/shouyouribao.jpg’ saved [3580/3580]
+
+--2015-04-29 22:49:41--  http://www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/contacts_03.gif
+Connecting to www-img.oss-cn-qingdao.aliyuncs.com|115.28.250.5|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2728 (2.7K) [image/gif]
+Saving to: ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/contacts_03.gif’
+
+     0K ..                                                    100%  332M=0.00001s
+
+2015-04-29 22:49:42 (332 MB/s) - ‘69/www-img.oss-cn-qingdao.aliyuncs.com/www.cnzz.com/contacts_03.gif’ saved [2728/2728]
+
+--2015-04-29 22:49:42--  http://s5.cnzz.com/stat.php?id=33222&web_id=33222&show=pic
+Resolving s5.cnzz.com... 66.102.255.49, 66.102.255.55
+Connecting to s5.cnzz.com|66.102.255.49|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 10069 (9.8K) [application/javascript]
+Saving to: ‘69/s5.cnzz.com/stat.php?id=33222&web_id=33222&show=pic’
+
+     0K .........                                             100% 81.1M=0.00012s
+
+2015-04-29 22:49:42 (81.1 MB/s) - ‘69/s5.cnzz.com/stat.php?id=33222&web_id=33222&show=pic’ saved [10069/10069]
+
+Warning: wildcards not supported in HTTP.
+--2015-04-29 22:49:42--  http://42.156.162.55/'%20+%20focus_data[i].img%20+%20'
+Connecting to 42.156.162.55:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://www.cnzz.com/404.html [following]
+--2015-04-29 22:49:43--  http://www.cnzz.com/404.html
+Reusing existing connection to 42.156.162.55:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 3617 (3.5K) [text/html]
+Saving to: ‘69/42.156.162.55/' + focus_data[i].img + '’
+
+     0K ...                                                   100%  210M=0.00002s
+
+2015-04-29 22:49:43 (210 MB/s) - ‘69/42.156.162.55/' + focus_data[i].img + '’ saved [3617/3617]
+
+FINISHED --2015-04-29 22:49:43--
+Total wall clock time: 29.63451
+Downloaded: 46 files, 235K in 1.74949 (134 KB/s)
+Converting 69/42.156.162.55/index.html... 47-2
+Converting 69/42.156.162.55/' + focus_data[i].img + '... 0-5
+Converted 2 files in 0.00346 seconds.

@@ -1,0 +1,9 @@
+--2015-04-29 23:40:22--  http://110.76.19.33/
+Connecting to 110.76.19.33:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://www.alipay.com [following]
+--2015-04-29 23:40:22--  https://www.alipay.com/
+Resolving www.alipay.com... 110.75.142.111
+Connecting to www.alipay.com|110.75.142.111|:443... connected.
+Unable to establish SSL connection.
+Converted 0 files in 0.00000 seconds.

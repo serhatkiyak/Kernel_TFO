@@ -1,0 +1,361 @@
+--2015-04-29 22:29:09--  http://205.204.96.36/
+Connecting to 205.204.96.36:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Cookie coming from 205.204.96.36 attempted to set domain to alibaba.com
+Cookie coming from 205.204.96.36 attempted to set domain to alibaba.com
+Cookie coming from 205.204.96.36 attempted to set domain to alibaba.com
+Cookie coming from 205.204.96.36 attempted to set domain to alibaba.com
+Cookie coming from 205.204.96.36 attempted to set domain to alibaba.com
+Cookie coming from 205.204.96.36 attempted to set domain to alibaba.com
+Cookie coming from 205.204.96.36 attempted to set domain to alibaba.com
+Cookie coming from 205.204.96.36 attempted to set domain to alibaba.com
+Length: unspecified [text/html]
+Saving to: ‘68/205.204.96.36/index.html’
+
+     0K .......... .......... .......... .......... ..........  115K
+    50K .......... .......... .......... .......... ..........  196K
+   100K .......... .......... .......... .......... ..          238K=0.86730s
+
+2015-04-29 22:29:10 (164 KB/s) - ‘68/205.204.96.36/index.html’ saved [145871]
+
+--2015-04-29 22:29:10--  http://i02.i.aliimg.com/simg/single/icon/favicon.ico
+Resolving i02.i.aliimg.com... 23.62.238.152, 23.62.238.193
+Connecting to i02.i.aliimg.com|23.62.238.152|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1406 (1.4K) [image/x-icon]
+Saving to: ‘68/i02.i.aliimg.com/simg/single/icon/favicon.ico’
+
+     0K .                                                     100% 8.27M=0.00016s
+
+2015-04-29 22:29:10 (8.27 MB/s) - ‘68/i02.i.aliimg.com/simg/single/icon/favicon.ico’ saved [1406/1406]
+
+The name is too long, 629 chars total.
+Trying to shorten...
+New name is index.html??apollo%2Fcore%2Fcore-sc.css,apollo%2Fcore%2Frwd-sc.css,run%2Faisn%2Fghome%2Frwd-fixed.css,run%2Faisn%2Fghome%2Fghome.css,apollo%2Fmod%2Fheader%2Fheader-v4-sc.css,run%2Fcommon%2Ftop-reached%2Ftop-reached.css,run%2Faisn%2Fghom.
+The name is too long, 629 chars total.
+Trying to shorten...
+New name is index.html??apollo%2Fcore%2Fcore-sc.css,apollo%2Fcore%2Frwd-sc.css,run%2Faisn%2Fghome%2Frwd-fixed.css,run%2Faisn%2Fghome%2Fghome.css,apollo%2Fmod%2Fheader%2Fheader-v4-sc.css,run%2Fcommon%2Ftop-reached%2Ftop-reached.css,run%2Faisn%2Fghom.
+--2015-04-29 22:29:10--  http://style.aliunicorn.com/css/6v/??apollo/core/core-sc.css,apollo/core/rwd-sc.css,run/aisn/ghome/rwd-fixed.css,run/aisn/ghome/ghome.css,apollo/mod/header/header-v4-sc.css,run/common/top-reached/top-reached.css,run/aisn/ghome/new-start2.css,run/aisn/ghome/rfqbar.css,run/aisn/ghome/categories.css,run/aisn/ghome/banners.css,run/aisn/ghome/industry.css,run/aisn/ghome/rfq.css,run/aisn/ghome/ws.css,run/aisn/ghome/vs-v2.css,run/aisn/ghome/region.css,run/aisn/ghome/hp.css,run/aisn/ghome/ts.css,apollo/mod/footer/footer-v4-sc.css?t=51c6a2e6c_1f9b5b0704
+Resolving style.aliunicorn.com... 23.62.238.144, 23.62.238.160
+Connecting to style.aliunicorn.com|23.62.238.144|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/css]
+Saving to: ‘68/style.aliunicorn.com/css/6v/index.html??apollo%2Fcore%2Fcore-sc.css,apollo%2Fcore%2Frwd-sc.css,run%2Faisn%2Fghome%2Frwd-fixed.css,run%2Faisn%2Fghome%2Fghome.css,apollo%2Fmod%2Fheader%2Fheader-v4-sc.css,run%2Fcommon%2Ftop-reached%2Ftop-reached.css,run%2Faisn%2Fghom’
+
+     0K .......... .......... .......... .......... .......... 1.63M
+    50K .......... .......... .......... .......... .......... 2.12M
+   100K .......... .......... .......... .......... .......... 13.6M
+   150K .......... .......... .......... .......... .          1.39M=0.08576s
+
+2015-04-29 22:29:10 (2.18 MB/s) - ‘68/style.aliunicorn.com/css/6v/index.html??apollo%2Fcore%2Fcore-sc.css,apollo%2Fcore%2Frwd-sc.css,run%2Faisn%2Fghome%2Frwd-fixed.css,run%2Faisn%2Fghome%2Fghome.css,apollo%2Fmod%2Fheader%2Fheader-v4-sc.css,run%2Fcommon%2Ftop-reached%2Ftop-reached.css,run%2Faisn%2Fghom’ saved [196326]
+
+--2015-04-29 22:29:10--  http://style.aliunicorn.com/js/6v/atom/??atom-sc-test.js?t=6453147c_ddd1071bc
+Reusing existing connection to style.aliunicorn.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/javascript]
+Saving to: ‘68/style.aliunicorn.com/js/6v/atom/index.html??atom-sc-test.js?t=6453147c_ddd1071bc’
+
+     0K .......... .......... .......... ......                8.91M=0.00401s
+
+2015-04-29 22:29:10 (8.91 MB/s) - ‘68/style.aliunicorn.com/js/6v/atom/index.html??atom-sc-test.js?t=6453147c_ddd1071bc’ saved [37473]
+
+--2015-04-29 22:29:10--  http://img.alibaba.com/js/beacon_en.js
+Resolving img.alibaba.com... 23.62.238.160, 23.62.238.144
+Reusing existing connection to style.aliunicorn.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/javascript]
+Saving to: ‘68/img.alibaba.com/js/beacon_en.js’
+
+     0K .......... .......... .......... .......... .........  12.0M=0.00404s
+
+2015-04-29 22:29:10 (12.0 MB/s) - ‘68/img.alibaba.com/js/beacon_en.js’ saved [50982]
+
+--2015-04-29 22:29:10--  http://dmtracking2.alibaba.com/b.jpg?cD0xJnU9ezIwNS4yMDQuOTYuMzYlMmZnbG9iYWxob21lJTJmaG9tZSUyZXZodG1sfSZtPXtHRVR9JnM9ezIwMH0mcj17LX0mYT17LX0mYj0tJmM9e2FsaV9yZXNpbl90cmFjZT1udXNlcj1ZfQo=&ver=40&pageid=49ae912fac14b4261430367521&time=1430367521
+Resolving dmtracking2.alibaba.com... 205.204.96.111
+Connecting to dmtracking2.alibaba.com|205.204.96.111|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 0 [image/jpeg]
+Saving to: ‘68/dmtracking2.alibaba.com/b.jpg?cD0xJnU9ezIwNS4yMDQuOTYuMzYlMmZnbG9iYWxob21lJTJmaG9tZSUyZXZodG1sfSZtPXtHRVR9JnM9ezIwMH0mcj17LX0mYT17LX0mYj0tJmM9e2FsaV9yZXNpbl90cmFjZT1udXNlcj1ZfQo=&ver=40&pageid=49ae912fac14b4261430367521&time=1430367521’
+
+     0K                                                        0.00 =0.00000s
+
+2015-04-29 22:29:10 (0.00 B/s) - ‘68/dmtracking2.alibaba.com/b.jpg?cD0xJnU9ezIwNS4yMDQuOTYuMzYlMmZnbG9iYWxob21lJTJmaG9tZSUyZXZodG1sfSZtPXtHRVR9JnM9ezIwMH0mcj17LX0mYT17LX0mYj0tJmM9e2FsaV9yZXNpbl90cmFjZT1udXNlcj1ZfQo=&ver=40&pageid=49ae912fac14b4261430367521&time=1430367521’ saved [0/0]
+
+--2015-04-29 22:29:10--  http://gtms01.alicdn.com/tps/i1/TB1HGIpFVXXXXa6XpXXS2V4NFXX-1500-200.png
+Resolving gtms01.alicdn.com... 66.102.255.40, 66.102.255.50
+Connecting to gtms01.alicdn.com|66.102.255.40|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 48822 (48K) [image/jpeg]
+Saving to: ‘68/gtms01.alicdn.com/tps/i1/TB1HGIpFVXXXXa6XpXXS2V4NFXX-1500-200.png’
+
+     0K .......... .......... .......... .......... .......   100%  168K=0.28356s
+
+2015-04-29 22:29:11 (168 KB/s) - ‘68/gtms01.alicdn.com/tps/i1/TB1HGIpFVXXXXa6XpXXS2V4NFXX-1500-200.png’ saved [48822/48822]
+
+--2015-04-29 22:29:11--  http://gtms03.alicdn.com/tps/i3/TB127pdGXXXXXXpaXXXDNGzNFXX-1500-450.png
+Resolving gtms03.alicdn.com... 66.102.255.40, 66.102.255.50
+Reusing existing connection to gtms01.alicdn.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 60569 (59K) [image/jpeg]
+Saving to: ‘68/gtms03.alicdn.com/tps/i3/TB127pdGXXXXXXpaXXXDNGzNFXX-1500-450.png’
+
+     0K .......... .......... .......... .......... .......... 84%  238K 0s
+    50K .........                                             100% 4.94M=0.21172s
+
+2015-04-29 22:29:11 (279 KB/s) - ‘68/gtms03.alicdn.com/tps/i3/TB127pdGXXXXXXpaXXXDNGzNFXX-1500-450.png’ saved [60569/60569]
+
+--2015-04-29 22:29:11--  http://gtms01.alicdn.com/tps/i1/TB1yyaJGpXXXXbOXFXXDNGzNFXX-1500-450.png
+Reusing existing connection to gtms01.alicdn.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 65504 (64K) [image/jpeg]
+Saving to: ‘68/gtms01.alicdn.com/tps/i1/TB1yyaJGpXXXXbOXFXXDNGzNFXX-1500-450.png’
+
+     0K .......... .......... .......... .......... .......... 78%  473K 0s
+    50K .......... ...                                        100%  149K=0.19940s
+
+2015-04-29 22:29:12 (321 KB/s) - ‘68/gtms01.alicdn.com/tps/i1/TB1yyaJGpXXXXbOXFXXDNGzNFXX-1500-450.png’ saved [65504/65504]
+
+--2015-04-29 22:29:12--  http://gtms01.alicdn.com/tps/i1/TB1peJyGXXXXXcyXpXXDNGzNFXX-1500-450.png
+Reusing existing connection to gtms01.alicdn.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 53458 (52K) [image/jpeg]
+Saving to: ‘68/gtms01.alicdn.com/tps/i1/TB1peJyGXXXXXcyXpXXDNGzNFXX-1500-450.png’
+
+     0K .......... .......... .......... .......... .......... 95%  533K 0s
+    50K ..                                                    100% 2.80M=0.09455s
+
+2015-04-29 22:29:12 (552 KB/s) - ‘68/gtms01.alicdn.com/tps/i1/TB1peJyGXXXXXcyXpXXDNGzNFXX-1500-450.png’ saved [53458/53458]
+
+--2015-04-29 22:29:12--  http://gtms04.alicdn.com/tps/i4/TB1YadDGXXXXXa5XpXXDNGzNFXX-1500-450.png
+Resolving gtms04.alicdn.com... 66.198.178.120, 66.198.178.110
+Connecting to gtms04.alicdn.com|66.198.178.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 55901 (55K) [image/jpeg]
+Saving to: ‘68/gtms04.alicdn.com/tps/i4/TB1YadDGXXXXXa5XpXXDNGzNFXX-1500-450.png’
+
+     0K .......... .......... .......... .......... .......... 91%  381K 0s
+    50K ....                                                  100% 4.26M=0.13237s
+
+2015-04-29 22:29:12 (412 KB/s) - ‘68/gtms04.alicdn.com/tps/i4/TB1YadDGXXXXXa5XpXXDNGzNFXX-1500-450.png’ saved [55901/55901]
+
+--2015-04-29 22:29:12--  http://gtms03.alicdn.com/tps/i3/TB1cGQzFVXXXXcAXpXXv6EaLpXX-500-450.png
+Connecting to gtms03.alicdn.com|66.102.255.40|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 22671 (22K) [image/jpeg]
+Saving to: ‘68/gtms03.alicdn.com/tps/i3/TB1cGQzFVXXXXcAXpXXv6EaLpXX-500-450.png’
+
+     0K .......... .......... ..                              100%  112K=0.19788s
+
+2015-04-29 22:29:13 (112 KB/s) - ‘68/gtms03.alicdn.com/tps/i3/TB1cGQzFVXXXXcAXpXXv6EaLpXX-500-450.png’ saved [22671/22671]
+
+--2015-04-29 22:29:13--  http://gtms04.alicdn.com/tps/i4/TB1N1OQGpXXXXaZXFXXv6EaLpXX-500-450.png
+Connecting to gtms04.alicdn.com|66.198.178.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 51258 (50K) [image/jpeg]
+Saving to: ‘68/gtms04.alicdn.com/tps/i4/TB1N1OQGpXXXXaZXFXXv6EaLpXX-500-450.png’
+
+     0K .......... .......... .......... .......... .......... 99%  319K 0s
+    50K                                                       100%  108G=0.15690s
+
+2015-04-29 22:29:13 (319 KB/s) - ‘68/gtms04.alicdn.com/tps/i4/TB1N1OQGpXXXXaZXFXXv6EaLpXX-500-450.png’ saved [51258/51258]
+
+--2015-04-29 22:29:13--  http://gtms03.alicdn.com/tps/i3/TB1vmdxGXXXXXclXFXXv6EaLpXX-500-450.png
+Connecting to gtms03.alicdn.com|66.102.255.40|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 23463 (23K) [image/jpeg]
+Saving to: ‘68/gtms03.alicdn.com/tps/i3/TB1vmdxGXXXXXclXFXXv6EaLpXX-500-450.png’
+
+     0K .......... .......... ..                              100%  120K=0.19158s
+
+2015-04-29 22:29:14 (120 KB/s) - ‘68/gtms03.alicdn.com/tps/i3/TB1vmdxGXXXXXclXFXXv6EaLpXX-500-450.png’ saved [23463/23463]
+
+--2015-04-29 22:29:14--  http://gtms02.alicdn.com/tps/i2/TB1iOk_FVXXXXaxXpXXv6EaLpXX-500-450.png
+Resolving gtms02.alicdn.com... 66.198.178.120, 66.198.178.110
+Connecting to gtms02.alicdn.com|66.198.178.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 25356 (25K) [image/jpeg]
+Saving to: ‘68/gtms02.alicdn.com/tps/i2/TB1iOk_FVXXXXaxXpXXv6EaLpXX-500-450.png’
+
+     0K .......... .......... ....                            100%  972K=0.02548s
+
+2015-04-29 22:29:14 (972 KB/s) - ‘68/gtms02.alicdn.com/tps/i2/TB1iOk_FVXXXXaxXpXXv6EaLpXX-500-450.png’ saved [25356/25356]
+
+--2015-04-29 22:29:14--  http://gtms02.alicdn.com/tps/i2/TB1lzt_HFXXXXXsXVXX8LglYXXX-740-420.jpg
+Reusing existing connection to gtms02.alicdn.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 94314 (92K) [image/jpeg]
+Saving to: ‘68/gtms02.alicdn.com/tps/i2/TB1lzt_HFXXXXXsXVXX8LglYXXX-740-420.jpg’
+
+     0K .......... .......... .......... .......... .......... 54%  928K 0s
+    50K .......... .......... .......... .......... ..        100%  285K=0.20174s
+
+2015-04-29 22:29:14 (457 KB/s) - ‘68/gtms02.alicdn.com/tps/i2/TB1lzt_HFXXXXXsXVXX8LglYXXX-740-420.jpg’ saved [94314/94314]
+
+--2015-04-29 22:29:14--  http://gtms03.alicdn.com/tps/i3/TB1ieX9HFXXXXakXVXX3LAx4FXX-298-231.png
+Connecting to gtms03.alicdn.com|66.102.255.40|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 42766 (42K) [image/png]
+Saving to: ‘68/gtms03.alicdn.com/tps/i3/TB1ieX9HFXXXXakXVXX3LAx4FXX-298-231.png’
+
+     0K .......... .......... .......... .......... .         100%  107K=0.38971s
+
+2015-04-29 22:29:15 (107 KB/s) - ‘68/gtms03.alicdn.com/tps/i3/TB1ieX9HFXXXXakXVXX3LAx4FXX-298-231.png’ saved [42766/42766]
+
+--2015-04-29 22:29:15--  http://gtms02.alicdn.com/tps/i2/TB1xOV8FVXXXXavXpXXSutbFXXX.jpg
+Connecting to gtms02.alicdn.com|66.198.178.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2271 (2.2K) [image/jpeg]
+Saving to: ‘68/gtms02.alicdn.com/tps/i2/TB1xOV8FVXXXXavXpXXSutbFXXX.jpg’
+
+     0K ..                                                    100%  332M=0.00001s
+
+2015-04-29 22:29:15 (332 MB/s) - ‘68/gtms02.alicdn.com/tps/i2/TB1xOV8FVXXXXavXpXXSutbFXXX.jpg’ saved [2271/2271]
+
+--2015-04-29 22:29:15--  http://g01.s.alicdn.com/tps/i1/TB1Ai.NHpXXXXbVXpXXqtHZ5XXX-436-160.jpg
+Resolving g01.s.alicdn.com... 23.67.246.74, 23.67.246.34
+Connecting to g01.s.alicdn.com|23.67.246.74|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 38330 (37K) [image/jpeg]
+Saving to: ‘68/g01.s.alicdn.com/tps/i1/TB1Ai.NHpXXXXbVXpXXqtHZ5XXX-436-160.jpg’
+
+     0K .......... .......... .......... .......              100% 1.36M=0.02681s
+
+2015-04-29 22:29:15 (1.36 MB/s) - ‘68/g01.s.alicdn.com/tps/i1/TB1Ai.NHpXXXXbVXpXXqtHZ5XXX-436-160.jpg’ saved [38330/38330]
+
+--2015-04-29 22:29:15--  http://style.aliunicorn.com/simg/sprites/env/aisn/ghome/ghome.png?t=4e09143a_0
+Connecting to style.aliunicorn.com|23.62.238.144|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 40369 (39K) [image/png]
+Saving to: ‘68/style.aliunicorn.com/simg/sprites/env/aisn/ghome/ghome.png?t=4e09143a_0’
+
+     0K .......... .......... .......... .........            100% 1.33M=0.02889s
+
+2015-04-29 22:29:15 (1.33 MB/s) - ‘68/style.aliunicorn.com/simg/sprites/env/aisn/ghome/ghome.png?t=4e09143a_0’ saved [40369/40369]
+
+--2015-04-29 22:29:15--  http://img.alibaba.com/simg/single/icon/loading_16x16.gif
+Reusing existing connection to style.aliunicorn.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1553 (1.5K) [image/gif]
+Saving to: ‘68/img.alibaba.com/simg/single/icon/loading_16x16.gif’
+
+     0K .                                                     100%  101M=0.00001s
+
+2015-04-29 22:29:15 (101 MB/s) - ‘68/img.alibaba.com/simg/single/icon/loading_16x16.gif’ saved [1553/1553]
+
+--2015-04-29 22:29:15--  http://style.aliunicorn.com/simg/sprites/app/new-header-v4-2@1x.png?t=21312772_0
+Reusing existing connection to style.aliunicorn.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 12328 (12K) [image/png]
+Saving to: ‘68/style.aliunicorn.com/simg/sprites/app/new-header-v4-2@1x.png?t=21312772_0’
+
+     0K .......... ..                                         100%  119K=0.10144s
+
+2015-04-29 22:29:15 (119 KB/s) - ‘68/style.aliunicorn.com/simg/sprites/app/new-header-v4-2@1x.png?t=21312772_0’ saved [12328/12328]
+
+--2015-04-29 22:29:15--  http://style.aliunicorn.com/simg/sprites/app/new-header-v4-2@2x.png?t=e01635c0_0
+Reusing existing connection to style.aliunicorn.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 70174 (69K) [image/png]
+Saving to: ‘68/style.aliunicorn.com/simg/sprites/app/new-header-v4-2@2x.png?t=e01635c0_0’
+
+     0K .......... .......... .......... .......... .......... 72%  292K 0s
+    50K .......... ........                                   100%  170M=0.17126s
+
+2015-04-29 22:29:16 (400 KB/s) - ‘68/style.aliunicorn.com/simg/sprites/app/new-header-v4-2@2x.png?t=e01635c0_0’ saved [70174/70174]
+
+--2015-04-29 22:29:16--  http://style.aliunicorn.com/simg/single/icon/arrow-right.png?t=a187177e_0
+Reusing existing connection to style.aliunicorn.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1043 (1.0K) [image/png]
+Saving to: ‘68/style.aliunicorn.com/simg/single/icon/arrow-right.png?t=a187177e_0’
+
+     0K .                                                     100%  104M=0.00001s
+
+2015-04-29 22:29:16 (104 MB/s) - ‘68/style.aliunicorn.com/simg/single/icon/arrow-right.png?t=a187177e_0’ saved [1043/1043]
+
+--2015-04-29 22:29:16--  http://style.aliunicorn.com/simg/single/icon/loading_16x16.gif?t=30d69a7b_0
+Reusing existing connection to style.aliunicorn.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1553 (1.5K) [image/gif]
+Saving to: ‘68/style.aliunicorn.com/simg/single/icon/loading_16x16.gif?t=30d69a7b_0’
+
+     0K .                                                     100% 2.61M=0.00057s
+
+2015-04-29 22:29:16 (2.61 MB/s) - ‘68/style.aliunicorn.com/simg/single/icon/loading_16x16.gif?t=30d69a7b_0’ saved [1553/1553]
+
+--2015-04-29 22:29:16--  http://style.aliunicorn.com/simg/single/icon/close-small.png?t=c096eeee_0
+Reusing existing connection to style.aliunicorn.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 970 [image/png]
+Saving to: ‘68/style.aliunicorn.com/simg/single/icon/close-small.png?t=c096eeee_0’
+
+     0K                                                       100% 91.0M=0.00001s
+
+2015-04-29 22:29:16 (91.0 MB/s) - ‘68/style.aliunicorn.com/simg/single/icon/close-small.png?t=c096eeee_0’ saved [970/970]
+
+--2015-04-29 22:29:16--  http://style.aliunicorn.com/simg/single/banner/arrow-fold.png?t=dc5e9f2f_0
+Reusing existing connection to style.aliunicorn.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1338 (1.3K) [image/png]
+Saving to: ‘68/style.aliunicorn.com/simg/single/banner/arrow-fold.png?t=dc5e9f2f_0’
+
+     0K .                                                     100% 2.69M=0.00047s
+
+2015-04-29 22:29:16 (2.69 MB/s) - ‘68/style.aliunicorn.com/simg/single/banner/arrow-fold.png?t=dc5e9f2f_0’ saved [1338/1338]
+
+--2015-04-29 22:29:16--  http://style.aliunicorn.com/simg/single/banner/small-close.png?t=f2f7e774_0
+Reusing existing connection to style.aliunicorn.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1049 (1.0K) [image/png]
+Saving to: ‘68/style.aliunicorn.com/simg/single/banner/small-close.png?t=f2f7e774_0’
+
+     0K .                                                     100% 76.4M=0.00001s
+
+2015-04-29 22:29:16 (76.4 MB/s) - ‘68/style.aliunicorn.com/simg/single/banner/small-close.png?t=f2f7e774_0’ saved [1049/1049]
+
+--2015-04-29 22:29:16--  http://style.aliunicorn.com/simg/sprites/env/aisn/ghome/newstarter-sprite2.png?t=91657fc0_0
+Reusing existing connection to style.aliunicorn.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 23131 (23K) [image/png]
+Saving to: ‘68/style.aliunicorn.com/simg/sprites/env/aisn/ghome/newstarter-sprite2.png?t=91657fc0_0’
+
+     0K .......... .......... ..                              100% 7.96M=0.00277s
+
+2015-04-29 22:29:16 (7.96 MB/s) - ‘68/style.aliunicorn.com/simg/sprites/env/aisn/ghome/newstarter-sprite2.png?t=91657fc0_0’ saved [23131/23131]
+
+--2015-04-29 22:29:16--  http://gtms01.alicdn.com/tps/i1/TB1vRXVHXXXXXcXXVXXPldqIFXX-2000-450.png
+Connecting to gtms01.alicdn.com|66.102.255.40|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 15116 (15K) [image/png]
+Saving to: ‘68/gtms01.alicdn.com/tps/i1/TB1vRXVHXXXXXcXXVXXPldqIFXX-2000-450.png’
+
+     0K .......... ....                                       100%  183K=0.08048s
+
+2015-04-29 22:29:16 (183 KB/s) - ‘68/gtms01.alicdn.com/tps/i1/TB1vRXVHXXXXXcXXVXXPldqIFXX-2000-450.png’ saved [15116/15116]
+
+--2015-04-29 22:29:16--  http://style.aliunicorn.com/simg/sprites/app/new-footer-v4-2@1x.png?t=c70d9699_0
+Connecting to style.aliunicorn.com|23.62.238.144|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 4813 (4.7K) [image/png]
+Saving to: ‘68/style.aliunicorn.com/simg/sprites/app/new-footer-v4-2@1x.png?t=c70d9699_0’
+
+     0K ....                                                  100%  235M=0.00002s
+
+2015-04-29 22:29:16 (235 MB/s) - ‘68/style.aliunicorn.com/simg/sprites/app/new-footer-v4-2@1x.png?t=c70d9699_0’ saved [4813/4813]
+
+--2015-04-29 22:29:16--  http://style.aliunicorn.com/simg/sprites/app/new-footer-v4-2@2x.png?t=e40dc0b1_0
+Reusing existing connection to style.aliunicorn.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 7578 (7.4K) [image/png]
+Saving to: ‘68/style.aliunicorn.com/simg/sprites/app/new-footer-v4-2@2x.png?t=e40dc0b1_0’
+
+     0K .......                                               100% 2.99M=0.00242s
+
+2015-04-29 22:29:16 (2.99 MB/s) - ‘68/style.aliunicorn.com/simg/sprites/app/new-footer-v4-2@2x.png?t=e40dc0b1_0’ saved [7578/7578]
+
+FINISHED --2015-04-29 22:29:16--
+Total wall clock time: 7.23044
+Downloaded: 32 files, 1.1M in 3.46134 (338 KB/s)
+Converting 68/205.204.96.36/index.html... 18-4
+Converting 68/style.aliunicorn.com/css/6v/index.html??apollo%2Fcore%2Fcore-sc.css,apollo%2Fcore%2Frwd-sc.css,run%2Faisn%2Fghome%2Frwd-fixed.css,run%2Faisn%2Fghome%2Fghome.css,apollo%2Fmod%2Fheader%2Fheader-v4-sc.css,run%2Fcommon%2Ftop-reached%2Ftop-reached.css,run%2Faisn%2Fghom... 18-0
+Converted 2 files in 0.00716 seconds.

@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import pylab
 import numpy as np
 
-N = 2
+N = 121
 
 ctime_tcp = [0] * N
 ctime_tfo = [0] * N
@@ -60,7 +60,33 @@ plt.scatter(xaxis, ctime_tcp, label='TCP', color='green')
 plt.scatter(xaxis, ctime_tfo, label='TFO', color='red')
 ##plt.plot([-500,2000], [0,0], 'k-', lw=2)
 ##plt.plot([-500,2000], [50,50], 'k-', lw=2)
+plt.ylim(0, 0.5)
+##plt.xlim(-500, 2000)
+plt.legend(loc = 'upper left')
+plt.show()
+
+percentage = [0] * N
+for index in range(0, N):
+	percentage[index] = ((ctime_tcp[index] - ctime_tfo[index]) / float(ctime_tcp[index])) * 100
+
+plt.ylabel('Page load time improvement (percentage)')
+plt.xlabel('Server')
+##plt.scatter(xaxis, false, label='FALSE', color='red')
+##plt.scatter(xaxis, full, label='FULL', color='green')
+plt.scatter(xaxis, percentage, label='IMPROVEMENT', color='green')
+plt.plot([0,142], [0,0], 'k-', lw=2)
+##plt.plot([-500,2000], [50,50], 'k-', lw=2)
 ##plt.ylim(0, 200)
 ##plt.xlim(-500, 2000)
-##plt.legend(loc = 'lower right')
+plt.legend(loc = 'lower right')
+plt.show()
+
+data = percentage
+num_bins = 100
+counts, bin_edges = np.histogram(data, bins=num_bins, normed=True)
+cdf = np.cumsum(counts)
+scale = 1.0/cdf[-1]
+ncdf = scale * cdf
+plt.xlabel('Page load time improvement (percentage)')
+plt.plot(bin_edges[1:], ncdf)
 plt.show()

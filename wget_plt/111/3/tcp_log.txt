@@ -1,0 +1,46 @@
+--2015-04-29 23:39:51--  http://74.125.228.223/
+Connecting to 74.125.228.223:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Cookie coming from 74.125.228.223 attempted to set domain to 
+Length: unspecified [text/html]
+Saving to: ‘111/74.125.228.223/index.html’
+
+     0K .......... .......                                      975K=0.01781s
+
+2015-04-29 23:39:52 (975 KB/s) - ‘111/74.125.228.223/index.html’ saved [17788]
+
+--2015-04-29 23:39:52--  http://74.125.228.223/images/srpr/nav_logo80.png
+Reusing existing connection to 74.125.228.223:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 35615 (35K) [image/png]
+Saving to: ‘111/74.125.228.223/images/srpr/nav_logo80.png’
+
+     0K .......... .......... .......... ....                 100% 1.89M=0.01800s
+
+2015-04-29 23:39:52 (1.89 MB/s) - ‘111/74.125.228.223/images/srpr/nav_logo80.png’ saved [35615/35615]
+
+--2015-04-29 23:39:52--  http://74.125.228.223/images/icons/product/chrome-48.png
+Reusing existing connection to 74.125.228.223:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1834 (1.8K) [image/png]
+Saving to: ‘111/74.125.228.223/images/icons/product/chrome-48.png’
+
+     0K .                                                     100%  119M=0.00001s
+
+2015-04-29 23:39:52 (119 MB/s) - ‘111/74.125.228.223/images/icons/product/chrome-48.png’ saved [1834/1834]
+
+--2015-04-29 23:39:52--  http://74.125.228.223/images/srpr/logo9w.png
+Reusing existing connection to 74.125.228.223:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 8228 (8.0K) [image/png]
+Saving to: ‘111/74.125.228.223/images/srpr/logo9w.png’
+
+     0K ........                                              100%  787K=0.01021s
+
+2015-04-29 23:39:52 (787 KB/s) - ‘111/74.125.228.223/images/srpr/logo9w.png’ saved [8228/8228]
+
+FINISHED --2015-04-29 23:39:52--
+Total wall clock time: 0.23002
+Downloaded: 4 files, 62K in 0.04603 (1.31 MB/s)
+Converting 111/74.125.228.223/index.html... 4-11
+Converted 1 files in 0.00189 seconds.

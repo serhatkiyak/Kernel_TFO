@@ -1,0 +1,46 @@
+--2015-04-29 22:27:29--  http://173.194.123.127/
+Connecting to 173.194.123.127:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Cookie coming from 173.194.123.127 attempted to set domain to 
+Length: unspecified [text/html]
+Saving to: ‘60/173.194.123.127/index.html’
+
+     0K .......... .......                                      695K=0.02496s
+
+2015-04-29 22:27:29 (695 KB/s) - ‘60/173.194.123.127/index.html’ saved [17764]
+
+--2015-04-29 22:27:29--  http://173.194.123.127/images/srpr/nav_logo80.png
+Reusing existing connection to 173.194.123.127:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 35615 (35K) [image/png]
+Saving to: ‘60/173.194.123.127/images/srpr/nav_logo80.png’
+
+     0K .......... .......... .......... ....                 100% 1.43M=0.02372s
+
+2015-04-29 22:27:29 (1.43 MB/s) - ‘60/173.194.123.127/images/srpr/nav_logo80.png’ saved [35615/35615]
+
+--2015-04-29 22:27:29--  http://173.194.123.127/images/icons/product/chrome-48.png
+Reusing existing connection to 173.194.123.127:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1834 (1.8K) [image/png]
+Saving to: ‘60/173.194.123.127/images/icons/product/chrome-48.png’
+
+     0K .                                                     100%  111M=0.00002s
+
+2015-04-29 22:27:29 (111 MB/s) - ‘60/173.194.123.127/images/icons/product/chrome-48.png’ saved [1834/1834]
+
+--2015-04-29 22:27:29--  http://173.194.123.127/images/srpr/logo9w.png
+Reusing existing connection to 173.194.123.127:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 8228 (8.0K) [image/png]
+Saving to: ‘60/173.194.123.127/images/srpr/logo9w.png’
+
+     0K ........                                              100% 68.0M=0.00012s
+
+2015-04-29 22:27:29 (68.0 MB/s) - ‘60/173.194.123.127/images/srpr/logo9w.png’ saved [8228/8228]
+
+FINISHED --2015-04-29 22:27:29--
+Total wall clock time: 0.26584
+Downloaded: 4 files, 62K in 0.04882 (1.24 MB/s)
+Converting 60/173.194.123.127/index.html... 4-11
+Converted 1 files in 0.00108 seconds.

@@ -1,0 +1,555 @@
+--2015-04-29 22:24:35--  http://115.28.253.61/
+Connecting to 115.28.253.61:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 103567 (101K) [text/html]
+Saving to: ‘58/115.28.253.61/index.html’
+
+     0K .......... .......... .......... .......... .......... 49% 81.0K 1s
+    50K .......... .......... .......... .......... .......... 98% 82.8K 0s
+   100K .                                                     100% 2174G=1.22117s
+
+2015-04-29 22:24:37 (82.8 KB/s) - ‘58/115.28.253.61/index.html’ saved [103567/103567]
+
+--2015-04-29 22:24:37--  http://www.luxtarget.com/favicon.ico
+Resolving www.luxtarget.com... 58.20.132.56, 183.95.152.2
+Connecting to www.luxtarget.com|58.20.132.56|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 894 [image/x-icon]
+Saving to: ‘58/www.luxtarget.com/favicon.ico’
+
+     0K                                                       100% 43.1M=0.00002s
+
+2015-04-29 22:24:37 (43.1 MB/s) - ‘58/www.luxtarget.com/favicon.ico’ saved [894/894]
+
+--2015-04-29 22:24:37--  http://www.luxtarget.com/r/cms/front.css
+Reusing existing connection to www.luxtarget.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1893 (1.8K) [text/css]
+Saving to: ‘58/www.luxtarget.com/r/cms/front.css’
+
+     0K .                                                     100%  117M=0.00002s
+
+2015-04-29 22:24:38 (117 MB/s) - ‘58/www.luxtarget.com/r/cms/front.css’ saved [1893/1893]
+
+--2015-04-29 22:24:38--  http://www.luxtarget.com/r/cms/front.js
+Reusing existing connection to www.luxtarget.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 6172 (6.0K) [application/javascript]
+Saving to: ‘58/www.luxtarget.com/r/cms/front.js’
+
+     0K ......                                                100%  258M=0.00002s
+
+2015-04-29 22:24:38 (258 MB/s) - ‘58/www.luxtarget.com/r/cms/front.js’ saved [6172/6172]
+
+--2015-04-29 22:24:38--  http://www.luxtarget.com/r/cms/www/target/css/target.css
+Reusing existing connection to www.luxtarget.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 28201 (28K) [text/css]
+Saving to: ‘58/www.luxtarget.com/r/cms/www/target/css/target.css’
+
+     0K .......... .......... .......                         100%  199K=0.13831s
+
+2015-04-29 22:24:38 (199 KB/s) - ‘58/www.luxtarget.com/r/cms/www/target/css/target.css’ saved [28201/28201]
+
+--2015-04-29 22:24:38--  http://www.luxtarget.com/r/cms/www/target/js/target.js
+Reusing existing connection to www.luxtarget.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 5841 (5.7K) [application/javascript]
+Saving to: ‘58/www.luxtarget.com/r/cms/www/target/js/target.js’
+
+     0K .....                                                 100%  373K=0.01528s
+
+2015-04-29 22:24:39 (373 KB/s) - ‘58/www.luxtarget.com/r/cms/www/target/js/target.js’ saved [5841/5841]
+
+--2015-04-29 22:24:39--  http://www.luxtarget.com/r/cms/www/target/js/common.js
+Reusing existing connection to www.luxtarget.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 3807 (3.7K) [application/javascript]
+Saving to: ‘58/www.luxtarget.com/r/cms/www/target/js/common.js’
+
+     0K ...                                                   100%  666K=0.00558s
+
+2015-04-29 22:24:39 (666 KB/s) - ‘58/www.luxtarget.com/r/cms/www/target/js/common.js’ saved [3807/3807]
+
+--2015-04-29 22:24:39--  http://tjs.sjs.sinajs.cn/open/api/js/wb.js?appkey=2911922834
+Resolving tjs.sjs.sinajs.cn... 222.73.28.76
+Connecting to tjs.sjs.sinajs.cn|222.73.28.76|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 34358 (34K) [application/x-javascript]
+Saving to: ‘58/tjs.sjs.sinajs.cn/open/api/js/wb.js?appkey=2911922834’
+
+     0K .......... .......... .......... ...                  100% 30.3K=1.10810s
+
+2015-04-29 22:24:42 (30.3 KB/s) - ‘58/tjs.sjs.sinajs.cn/open/api/js/wb.js?appkey=2911922834’ saved [34358/34358]
+
+--2015-04-29 22:24:42--  http://www.luxtarget.com/r/cms/www/target/img/logo/member.jpg
+Connecting to www.luxtarget.com|58.20.132.56|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 657 [image/jpeg]
+Saving to: ‘58/www.luxtarget.com/r/cms/www/target/img/logo/member.jpg’
+
+     0K                                                       100% 36.1M=0.00002s
+
+2015-04-29 22:24:43 (36.1 MB/s) - ‘58/www.luxtarget.com/r/cms/www/target/img/logo/member.jpg’ saved [657/657]
+
+--2015-04-29 22:24:43--  http://www.luxtarget.com/r/cms/www/target/img/logo/sina_weibo.gif
+Reusing existing connection to www.luxtarget.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 730 [image/gif]
+Saving to: ‘58/www.luxtarget.com/r/cms/www/target/img/logo/sina_weibo.gif’
+
+     0K                                                       100% 47.1M=0.00001s
+
+2015-04-29 22:24:43 (47.1 MB/s) - ‘58/www.luxtarget.com/r/cms/www/target/img/logo/sina_weibo.gif’ saved [730/730]
+
+--2015-04-29 22:24:43--  http://www.luxtarget.com/r/cms/www/target/img/logo/Tencent_weibo.gif
+Reusing existing connection to www.luxtarget.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 434 [image/gif]
+Saving to: ‘58/www.luxtarget.com/r/cms/www/target/img/logo/Tencent_weibo.gif’
+
+     0K                                                       100%  101M=0.00000s
+
+2015-04-29 22:24:43 (101 MB/s) - ‘58/www.luxtarget.com/r/cms/www/target/img/logo/Tencent_weibo.gif’ saved [434/434]
+
+--2015-04-29 22:24:43--  http://www.luxtarget.com/r/cms/www/target/js/collect.js
+Reusing existing connection to www.luxtarget.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1286 (1.3K) [application/javascript]
+Saving to: ‘58/www.luxtarget.com/r/cms/www/target/js/collect.js’
+
+     0K .                                                     100% 70.6M=0.00002s
+
+2015-04-29 22:24:43 (70.6 MB/s) - ‘58/www.luxtarget.com/r/cms/www/target/js/collect.js’ saved [1286/1286]
+
+--2015-04-29 22:24:43--  http://www.luxtarget.com/r/cms/www/target/js/dcad.js
+Reusing existing connection to www.luxtarget.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 424 [application/javascript]
+Saving to: ‘58/www.luxtarget.com/r/cms/www/target/js/dcad.js’
+
+     0K                                                       100% 60.3M=0.00001s
+
+2015-04-29 22:24:44 (60.3 MB/s) - ‘58/www.luxtarget.com/r/cms/www/target/js/dcad.js’ saved [424/424]
+
+--2015-04-29 22:24:44--  http://www.luxtarget.com/w/ad/targetad.js
+Reusing existing connection to www.luxtarget.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 670 [application/javascript]
+Saving to: ‘58/www.luxtarget.com/w/ad/targetad.js’
+
+     0K                                                       100% 41.1M=0.00002s
+
+2015-04-29 22:24:44 (41.1 MB/s) - ‘58/www.luxtarget.com/w/ad/targetad.js’ saved [670/670]
+
+--2015-04-29 22:24:44--  http://www.luxtarget.com/r/cms/www/target/img/top_menu_sd.jpg
+Reusing existing connection to www.luxtarget.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 336 [image/jpeg]
+Saving to: ‘58/www.luxtarget.com/r/cms/www/target/img/top_menu_sd.jpg’
+
+     0K                                                       100% 21.4M=0.00001s
+
+2015-04-29 22:24:45 (21.4 MB/s) - ‘58/www.luxtarget.com/r/cms/www/target/img/top_menu_sd.jpg’ saved [336/336]
+
+--2015-04-29 22:24:45--  http://www.luxtarget.com/r/cms/www/target/img/top_menu_xsd.jpg
+Reusing existing connection to www.luxtarget.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 318 [image/jpeg]
+Saving to: ‘58/www.luxtarget.com/r/cms/www/target/img/top_menu_xsd.jpg’
+
+     0K                                                       100% 20.8M=0.00001s
+
+2015-04-29 22:24:45 (20.8 MB/s) - ‘58/www.luxtarget.com/r/cms/www/target/img/top_menu_xsd.jpg’ saved [318/318]
+
+--2015-04-29 22:24:45--  http://cast.ra.icast.cn/p/?id=5761
+Resolving cast.ra.icast.cn... 122.225.81.38
+Connecting to cast.ra.icast.cn|122.225.81.38|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1150 (1.1K) [text/html]
+Saving to: ‘58/cast.ra.icast.cn/p/index.html?id=5761’
+
+     0K .                                                     100% 83.5M=0.00001s
+
+2015-04-29 22:24:46 (83.5 MB/s) - ‘58/cast.ra.icast.cn/p/index.html?id=5761’ saved [1150/1150]
+
+--2015-04-29 22:24:46--  http://www.luxtarget.com/r/cms/www/target/img/index/map_08.jpg
+Reusing existing connection to www.luxtarget.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 15428 (15K) [image/jpeg]
+Saving to: ‘58/www.luxtarget.com/r/cms/www/target/img/index/map_08.jpg’
+
+     0K .......... .....                                      100%  208K=0.07243s
+
+2015-04-29 22:24:46 (208 KB/s) - ‘58/www.luxtarget.com/r/cms/www/target/img/index/map_08.jpg’ saved [15428/15428]
+
+--2015-04-29 22:24:46--  http://www.luxtarget.com/r/cms/www/target/js/correctpng.js
+Reusing existing connection to www.luxtarget.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1046 (1.0K) [application/javascript]
+Saving to: ‘58/www.luxtarget.com/r/cms/www/target/js/correctpng.js’
+
+     0K .                                                     100% 66.1M=0.00002s
+
+2015-04-29 22:24:47 (66.1 MB/s) - ‘58/www.luxtarget.com/r/cms/www/target/js/correctpng.js’ saved [1046/1046]
+
+--2015-04-29 22:24:47--  http://www.luxtarget.com/r/cms/www/target/js/descimg.js
+Reusing existing connection to www.luxtarget.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 712 [application/javascript]
+Saving to: ‘58/www.luxtarget.com/r/cms/www/target/js/descimg.js’
+
+     0K                                                       100% 45.4M=0.00001s
+
+2015-04-29 22:24:47 (45.4 MB/s) - ‘58/www.luxtarget.com/r/cms/www/target/js/descimg.js’ saved [712/712]
+
+--2015-04-29 22:24:47--  http://www.luxtarget.com/r/cms/unchecked.gif
+Reusing existing connection to www.luxtarget.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 223 [image/gif]
+Saving to: ‘58/www.luxtarget.com/r/cms/unchecked.gif’
+
+     0K                                                       100% 14.5M=0.00001s
+
+2015-04-29 22:24:47 (14.5 MB/s) - ‘58/www.luxtarget.com/r/cms/unchecked.gif’ saved [223/223]
+
+--2015-04-29 22:24:47--  http://www.luxtarget.com/r/cms/checked.gif
+Reusing existing connection to www.luxtarget.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 220 [image/gif]
+Saving to: ‘58/www.luxtarget.com/r/cms/checked.gif’
+
+     0K                                                       100% 13.2M=0.00002s
+
+2015-04-29 22:24:48 (13.2 MB/s) - ‘58/www.luxtarget.com/r/cms/checked.gif’ saved [220/220]
+
+--2015-04-29 22:24:48--  http://www.luxtarget.com/r/cms/www/target/css/global.css
+Reusing existing connection to www.luxtarget.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2095 (2.0K) [text/css]
+Saving to: ‘58/www.luxtarget.com/r/cms/www/target/css/global.css’
+
+     0K ..                                                    100%  629K=0.00325s
+
+2015-04-29 22:24:48 (629 KB/s) - ‘58/www.luxtarget.com/r/cms/www/target/css/global.css’ saved [2095/2095]
+
+--2015-04-29 22:24:48--  http://www.luxtarget.com/r/cms/www/target/img/searchbg.gif
+Reusing existing connection to www.luxtarget.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 386 [text/html]
+Saving to: ‘58/www.luxtarget.com/r/cms/www/target/img/searchbg.gif’
+
+     0K                                                       100% 24.6M=0.00001s
+
+2015-04-29 22:24:49 (24.6 MB/s) - ‘58/www.luxtarget.com/r/cms/www/target/img/searchbg.gif’ saved [386/386]
+
+--2015-04-29 22:24:49--  http://www.luxtarget.com/r/cms/www/target/img/right_titlebg_3.gif
+Reusing existing connection to www.luxtarget.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 386 [text/html]
+Saving to: ‘58/www.luxtarget.com/r/cms/www/target/img/right_titlebg_3.gif’
+
+     0K                                                       100% 26.0M=0.00001s
+
+2015-04-29 22:24:50 (26.0 MB/s) - ‘58/www.luxtarget.com/r/cms/www/target/img/right_titlebg_3.gif’ saved [386/386]
+
+--2015-04-29 22:24:50--  http://www.luxtarget.com/r/cms/www/target/img/lefttitle1_bg1.jpg
+Reusing existing connection to www.luxtarget.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 386 [text/html]
+Saving to: ‘58/www.luxtarget.com/r/cms/www/target/img/lefttitle1_bg1.jpg’
+
+     0K                                                       100% 25.1M=0.00001s
+
+2015-04-29 22:24:50 (25.1 MB/s) - ‘58/www.luxtarget.com/r/cms/www/target/img/lefttitle1_bg1.jpg’ saved [386/386]
+
+--2015-04-29 22:24:50--  http://www.luxtarget.com/r/cms/www/target/img/lefttitle1_bg9.jpg
+Reusing existing connection to www.luxtarget.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 386 [text/html]
+Saving to: ‘58/www.luxtarget.com/r/cms/www/target/img/lefttitle1_bg9.jpg’
+
+     0K                                                       100% 27.5M=0.00001s
+
+2015-04-29 22:24:51 (27.5 MB/s) - ‘58/www.luxtarget.com/r/cms/www/target/img/lefttitle1_bg9.jpg’ saved [386/386]
+
+--2015-04-29 22:24:51--  http://www.luxtarget.com/r/cms/www/target/img/lefttitle1_bg2.jpg
+Reusing existing connection to www.luxtarget.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 386 [text/html]
+Saving to: ‘58/www.luxtarget.com/r/cms/www/target/img/lefttitle1_bg2.jpg’
+
+     0K                                                       100% 19.7M=0.00002s
+
+2015-04-29 22:24:51 (19.7 MB/s) - ‘58/www.luxtarget.com/r/cms/www/target/img/lefttitle1_bg2.jpg’ saved [386/386]
+
+--2015-04-29 22:24:51--  http://www.luxtarget.com/r/cms/www/target/img/left_titlebg_2.jpg
+Reusing existing connection to www.luxtarget.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 386 [text/html]
+Saving to: ‘58/www.luxtarget.com/r/cms/www/target/img/left_titlebg_2.jpg’
+
+     0K                                                       100% 14.1M=0.00003s
+
+2015-04-29 22:24:51 (14.1 MB/s) - ‘58/www.luxtarget.com/r/cms/www/target/img/left_titlebg_2.jpg’ saved [386/386]
+
+--2015-04-29 22:24:51--  http://www.luxtarget.com/r/cms/www/target/img/title1_jctw1.gif
+Reusing existing connection to www.luxtarget.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 386 [text/html]
+Saving to: ‘58/www.luxtarget.com/r/cms/www/target/img/title1_jctw1.gif’
+
+     0K                                                       100% 34.2M=0.00001s
+
+2015-04-29 22:24:53 (34.2 MB/s) - ‘58/www.luxtarget.com/r/cms/www/target/img/title1_jctw1.gif’ saved [386/386]
+
+--2015-04-29 22:24:53--  http://www.luxtarget.com/r/cms/www/target/img/.gif
+Reusing existing connection to www.luxtarget.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 386 [text/html]
+Saving to: ‘58/www.luxtarget.com/r/cms/www/target/img/.gif’
+
+     0K                                                       100% 25.1M=0.00001s
+
+2015-04-29 22:24:54 (25.1 MB/s) - ‘58/www.luxtarget.com/r/cms/www/target/img/.gif’ saved [386/386]
+
+--2015-04-29 22:24:54--  http://www.luxtarget.com/r/cms/www/target/img/top_menu_bj.jpg
+Reusing existing connection to www.luxtarget.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 309 [image/jpeg]
+Saving to: ‘58/www.luxtarget.com/r/cms/www/target/img/top_menu_bj.jpg’
+
+     0K                                                       100% 20.0M=0.00001s
+
+2015-04-29 22:24:54 (20.0 MB/s) - ‘58/www.luxtarget.com/r/cms/www/target/img/top_menu_bj.jpg’ saved [309/309]
+
+--2015-04-29 22:24:54--  http://www.luxtarget.com/r/cms/www/target/img/menu_back.jpg
+Reusing existing connection to www.luxtarget.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 306 [image/jpeg]
+Saving to: ‘58/www.luxtarget.com/r/cms/www/target/img/menu_back.jpg’
+
+     0K                                                       100% 28.0M=0.00001s
+
+2015-04-29 22:24:54 (28.0 MB/s) - ‘58/www.luxtarget.com/r/cms/www/target/img/menu_back.jpg’ saved [306/306]
+
+--2015-04-29 22:24:54--  http://www.luxtarget.com/r/cms/www/target/img/logo/logo.jpg
+Reusing existing connection to www.luxtarget.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 10311 (10K) [image/jpeg]
+Saving to: ‘58/www.luxtarget.com/r/cms/www/target/img/logo/logo.jpg’
+
+     0K ..........                                            100%  578K=0.01743s
+
+2015-04-29 22:24:57 (578 KB/s) - ‘58/www.luxtarget.com/r/cms/www/target/img/logo/logo.jpg’ saved [10311/10311]
+
+--2015-04-29 22:24:57--  http://www.luxtarget.com/r/cms/www/target/img/search.gif
+Reusing existing connection to www.luxtarget.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 368 [image/gif]
+Saving to: ‘58/www.luxtarget.com/r/cms/www/target/img/search.gif’
+
+     0K                                                       100% 23.7M=0.00001s
+
+2015-04-29 22:24:59 (23.7 MB/s) - ‘58/www.luxtarget.com/r/cms/www/target/img/search.gif’ saved [368/368]
+
+--2015-04-29 22:24:59--  http://www.luxtarget.com/r/cms/www/target/img/
+Reusing existing connection to www.luxtarget.com:80.
+HTTP request sent, awaiting response... 403 Forbidden
+2015-04-29 22:24:59 ERROR 403: Forbidden.
+
+--2015-04-29 22:24:59--  http://www.luxtarget.com/r/cms/www/target/img/num.gif
+Reusing existing connection to www.luxtarget.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 422 [text/html]
+Saving to: ‘58/www.luxtarget.com/r/cms/www/target/img/num.gif’
+
+     0K                                                       100% 27.8M=0.00001s
+
+2015-04-29 22:25:01 (27.8 MB/s) - ‘58/www.luxtarget.com/r/cms/www/target/img/num.gif’ saved [422/422]
+
+--2015-04-29 22:25:01--  http://www.luxtarget.com/r/cms/www/target/img/box_bg.png
+Reusing existing connection to www.luxtarget.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 422 [text/html]
+Saving to: ‘58/www.luxtarget.com/r/cms/www/target/img/box_bg.png’
+
+     0K                                                       100% 25.9M=0.00002s
+
+2015-04-29 22:25:02 (25.9 MB/s) - ‘58/www.luxtarget.com/r/cms/www/target/img/box_bg.png’ saved [422/422]
+
+--2015-04-29 22:25:02--  http://www.luxtarget.com/r/cms/www/target/img/prompt.jpg
+Reusing existing connection to www.luxtarget.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 422 [text/html]
+Saving to: ‘58/www.luxtarget.com/r/cms/www/target/img/prompt.jpg’
+
+     0K                                                       100% 27.4M=0.00001s
+
+2015-04-29 22:25:02 (27.4 MB/s) - ‘58/www.luxtarget.com/r/cms/www/target/img/prompt.jpg’ saved [422/422]
+
+--2015-04-29 22:25:02--  http://www.luxtarget.com/r/cms/www/target/img/ding.gif
+Reusing existing connection to www.luxtarget.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 422 [text/html]
+Saving to: ‘58/www.luxtarget.com/r/cms/www/target/img/ding.gif’
+
+     0K                                                       100% 25.3M=0.00002s
+
+2015-04-29 22:25:03 (25.3 MB/s) - ‘58/www.luxtarget.com/r/cms/www/target/img/ding.gif’ saved [422/422]
+
+--2015-04-29 22:25:03--  http://www.luxtarget.com/r/cms/www/target/img/cai.gif
+Reusing existing connection to www.luxtarget.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 422 [text/html]
+Saving to: ‘58/www.luxtarget.com/r/cms/www/target/img/cai.gif’
+
+     0K                                                       100% 27.5M=0.00001s
+
+2015-04-29 22:25:03 (27.5 MB/s) - ‘58/www.luxtarget.com/r/cms/www/target/img/cai.gif’ saved [422/422]
+
+--2015-04-29 22:25:03--  http://www.luxtarget.com/r/cms/www/target/img/bg1.jpg
+Reusing existing connection to www.luxtarget.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 422 [text/html]
+Saving to: ‘58/www.luxtarget.com/r/cms/www/target/img/bg1.jpg’
+
+     0K                                                       100% 26.6M=0.00002s
+
+2015-04-29 22:25:03 (26.6 MB/s) - ‘58/www.luxtarget.com/r/cms/www/target/img/bg1.jpg’ saved [422/422]
+
+--2015-04-29 22:25:03--  http://www.luxtarget.com/r/cms/www/target/img/login.jpg
+Reusing existing connection to www.luxtarget.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 422 [text/html]
+Saving to: ‘58/www.luxtarget.com/r/cms/www/target/img/login.jpg’
+
+     0K                                                       100% 62.0M=0.00001s
+
+2015-04-29 22:25:04 (62.0 MB/s) - ‘58/www.luxtarget.com/r/cms/www/target/img/login.jpg’ saved [422/422]
+
+--2015-04-29 22:25:04--  http://www.luxtarget.com/r/cms/www/target/img/member/member-titbg.jpg
+Reusing existing connection to www.luxtarget.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1092 (1.1K) [image/jpeg]
+Saving to: ‘58/www.luxtarget.com/r/cms/www/target/img/member/member-titbg.jpg’
+
+     0K .                                                     100% 2.27M=0.00046s
+
+2015-04-29 22:25:05 (2.27 MB/s) - ‘58/www.luxtarget.com/r/cms/www/target/img/member/member-titbg.jpg’ saved [1092/1092]
+
+--2015-04-29 22:25:05--  http://www.luxtarget.com/r/cms/www/target/img/index/lan_index.gif
+Reusing existing connection to www.luxtarget.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1232 (1.2K) [image/gif]
+Saving to: ‘58/www.luxtarget.com/r/cms/www/target/img/index/lan_index.gif’
+
+     0K .                                                     100%  660K=0.00182s
+
+2015-04-29 22:25:06 (660 KB/s) - ‘58/www.luxtarget.com/r/cms/www/target/img/index/lan_index.gif’ saved [1232/1232]
+
+--2015-04-29 22:25:06--  http://www.luxtarget.com/r/cms/www/target/img/index/lan_index_mall.jpg
+Reusing existing connection to www.luxtarget.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1347 (1.3K) [image/jpeg]
+Saving to: ‘58/www.luxtarget.com/r/cms/www/target/img/index/lan_index_mall.jpg’
+
+     0K .                                                     100%  185K=0.00711s
+
+2015-04-29 22:25:09 (185 KB/s) - ‘58/www.luxtarget.com/r/cms/www/target/img/index/lan_index_mall.jpg’ saved [1347/1347]
+
+--2015-04-29 22:25:09--  http://www.luxtarget.com/r/cms/www/target/img/lan_long.gif
+Reusing existing connection to www.luxtarget.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 832 [image/gif]
+Saving to: ‘58/www.luxtarget.com/r/cms/www/target/img/lan_long.gif’
+
+     0K                                                       100% 50.5M=0.00002s
+
+2015-04-29 22:25:09 (50.5 MB/s) - ‘58/www.luxtarget.com/r/cms/www/target/img/lan_long.gif’ saved [832/832]
+
+--2015-04-29 22:25:09--  http://www.luxtarget.com/r/cms/www/watermark_shop.png
+Reusing existing connection to www.luxtarget.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 9687 (9.5K) [image/png]
+Saving to: ‘58/www.luxtarget.com/r/cms/www/watermark_shop.png’
+
+     0K .........                                             100%  971K=0.00975s
+
+2015-04-29 22:25:11 (971 KB/s) - ‘58/www.luxtarget.com/r/cms/www/watermark_shop.png’ saved [9687/9687]
+
+--2015-04-29 22:25:11--  http://www.luxtarget.com/r/cms/www/watermark_shop_s.png
+Reusing existing connection to www.luxtarget.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 7639 (7.5K) [image/png]
+Saving to: ‘58/www.luxtarget.com/r/cms/www/watermark_shop_s.png’
+
+     0K .......                                               100% 1.00M=0.00726s
+
+2015-04-29 22:25:12 (1.00 MB/s) - ‘58/www.luxtarget.com/r/cms/www/watermark_shop_s.png’ saved [7639/7639]
+
+--2015-04-29 22:25:12--  http://www.luxtarget.com/r/cms/www/target/img/index/brand_bg.jpg
+Reusing existing connection to www.luxtarget.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 3910 (3.8K) [image/jpeg]
+Saving to: ‘58/www.luxtarget.com/r/cms/www/target/img/index/brand_bg.jpg’
+
+     0K ...                                                   100%  842M=0.00000s
+
+2015-04-29 22:25:13 (842 MB/s) - ‘58/www.luxtarget.com/r/cms/www/target/img/index/brand_bg.jpg’ saved [3910/3910]
+
+--2015-04-29 22:25:13--  http://www.luxtarget.com/r/cms/www/target/img/brand/tab_1.gif
+Reusing existing connection to www.luxtarget.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 213 [image/gif]
+Saving to: ‘58/www.luxtarget.com/r/cms/www/target/img/brand/tab_1.gif’
+
+     0K                                                       100% 14.5M=0.00001s
+
+2015-04-29 22:25:13 (14.5 MB/s) - ‘58/www.luxtarget.com/r/cms/www/target/img/brand/tab_1.gif’ saved [213/213]
+
+--2015-04-29 22:25:13--  http://www.luxtarget.com/r/cms/www/target/js/featureList/feature-tab-current.png
+Reusing existing connection to www.luxtarget.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2210 (2.2K) [image/png]
+Saving to: ‘58/www.luxtarget.com/r/cms/www/target/js/featureList/feature-tab-current.png’
+
+     0K ..                                                    100%  126M=0.00002s
+
+2015-04-29 22:25:13 (126 MB/s) - ‘58/www.luxtarget.com/r/cms/www/target/js/featureList/feature-tab-current.png’ saved [2210/2210]
+
+--2015-04-29 22:25:13--  http://www.luxtarget.com/r/cms/www/target/js/nivo-slider2.7/themes/enjoy/focus_back.png
+Reusing existing connection to www.luxtarget.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 422 [text/html]
+Saving to: ‘58/www.luxtarget.com/r/cms/www/target/js/nivo-slider2.7/themes/enjoy/focus_back.png’
+
+     0K                                                       100% 26.1M=0.00002s
+
+2015-04-29 22:25:14 (26.1 MB/s) - ‘58/www.luxtarget.com/r/cms/www/target/js/nivo-slider2.7/themes/enjoy/focus_back.png’ saved [422/422]
+
+FINISHED --2015-04-29 22:25:14--
+Total wall clock time: 39.01011
+Downloaded: 52 files, 250K in 2.60853 (96.0 KB/s)
+Converting 58/www.luxtarget.com/r/cms/www/target/img/cai.gif... nothing to do.
+Converting 58/www.luxtarget.com/r/cms/www/target/img/searchbg.gif... nothing to do.
+Converting 58/www.luxtarget.com/r/cms/www/target/img/left_titlebg_2.jpg... nothing to do.
+Converting 58/www.luxtarget.com/r/cms/www/target/img/box_bg.png... nothing to do.
+Converting 58/www.luxtarget.com/r/cms/www/target/img/prompt.jpg... nothing to do.
+Converting 58/www.luxtarget.com/r/cms/www/target/img/lefttitle1_bg9.jpg... nothing to do.
+Converting 58/www.luxtarget.com/r/cms/www/target/img/ding.gif... nothing to do.
+Converting 58/www.luxtarget.com/r/cms/www/target/img/right_titlebg_3.gif... nothing to do.
+Converting 58/115.28.253.61/index.html... 41-5
+Converting 58/www.luxtarget.com/r/cms/www/target/img/lefttitle1_bg2.jpg... nothing to do.
+Converting 58/www.luxtarget.com/r/cms/www/target/img/num.gif... nothing to do.
+Converting 58/www.luxtarget.com/r/cms/www/target/img/.gif... nothing to do.
+Converting 58/www.luxtarget.com/r/cms/www/target/img/bg1.jpg... nothing to do.
+Converting 58/cast.ra.icast.cn/p/index.html?id=5761... nothing to do.
+Converting 58/www.luxtarget.com/r/cms/www/target/img/login.jpg... nothing to do.
+Converting 58/www.luxtarget.com/r/cms/www/target/js/nivo-slider2.7/themes/enjoy/focus_back.png... nothing to do.
+Converting 58/www.luxtarget.com/r/cms/www/target/img/lefttitle1_bg1.jpg... nothing to do.
+Converting 58/www.luxtarget.com/r/cms/www/target/img/title1_jctw1.gif... nothing to do.
+Converting 58/www.luxtarget.com/r/cms/front.css... 2-0
+Converting 58/www.luxtarget.com/r/cms/www/target/css/target.css... 36-3
+Converting 58/www.luxtarget.com/r/cms/www/target/css/global.css... 0-1
+Converted 21 files in 0.01132 seconds.

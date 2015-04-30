@@ -1,0 +1,46 @@
+--2015-04-29 22:08:46--  http://216.58.217.131/
+Connecting to 216.58.217.131:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Cookie coming from 216.58.217.131 attempted to set domain to 
+Length: unspecified [text/html]
+Saving to: ‘3/216.58.217.131/index.html’
+
+     0K .......... .......                                      961K=0.01809s
+
+2015-04-29 22:08:46 (961 KB/s) - ‘3/216.58.217.131/index.html’ saved [17793]
+
+--2015-04-29 22:08:46--  http://216.58.217.131/images/srpr/nav_logo80.png
+Reusing existing connection to 216.58.217.131:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 35615 (35K) [image/png]
+Saving to: ‘3/216.58.217.131/images/srpr/nav_logo80.png’
+
+     0K .......... .......... .......... ....                 100% 2.15M=0.01583s
+
+2015-04-29 22:08:46 (2.15 MB/s) - ‘3/216.58.217.131/images/srpr/nav_logo80.png’ saved [35615/35615]
+
+--2015-04-29 22:08:46--  http://216.58.217.131/images/icons/product/chrome-48.png
+Reusing existing connection to 216.58.217.131:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1834 (1.8K) [image/png]
+Saving to: ‘3/216.58.217.131/images/icons/product/chrome-48.png’
+
+     0K .                                                     100% 5.00M=0.00035s
+
+2015-04-29 22:08:46 (5.00 MB/s) - ‘3/216.58.217.131/images/icons/product/chrome-48.png’ saved [1834/1834]
+
+--2015-04-29 22:08:46--  http://216.58.217.131/images/srpr/logo9w.png
+Reusing existing connection to 216.58.217.131:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 8228 (8.0K) [image/png]
+Saving to: ‘3/216.58.217.131/images/srpr/logo9w.png’
+
+     0K ........                                              100% 12.9M=0.00061s
+
+2015-04-29 22:08:46 (12.9 MB/s) - ‘3/216.58.217.131/images/srpr/logo9w.png’ saved [8228/8228]
+
+FINISHED --2015-04-29 22:08:46--
+Total wall clock time: 0.18031
+Downloaded: 4 files, 62K in 0.03488 (1.74 MB/s)
+Converting 3/216.58.217.131/index.html... 4-11
+Converted 1 files in 0.00050 seconds.

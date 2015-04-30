@@ -1,0 +1,46 @@
+--2015-04-29 23:40:45--  http://173.194.123.118/
+Connecting to 173.194.123.118:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Cookie coming from 173.194.123.118 attempted to set domain to 
+Length: unspecified [text/html]
+Saving to: ‘114/173.194.123.118/index.html’
+
+     0K .......... .......                                      558K=0.03110s
+
+2015-04-29 23:40:45 (558 KB/s) - ‘114/173.194.123.118/index.html’ saved [17787]
+
+--2015-04-29 23:40:45--  http://173.194.123.118/images/srpr/nav_logo80.png
+Reusing existing connection to 173.194.123.118:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 35615 (35K) [image/png]
+Saving to: ‘114/173.194.123.118/images/srpr/nav_logo80.png’
+
+     0K .......... .......... .......... ....                 100% 1.09M=0.03121s
+
+2015-04-29 23:40:45 (1.09 MB/s) - ‘114/173.194.123.118/images/srpr/nav_logo80.png’ saved [35615/35615]
+
+--2015-04-29 23:40:45--  http://173.194.123.118/images/icons/product/chrome-48.png
+Reusing existing connection to 173.194.123.118:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1834 (1.8K) [image/png]
+Saving to: ‘114/173.194.123.118/images/icons/product/chrome-48.png’
+
+     0K .                                                     100% 4.22M=0.00041s
+
+2015-04-29 23:40:45 (4.22 MB/s) - ‘114/173.194.123.118/images/icons/product/chrome-48.png’ saved [1834/1834]
+
+--2015-04-29 23:40:45--  http://173.194.123.118/images/srpr/logo9w.png
+Reusing existing connection to 173.194.123.118:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 8228 (8.0K) [image/png]
+Saving to: ‘114/173.194.123.118/images/srpr/logo9w.png’
+
+     0K ........                                              100% 5.66M=0.00139s
+
+2015-04-29 23:40:45 (5.66 MB/s) - ‘114/173.194.123.118/images/srpr/logo9w.png’ saved [8228/8228]
+
+FINISHED --2015-04-29 23:40:45--
+Total wall clock time: 0.27825
+Downloaded: 4 files, 62K in 0.06411 (967 KB/s)
+Converting 114/173.194.123.118/index.html... 4-11
+Converted 1 files in 0.00124 seconds.
